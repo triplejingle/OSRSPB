@@ -24,10 +24,6 @@ public class ObjectInteractive extends Object implements IObjectInteractive{
 
     @Override
     public void interact(String action) {
-        int triedIndex = 2;
-        if( nrOfTries[triedIndex] ==maxTries){
-            return;
-        }
         gameObject = gameObjects.get(0);
        if(aTimer.isTime()) {
            if (gameObject.inViewport()&& nrofTries <4) {

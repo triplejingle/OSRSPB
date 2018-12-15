@@ -1,7 +1,7 @@
 package Scripts.Skills;
 
 import Scripts.Core.Collection.Animations;
-import Scripts.Core.GoalMethods.Goal;
+import Scripts.Core.GoalMethods.IGoal;
 import Scripts.Tools.ATimer;
 import org.powerbot.script.Random;
 import org.powerbot.script.Tile;
@@ -24,7 +24,7 @@ public class Mining extends ClientAccessor {
     public void setCustomRocks(List<Tile> customRocks) {
         this.customRocks = customRocks;
     }
-    ArrayList<Goal> goalList = new ArrayList<>();
+    ArrayList<IGoal> IGoalList = new ArrayList<>();
     ATimer mineTimer = new ATimer();
     public void mineAndBank(){
 
@@ -67,22 +67,40 @@ public class Mining extends ClientAccessor {
     }
 
     GameObject rocks;
+    boolean attempt=true;
     public boolean tmo(String rockName){
-        rocks= getRock(rockName);
-        if(rocks!=null) {
-            mineTimer.setPeriodBetween(300,2000);
-            if(mineTimer.isTime()) {
-                if (ctx.players.local().animation() == animations.getNothing() && ctx.inventory.select().count() < 28) {
-                    return rocks.interact("Mine");
-                }
+
+        if(ctx.players.local().animation()!=animations.getNothing()){
+            rocks=null;
+            return false;
+        }
+        if(attempt) {
+            if (ctx.players.local().animation() == animations.getNothing() && ctx.inventory.select().count() < 28) {
+                attempt=false;
+                selectRock(rockName);
+                return mineRock();
             }
+        }
+        mineTimer.setPeriodBetween(3000,4000);
+        if(mineTimer.isTime()){
+            attempt=true;
         }
         return false;
     }
+    private void selectRock(String rockName){
+        if(rocks==null){
+            System.out.println("next rock");
+            rocks = getRock(rockName);
+        }
+    }
 
+    private boolean mineRock(){
+        System.out.println("click");
+        return rocks.click();
+    }
     private GameObject getRock(String rockName){
         switch(rockName) {
-            case "Tin":
+            case "Tin ore":
                 //Fclose(distance)
                 //FMedium(distance)
                 //FFar(distance)
@@ -106,22 +124,20 @@ public class Mining extends ClientAccessor {
                     return tmp1;
                 }
                 return null;
-            case "Copper":
-            BasicQuery<GameObject> copperRocks = ctx.objects.select().within(5).id(copper);
+            case "Copper ore":
+            GameObject copperRocks = ctx.objects.select().within(5).id(copper).poll();
             if(copperRocks!=null){
-                GameObject tmp1 = copperRocks.poll();
-                return tmp1;
+                return copperRocks;
             }
             return null;
-            case "Iron":
-                BasicQuery<GameObject> ironRocks = ctx.objects.select().within(5).id(iron);
+            case "Iron ore":
+                GameObject ironRocks = ctx.objects.select().within(5).id(iron).poll();
                 if(ironRocks!=null){
-                    GameObject tmp1 = ironRocks.poll();
-                    return tmp1;
+                    return ironRocks;
                 }
                 return null;
-            case "Coal":
-                BasicQuery<GameObject> coalRocks = ctx.objects.select().within(5).id(iron);
+            case "Coal ore":
+                BasicQuery<GameObject> coalRocks = ctx.objects.select().within(5).id(coal);
                 if(coalRocks!=null){
                     GameObject tmp1 = coalRocks.poll();
                     return tmp1;

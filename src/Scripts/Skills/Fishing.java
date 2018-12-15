@@ -17,8 +17,11 @@ public class Fishing extends CoreSkill{
         super(arg0);
     }
     NPCInteractive fishing_spot = new NPCInteractive(ctx,"Fishing spot");
-    public void fishUsingSmallFishingNet(){
-        fishing_spot.fish("Small Net");
+    public boolean fish(String fishingTool){
+        if(ctx.inventory.select().name(fishingTool).count()>0) {
+            return fishing_spot.fish(fishingSpots.valueOf(fishingTool).toString());
+        }
+        return false;
     }
 
     public void dropFish(String[] fish){

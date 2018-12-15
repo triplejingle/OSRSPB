@@ -8,7 +8,13 @@ public abstract class   EnvironmentDefault extends Core implements IDefault{
         super(arg0, name);
     }
 
+    public EnvironmentDefault(ClientContext ctx) {
+        super(ctx);
+    }
+
     public void walkHere(Tile tile){
 
     }
+
+
 }

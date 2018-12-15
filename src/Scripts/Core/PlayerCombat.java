@@ -11,11 +11,6 @@ public class PlayerCombat extends Player implements IPlayerCombat{
 
     @Override
     public void Attack() {
-        int triedIndex = 8;
-        if( nrOfTries[triedIndex] >=maxTries){
-            stopScript(triedIndex);
-            return;
-        }
-    }
 
+    }
 }

@@ -1,0 +1,9 @@
+
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¸­ó8ˆÂÂÞõ,
+qsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(“¶îÏýÿÿÿÿ8ˆÂÂÞõ,
+Zsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(–ù¸‘8ˆÂÂÞõ,
+Zsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(‚•Ø’8‡Ð½âõ,
+Œ"squid:ClassVariableVisibilityCheck"TMake children a static final constant or non-public and provide accessors if needed.(“¶îÏýÿÿÿÿ8ˆÂÂÞõ,
+„"squid:ClassVariableVisibilityCheck"RMake status a static final constant or non-public and provide accessors if needed.(Œƒ28ˆÂÂÞõ,
+`squid:UselessImportCheck"2Remove this unused import 'Scripts.Skills.Mining'.(ùÊäøùÿÿÿÿ8¥±âõ,
+Zsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(–ù¸‘8ƒçÔÇö,

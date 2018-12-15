@@ -15,47 +15,32 @@ public  class ItemInventory extends Core implements IInventoryItem {
         return item;
     }
 
-
     public ItemInventory(ClientContext arg0,String name) {
         super(arg0,name);
     }
 
     @Override
     public void use() {
-        int triedIndex = 0;
-        if(nrOfTries[triedIndex]>=maxTries){
-            stopScript(triedIndex);
-            return;
-        }
         item = ctx.inventory.select().name(super.getName()).poll();
         if (item != null) {
             if(item.inventoryIndex()!=ctx.inventory.selectedItemIndex()) {
-                if(item.interact("Use", super.getName())){
-                     nrOfTries[triedIndex]= 0;
-                }
+                item.interact("Use", super.getName());
             }
         }
     }
-    public void dropItem(){
-        int triedIndex = 1;
-        if(nrOfTries[triedIndex]>=maxTries){
-            stopScript(triedIndex);
-            return;
-        }
+
+    public boolean dropItem(){
         item = ctx.inventory.select().name(super.getName()).poll();
         if (item != null) {
-            if(item.interact("Drop")){
-                nrOfTries[triedIndex] =0;
-            }
+        return item.click();
         }
+        return false;
     }
-    public void dropAllItems(){
-        int triedIndex = 2;
-        stopScript(triedIndex);
-        for(Item item:ctx.inventory.select().name(super.getName()) ){
-               if(item.interact("Drop")){
-                  nrOfTries[triedIndex]++;
-               }
+
+    public boolean dropAllItems(){
+        for(Item item:ctx.inventory.select().limit(8).name(super.getName()).shuffle()){
+           item.click();
         }
+        return false;
     }
 }

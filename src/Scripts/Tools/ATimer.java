@@ -1,15 +1,6 @@
 package Scripts.Tools;
 
-import org.powerbot.script.ClientAccessor;
-import org.powerbot.script.ClientContext;
-import org.powerbot.script.Condition;
 import org.powerbot.script.Random;
-
-import java.awt.*;
-import java.util.concurrent.Callable;
-
-import static java.lang.Boolean.FALSE;
-import static java.lang.Boolean.TRUE;
 
 public class ATimer {
      long end = 0;
@@ -39,7 +30,7 @@ public class ATimer {
     }
 
     public boolean isTime() {
-        if((end - System.currentTimeMillis())<=0) {
+        if(end - System.currentTimeMillis()<=0) {
             saveTime();
             setPeriod(0);
             return true;

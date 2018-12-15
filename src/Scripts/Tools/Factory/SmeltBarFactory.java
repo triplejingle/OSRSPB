@@ -1,6 +1,5 @@
 package Scripts.Tools.Factory;
 
-import org.powerbot.bot.rt4.client.Client;
 import org.powerbot.script.rt4.ClientAccessor;
 import org.powerbot.script.rt4.ClientContext;
 import org.powerbot.script.rt4.Component;

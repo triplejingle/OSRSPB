@@ -1,8 +1,6 @@
 package Scripts.Tools.Factory;
 
 import Scripts.Tools.Algoritm.Vertex;
-
-
 import org.powerbot.script.rt4.ClientAccessor;
 import org.powerbot.script.rt4.ClientContext;
 

@@ -1,10 +1,9 @@
 package Scripts.Core;
 
 import Scripts.Core.Collection.Animations;
+import Scripts.Tools.ATimer;
 import Scripts.Tools.Factory.ExchangeFactory;
 import Scripts.Tools.Factory.ShopFactory;
-import Scripts.Tools.ATimer;
-import org.powerbot.script.Condition;
 import org.powerbot.script.Random;
 import org.powerbot.script.rt4.ClientContext;
 import org.powerbot.script.rt4.Component;
@@ -20,26 +19,23 @@ public class NPCInteractive extends NPC{
     public NPCInteractive(ClientContext arg0, String name) {
         super(arg0, name);
     }
-    public void fish(String action){
 
-            ATimer.setPeriodBetween(3000,15000);
-            if(ATimer.isTime()) {
-                if(ctx.players.local().animation()==animations.getNothing()) {
-                Npc npc = ctx.npcs.select().name(super.getName()).nearest().poll();
-                if(npc.inViewport()) {
-                    npc.interact(action, super.getName());
-                }else{
+    public boolean fish(String action){
+        ATimer.setPeriodBetween(1000,5000);
+        if(ATimer.isTime()) {
+            if (ctx.players.local().animation() == animations.getNothing()) {
+                Npc npc = ctx.npcs.select().name(super.getName()).within(20).shuffle().poll();
+                if (npc.inViewport()) {
+                    return npc.interact(action, super.getName());
+                } else {
                     ctx.camera.turnTo(npc);
                 }
             }
         }
+        return false;
     }
+
     public void trade(){
-        int triedIndex = 4;
-        if( nrOfTries[triedIndex] >=maxTries){
-            stopScript(triedIndex);
-            return;
-        }
         Component screen = shop.getComponent("screen");
         Npc npc = ctx.npcs.select().name(super.getName()).poll();
         npc.interact("Trade", super.getName());
@@ -47,18 +43,11 @@ public class NPCInteractive extends NPC{
         ATimer.saveTime();
         if(ATimer.isTime()){
             ATimer.saveTime();
-           if(npc.interact("Trade", super.getName())){
-               nrOfTries[triedIndex]++;
-           }
-        }
-        if(screen.visible()){
-            nrOfTries[triedIndex] = 0;
+           npc.interact("Trade", super.getName());
         }
     }
 
     public void exchange(){
-        int triedIndex = 5;
-        stopScript(triedIndex);
         Component exchangeScreen = exchange.getComponent("screen");
         if(!exchangeScreen.inViewport()) {
             Npc npc = ctx.npcs.select().name(super.getName()).poll();
@@ -70,49 +59,36 @@ public class NPCInteractive extends NPC{
                 if(ATimer.isTime()){
                     break;
                 }
-                if(npc.interact("Exchange", super.getName())){
-                    nrOfTries[triedIndex] =0;
-                }else{
-                    nrOfTries[triedIndex]++;
-                }
+                npc.interact("Exchange", super.getName());
             }
         }
     }
     int prevItemStackSize ;
-    public void buyRunes(Component item, int amount){
-        int triedIndex = 6;
-        if(item.itemStackSize()<prevItemStackSize) {
-            nrOfTries[triedIndex]=0;
-        }
-        stopScript(triedIndex);
+    public boolean buyRunes(Component item, int amount){
         if (item.itemStackSize() > 0) {
             prevItemStackSize = item.itemStackSize();
             ATimer.setPeriod(random.nextInt(3000,5000));
             if(ATimer.isTime()) {
                 if (item.inViewport()) {
-                    if (item.interact("Buy " + String.valueOf(amount))) {
-                        nrOfTries[triedIndex]++;
-                    }
+                    return item.interact("Buy " + String.valueOf(amount));
                 }
             }
         }
+        return false;
     }
-    public void closeRuneShop(){
-        int triedIndex = 4;
+    public boolean closeRuneShop(){
         Component screen = shop.getComponent("screen");
         if(!screen.inViewport()) {
-            nrOfTries[triedIndex]=0;
+            return true;
         }
-        stopScript(triedIndex);
         ATimer.setPeriod(random.nextInt(1000,2000));
         ATimer.saveTime();
-            if (ATimer.isTime()) {
-                ATimer.saveTime();
-                if(shop.getComponent("close").click()){
-                    nrOfTries[triedIndex]++;
-                }
-            }
+        if (ATimer.isTime()) {
+            ATimer.saveTime();
+           return shop.getComponent("close").click();
         }
+        return false;
+    }
 
 
     public boolean inViewport() {

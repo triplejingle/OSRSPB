@@ -1,0 +1,9 @@
+
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(¶ÚğÔ8ÇÌì‘ğ,
+Osquid:S1172"1Remove this unused method parameter "triedIndex".(Ø¦8 éÀ’ğ,
+~squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(€¹µ§ûÿÿÿÿ8ÇÌì‘ğ,
+‰"squid:ClassVariableVisibilityCheck
+"TMake maxTries a static final constant or non-public and provide accessors if needed.(Ù€Ï8ÇÌì‘ğ,
+‰"squid:ClassVariableVisibilityCheck	"UMake nrOfTries a static final constant or non-public and provide accessors if needed.(ò“^8ÇÌì‘ğ,
+Usquid:S1197	"8Move the array designator from the variable to the type.(ò“^8ÇÌì‘ğ,

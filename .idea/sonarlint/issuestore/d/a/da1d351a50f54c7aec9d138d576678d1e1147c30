@@ -1,0 +1,14 @@
+
+Msquid:S1066s"/Merge this if statement with the enclosing one.(ÑÁÀ‚8Íúæ‘ğ,
+Ssquid:S2209I"5Change this instance-reference to a static reference.(å›•8Íúæ‘ğ,
+Rsquid:S1066K"/Merge this if statement with the enclosing one.(½äæÌúÿÿÿÿ8Íúæ‘ğ,
+Ssquid:S2209p"5Change this instance-reference to a static reference.(œ¸¤˜8Íúæ‘ğ,
+Hsquid:S2387<"*"aTimer" is the name of a field in "Core".(öò¹—8Íúæ‘ğ,
+Rsquid:S1066^"/Merge this if statement with the enclosing one.(Û½é–úÿÿÿÿ8Íúæ‘ğ,
+Msquid:S1066_"/Merge this if statement with the enclosing one.(Ó†ƒŒ8Íúæ‘ğ,
+Msquid:S1066r"/Merge this if statement with the enclosing one.(Üœ›—8Íúæ‘ğ,
+ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(éÖëö8Íúæ‘ğ,
+Csquid:S2440"&Remove this instantiation of "Random".(¼İÅf8Íúæ‘ğ,
+Xsquid:S22095"5Change this instance-reference to a static reference.(ßˆ˜Áıÿÿÿÿ8Íúæ‘ğ,
+nsquid:UselessImportCheck"CRemove this unused import 'org.powerbot.script.rt4.ClientAccessor'.(±ÀÄ8Íúæ‘ğ,
+[squid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Íúæ‘ğ,

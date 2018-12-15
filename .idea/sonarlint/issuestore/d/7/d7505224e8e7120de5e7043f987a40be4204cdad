@@ -1,0 +1,20 @@
+
+psquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(éÖëö
+Rsquid:S1197"8Move the array designator from the variable to the type.(®üÁÖùÿÿÿÿ
+Osquid:S2209"5Change this instance-reference to a static reference.(œä®Ôúÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Å…„«üÿÿÿÿ
+lsquid:S00116"QRename this field "ATimer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚Î§ùÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ä×•‚üÿÿÿÿ
+Osquid:S2209"5Change this instance-reference to a static reference.(‘…ïúÿÿÿÿ
+Osquid:S2209"5Change this instance-reference to a static reference.(²ªäëùÿÿÿÿ
+Osquid:S2209"5Change this instance-reference to a static reference.(²ªäëùÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Å…„«üÿÿÿÿ
+Psquid:S1066"/Merge this if statement with the enclosing one.(åÄ¸Òùÿÿÿÿ8˜ë‚âô,
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ƒÛ±€ÿÿÿÿÿ
+:squid:S2440"&Remove this instantiation of "Random".(¼İÅf
+Jsquid:S2209"5Change this instance-reference to a static reference.(®À
+Osquid:S2209"5Change this instance-reference to a static reference.(ÓØÊ¯úÿÿÿÿ
+Rsquid:S1197"8Move the array designator from the variable to the type.(ƒÈòŠøÿÿÿÿ

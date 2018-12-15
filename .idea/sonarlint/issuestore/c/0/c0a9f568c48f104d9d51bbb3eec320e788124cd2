@@ -1,0 +1,18 @@
+
+Msquid:S1481‰")Remove this unused "tmp2" local variable.(àïëÖûÿÿÿÿ8Ú’¦Éõ,
+W"squid:SwitchLastCaseIsDefaultCheckT""Add a default case to this switch.(Ö¿Ëá8Ú’¦Éõ,
+squid:S1488p"\Immediately return this expression instead of assigning it to the temporary variable "tmp1".(¢ÚÜİıÿÿÿÿ8Ú’¦Éõ,
+squid:S1488w"\Immediately return this expression instead of assigning it to the temporary variable "tmp1".(˜»¥¨ÿÿÿÿÿ8Ú’¦Éõ,
+Vsquid:S1854ˆ"7Remove this useless assignment to local variable "tmp".(Ğ Úä8Ú’¦Éõ,
+ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯ğâ»8Ú’¦Éõ,
+[
+squid:S1067"9Replace this use of System.out or System.err by a logger.(³Íû³ÿÿÿÿÿ8Ú’¦Éõ,
+ysquid:S1488i"\Immediately return this expression instead of assigning it to the temporary variable "tmp1".(ûíùD8Ú’¦Éõ,
+Rsquid:S1066K"/Merge this if statement with the enclosing one.(Ì§ƒ´ıÿÿÿÿ8Ú’¦Éõ,
+Csquid:S2440"&Remove this instantiation of "Random".(¼İÅf8Ú’¦Éõ,
+zsquid:S1488~"\Immediately return this expression instead of assigning it to the temporary variable "tmp1".(Ç¬«8Ú’¦Éõ,
+\squid:S1854‰"8Remove this useless assignment to local variable "tmp2".(àïëÖûÿÿÿÿ8Ú’¦Éõ,
+¤squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(»ù÷Óøÿÿÿÿ8Ú’¦Éõ,
+psquid:S37760"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(•™Ş÷8Ú’¦Éõ,
+Gsquid:S1481ˆ"(Remove this unused "tmp" local variable.(Ğ Úä8Ú’¦Éõ,
+Rsquid:S22092"5Change this instance-reference to a static reference.(ô÷¨M8Ú’¦Éõ,

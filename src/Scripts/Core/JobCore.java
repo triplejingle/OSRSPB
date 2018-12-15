@@ -1,32 +1,64 @@
 package Scripts.Core;
 
-import Scripts.Tasks.Task;
+import Scripts.Core.ENUM.state;
+import Scripts.Core.GoalMethods.IGoal;
+import Scripts.Planners.Planner;
 import Scripts.Tools.ATimer;
 import org.powerbot.script.PollingScript;
 import org.powerbot.script.rt4.ClientContext;
 
 import java.awt.event.*;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Stack;
 
 public abstract class JobCore extends PollingScript<ClientContext> implements KeyListener, MouseMotionListener, MouseListener {
     public boolean pauseScript = false;
     Scripts.Tools.ATimer ATimer = new ATimer();
-    public List<Task> taskList = new ArrayList();
+    Stack<IGoal> IGoalStack = new Stack();
+    public Planner planner;
+    public void setPlanner(Planner planner) {
+        this.planner = planner;
+    }
+    public void addGoal(IGoal IGoal){
+        IGoalStack.add(IGoal);
+    }
+
     @Override
     public void poll() {
-        unpauseScript();
-        execTasks();
+        if(IGoalStack.size()>0) {
+            processGoal();
+            unpauseScript();
+            replanIfFailed();
+            removeIfCompleted();
+        }
+        if(IGoalStack.peek().getSubGoals().size()==0){
+            planner.replan();
+            IGoalStack.peek().getSubGoals().addAll(planner.getSubGoals());
+        }
     }
-    public void execTasks(){
+
+    private void removeIfCompleted(){
+        if(IGoalStack.peek().getState()==state.COMPLETED){
+            IGoalStack.pop();
+            System.out.println("yeaye goal reached");
+        }
+    }
+    private void replanIfFailed(){
+        if (IGoalStack.peek().getState() == state.FAILED) {
+            emptyStack();
+            planner.replan();
+            System.out.println(" plan failed time for a new plan");
+        }
+    }
+
+    private void emptyStack(){
+        while(IGoalStack.size()>0){
+            IGoalStack.pop();
+        }
+    }
+
+    public void processGoal(){
         if(!pauseScript) {
-            for (int i = 0; i < taskList.size(); i++) {
-                Task task = taskList.get(i);
-                if (task.activate()) {
-                    task.execute();
-                    break;
-                }
-            }
+            IGoalStack.peek().process();
         }
     }
 

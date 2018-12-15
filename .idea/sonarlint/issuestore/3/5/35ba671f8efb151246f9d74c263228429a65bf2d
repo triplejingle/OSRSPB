@@ -1,0 +1,12 @@
+
+[
+squid:S106_"9Replace this use of System.out or System.err by a logger.(ü±Èùÿÿÿÿ8«—ÿ‘ð,
+asquid:S1155d">Use isEmpty() to check whether the collection is empty or not.(Æâòêúÿÿÿÿ8«—ÿ‘ð,
+Nsquid:S2387"0"gameObject" is the name of a field in "Object".(ŠÇ§µ8«—ÿ‘ð,
+lsquid:HiddenFieldCheckE">Rename "gameObject" which hides the field declared at line 16.(•Á·Þþÿÿÿÿ8«—ÿ‘ð,
+Hsquid:S2387"*"aTimer" is the name of a field in "Core".(öò¹—8«—ÿ‘ð,
+asquid:S1155\">Use isEmpty() to check whether the collection is empty or not.(Æâòêúÿÿÿÿ8«—ÿ‘ð,
+\squid:S1155K">Use isEmpty() to check whether the collection is empty or not.(îœÕ´8«—ÿ‘ð,
+ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(éÖëö8«—ÿ‘ð,
+qsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(È²Ú»üÿÿÿÿ8«—ÿ‘ð,
+[squid:S11976"8Move the array designator from the variable to the type.(®üÁÖùÿÿÿÿ8«—ÿ‘ð,

@@ -1,7 +1,10 @@
 package Scripts.Location;
 
 import Scripts.Tools.ATimer;
-import org.powerbot.script.rt4.*;
+import org.powerbot.script.rt4.ClientAccessor;
+import org.powerbot.script.rt4.ClientContext;
+import org.powerbot.script.rt4.World;
+import org.powerbot.script.rt4.Worlds;
 
 public class RSWorld extends ClientAccessor {
     Worlds  worlds = ctx.worlds.joinable().select().types(World.Type.FREE);

@@ -12,19 +12,9 @@ public class ItemInventoryInteractive extends ItemInventory implements IInventor
 
     @Override
     public void action(String action) {
-        int triedIndex = 3;
-        if(nrOfTries[triedIndex]>=maxTries){
-            stopScript(triedIndex);
-            return;
-        }
         item = ctx.inventory.select().name(super.getName()).poll();
         if(ctx.inventory.select().name(super.getName()).count()>0){
-            if(item.interact(action,super.getName())) {
-                nrOfTries[triedIndex]=0;
-                Condition.sleep(500);
-            }else{
-                nrOfTries[triedIndex]++;
-            }
+            item.interact(action,super.getName());
         }
     }
 

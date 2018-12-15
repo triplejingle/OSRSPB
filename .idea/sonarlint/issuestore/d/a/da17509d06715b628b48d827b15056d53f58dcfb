@@ -1,0 +1,9 @@
+
+˜squid:S1186%"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚´’Ê
+Qsquid:S2209"5Change this instance-reference to a static reference.(‚¾¯Ÿÿÿÿÿÿ
+<squid:S2440"&Remove this instantiation of "Random".(¼ÝÅf
+csquid:UselessImportCheck	":Remove this unused import 'java.util.concurrent.Callable'.(¾×¶îûÿÿÿÿ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡±õÜþÿÿÿÿ
+csquid:UselessImportCheck":Remove this unused import 'org.powerbot.script.Condition'.(¶³Î÷ýÿÿÿÿ
+hsquid:UselessImportCheck"?Remove this unused import 'org.powerbot.script.ClientAccessor'.(Ñ±ûÐúÿÿÿÿ
+bsquid:UselessImportCheck">Remove this unused import 'org.powerbot.script.ClientContext'.(ëö¼€

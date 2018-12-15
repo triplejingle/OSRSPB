@@ -1,0 +1,9 @@
+
+Msquid:S1066!"/Merge this if statement with the enclosing one.(õÆ÷´8Úªö‘ğ,
+Rsquid:S1066/"/Merge this if statement with the enclosing one.(·—¸ùÿÿÿÿ8Úªö‘ğ,
+Csquid:S2440"&Remove this instantiation of "Random".(¼İÅf8Àëõ‘ğ,
+asquid:HiddenFieldCheck7"8Rename "item" which hides the field declared at line 11.(ß§¢Ø8Úªö‘ğ,
+usquid:S00116"QRename this field "ATimer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚Î§ùÿÿÿÿ8Àëõ‘ğ,
+©squid:S1845"…Rename field "ATimer" to prevent any misunderstanding/clash with field "aTimer" defined in superclass "Scripts.Core.Interfaces.Core".(‚Î§ùÿÿÿÿ8Àëõ‘ğ,
+ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(éÖëö8Àëõ‘ğ,
+Msquid:S1066 "/Merge this if statement with the enclosing one.(ÔæğÕ8Úªö‘ğ,

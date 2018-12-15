@@ -1,15 +1,12 @@
 package Scripts.Tools.Algoritm;
 
 
-import com.sun.deploy.util.ArrayUtil;
 import org.powerbot.script.Tile;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
-public class Vertex implements Comparable {
+public class Vertex {
     public String getName() {
         return name;
     }
@@ -69,11 +66,6 @@ public class Vertex implements Comparable {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    @Override
-    public int compareTo(Object o) {
-        return 5;
     }
 
     public void setPrevious(Vertex previous) {

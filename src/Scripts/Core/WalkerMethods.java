@@ -1,6 +1,5 @@
 package Scripts.Core;
 
-
 import Scripts.Tools.ATimer;
 import Scripts.Tools.Queue;
 import org.powerbot.script.Random;
@@ -56,8 +55,8 @@ public class WalkerMethods  extends ClientAccessor {
             randomEnergyLevel = random.nextInt(30, 60);
             ctx.movement.running(true);
         }
-        ATimer.setPeriod(15000);
-        if(ctx.players.local().tile().distanceTo(destination)>5) {
+        ATimer.setPeriod(1000);
+        if(ctx.players.local().tile().distanceTo(destination)>10) {
             if (nextTile.matrix(ctx).reachable()) {
                 takeStep();
             } else {
@@ -94,8 +93,8 @@ public class WalkerMethods  extends ClientAccessor {
         stepTimer.setPeriodBetween(500,1000);
         if(stepTimer.isTime()) {
             if (!ctx.players.local().inMotion() || ctx.players.local().tile().distanceTo(ctx.movement.destination()) < nextPointRange) {
-                nextPointRange = random.nextInt(5, 20);
-                stepTo = getReachableTile(nextTile, 5, 5);
+                nextPointRange = random.nextInt(5, 10);
+                stepTo = getReachableTile(nextTile, 2, 2);
                 System.out.println(stepTo);
                 ctx.movement.step(stepTo);
                 if (!nextTile.equals(destination)) {
@@ -106,10 +105,11 @@ public class WalkerMethods  extends ClientAccessor {
         }
     }
     public Tile getReachableTile(Tile tile,int x, int y){
-        if(tile.matrix(ctx).reachable()){
-            return tile;
+        Tile newTile = tile.derive(random.nextInt(0-x,+x),random.nextInt(0-y,y));
+        if(newTile.matrix(ctx).reachable()){
+            return newTile;
         }else{
-            return getReachableTile(tile, random.nextInt(0,x),random.nextInt(0,y));
+            return getReachableTile(tile, x,y);
         }
     }
     boolean isDestinationOnMap(){
@@ -142,11 +142,19 @@ public class WalkerMethods  extends ClientAccessor {
         return newPath;
     }
 
+    public boolean isNearNextTile(){
+        return isNear(stepTo);
+    }
     public boolean isNearDestination(){
-        return ctx.players.local().tile().distanceTo(destination)<5;
+        return ctx.players.local().tile().distanceTo(destination)<10;
     }
 
     public boolean isNear(Tile tile) {
-        return ctx.players.local().tile().distanceTo(tile)<15;
+        return ctx.players.local().tile().distanceTo(tile)<10;
     }
+
+    public boolean walkToTile(Tile nextLocation) {
+        return ctx.movement.step(nextLocation);
+    }
+
 }

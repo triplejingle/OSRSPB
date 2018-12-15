@@ -1,5 +1,5 @@
 package Scripts.Core.Interfaces;
 
-public interface IPlayerCombat extends IPlayerDefault {
+public interface IPlayerCombat {
     public void Attack();
 }

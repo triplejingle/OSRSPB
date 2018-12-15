@@ -3,7 +3,6 @@ package Scripts.Core;
 import Scripts.Core.Interfaces.EnvironmentDefault;
 import Scripts.Core.Interfaces.IMob;
 import Scripts.Tools.ATimer;
-import org.powerbot.script.Random;
 import org.powerbot.script.rt4.BasicQuery;
 import org.powerbot.script.rt4.ClientContext;
 import org.powerbot.script.rt4.Npc;
@@ -15,7 +14,7 @@ public class Mobs extends EnvironmentDefault implements IMob {
     int queueSize = 5;
     ArrayList<Npc> targets = new ArrayList<>(queueSize);
     public Npc target;
-    ATimer aTimer= new ATimer();
+
     public Mobs(ClientContext arg0, String name) {
         super(arg0,name);
     }
@@ -32,11 +31,10 @@ public class Mobs extends EnvironmentDefault implements IMob {
     }
 
     public Mobs nearest(){
-
         targets.add(queryList.nearest().poll());
-
         return this;
     }
+
     public Mobs within(int tiles){
         for(int i = 0;i<targets.size();i++){
             targets.remove(i);
@@ -80,36 +78,9 @@ public class Mobs extends EnvironmentDefault implements IMob {
     }
 
     public void attack(){
-        int triedIndex = 0;
-        if(!target.inViewport()){
-            ctx.camera.turnTo(getFirstTarget());
-        }
-        if((target.tile().distanceTo(ctx.players.local().tile())>20)){
-            ctx.movement.step(target.tile());
-        }
-        if (isMobDead()||!inCombatWithMe()&&inCombat()) {
-            nrOfTries[triedIndex] = 0;
-            target = null;
-            aTimer.saveTime();
-            return;
-        }
-        if (nrOfTries[triedIndex] >= maxTries+1) {
-            aTimer.setPeriod(60000);
-            if(!ctx.players.local().inMotion()&&!inCombat()){
-                target = null;
-            }
-            if (aTimer.isTime()) {
-                System.out.println("stopping script something went wrong");
-                ctx.controller.stop();
-            }
-            return;
-        }
         getFirstTarget();
         if (target.inViewport()) {
-            if (target.interact("Attack", super.getName())) {
-                nrOfTries[triedIndex]++;
-                System.out.println("attacked mob");
-            }
+           target.interact("Attack", super.getName());
         }
 
     }
@@ -132,6 +103,7 @@ public class Mobs extends EnvironmentDefault implements IMob {
     public boolean cancel() {
         return false;
     }
+
     public boolean inViewPort(){
         if(target ==null){
             return false;

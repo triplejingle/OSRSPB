@@ -1,8 +1,8 @@
 package Scripts.Tools.Algoritm;
 
 import Scripts.Tools.Factory.VertexGenerator;
-import org.powerbot.script.rt4.ClientAccessor;
 import org.powerbot.script.Tile;
+import org.powerbot.script.rt4.ClientAccessor;
 import org.powerbot.script.rt4.ClientContext;
 
 import java.util.ArrayList;
@@ -41,8 +41,8 @@ public class F2PMap extends ClientAccessor{
     public Tile [] getPath(String destinationName){
        vertexGenerator.setStartingLocation();
       vertexGenerator.setDestination(destinationName);
-      Tile[] paht = dijkstra.findShortestPath(vertexGenerator.getStartingLocation(),vertexGenerator.getDestination());
-       return paht;
+      Tile[] path = dijkstra.findShortestPath(vertexGenerator.getStartingLocation(),vertexGenerator.getDestination());
+       return path;
     }
 
     public void map(){
