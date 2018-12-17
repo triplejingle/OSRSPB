@@ -1,8 +1,7 @@
-package Scripts.Core.GoalMethods.AtomicGoal;
+package Scripts.Core.GoalMethods.atomicgoal;
 
 import Scripts.Core.Bank;
 import Scripts.Core.ENUM.state;
-import Scripts.Core.GoalMethods.IGoal;
 import Scripts.Core.Player;
 import org.powerbot.script.rt4.ClientContext;
 
@@ -10,9 +9,10 @@ public class GoalWithdrawEquipment extends AtomicGoal {
     int itemId;
     int amount;
     Bank bank = new Bank(ctx);
-
-    public GoalWithdrawEquipment(ClientContext arg0) {
+    Player player = new Player(ctx,"its you but in code");
+    public GoalWithdrawEquipment(ClientContext arg0, int itemId) {
         super(arg0);
+        this.itemId = itemId;
     }
 
     @Override
@@ -26,7 +26,7 @@ public class GoalWithdrawEquipment extends AtomicGoal {
     }
 
     public boolean goalReached() {
-        return ctx.inventory.select().count()==prevNumberOfItems+amount;
+        return prevNumberOfItems<player.countItemsInventory();
     }
 
     int prevNumberOfItems;

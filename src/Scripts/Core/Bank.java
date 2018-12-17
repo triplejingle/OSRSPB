@@ -3,6 +3,7 @@ package Scripts.Core;
 
 import Scripts.Core.Interfaces.Core;
 import Scripts.Tools.ATimer;
+import Scripts.Tools.Factory.BankFactory;
 import org.powerbot.script.Random;
 import org.powerbot.script.rt4.ClientContext;
 
@@ -10,8 +11,8 @@ public class Bank extends Core {
     ATimer withdrawATimer = new ATimer();
     ATimer openATimer = new ATimer();
     ATimer depositATimer = new ATimer();
-    ATimer closeTimer = new ATimer();
-    Random random = new Random();
+    static Random random = new Random();
+    BankFactory bankFactory = new BankFactory(ctx);
 
     public Bank(ClientContext ctx) {
         super(ctx,"Bank");
@@ -36,21 +37,23 @@ public class Bank extends Core {
         return false;
     }
 
-    public void openBank(){
+    public boolean openBank(){
         if (ctx.bank.inViewport()) {
             openATimer.setPeriod(random.nextInt(500,2000));
             if(openATimer.isTime()) {
-                ctx.bank.open();
+               return ctx.bank.open();
             }
         } else {
             ctx.camera.turnTo(ctx.bank.nearest());
         }
+        return false;
     }
-    public void closeBank(){
+    public boolean closeBank(){
         openATimer.setPeriod(random.nextInt(500,2000));
         if(openATimer.isTime()) {
-            ctx.bank.close();
+            return ctx.bank.close();
         }
+        return false;
     }
 
     public boolean withdraw(int itemId, int amount){
@@ -63,5 +66,9 @@ public class Bank extends Core {
 
     public boolean inViewport() {
         return ctx.bank.inViewport();
+    }
+
+    public boolean isBankOpened() {
+        return bankFactory.getComponent("screen").visible();
     }
 }

@@ -1,241 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34c1e6d7-e41a-4a72-b73b-33439bc802c1" name="Default" comment="init">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/RSBot.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/04efec201e67cf7550ac6e07429feca114525132" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/298e07732c21c60b49d28fe223a512810bfce4e7" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2f7c027980df39ef290ff4af7ba7d5cdca8ddceb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/34ddacc8484fb35af3f8473beb34ee622fc323a1" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/35ba671f8efb151246f9d74c263228429a65bf2d" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/37a0a551a40009c096a3d6ec313ee83d6b726e41" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4ee033c0b0f89bbc48b5eeb77c00d64f5e03a8fe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66825f5ddc1fe3c0c3ff4d0ed9a6b4c5bd501923" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/815dd6683d50056e52cca738654a63bc3c8eaa2f" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/829b3a723cfd4219233a5a66584c550f6d94132c" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/89f36fa0b2662ff9528b2c6f06c4c9aa7f3fc13b" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9aaadfc98f492ecc78983e3c802931ed4c048846" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e9f2554538a28c71ad2f240aad6b1b77ca66fff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c0a9f568c48f104d9d51bbb3eec320e788124cd2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ceade250d8c7d6cc7b5309bfba8979a127fe88ce" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d7505224e8e7120de5e7043f987a40be4204cdad" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/da17509d06715b628b48d827b15056d53f58dcfb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/da1d351a50f54c7aec9d138d576678d1e1147c30" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e1a138781b408144abffa2a9bcf185c16dbb18f1" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f2c8e9870afe832e638da20548b6abc08206e696" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f6e060388047d1147803cdbacc5a1c4036723d21" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f929bfd31ffcf8b9057610e30a2a92790298454c" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f96264d5443f3a01d5c937af2de8d6aa4fd4bbb9" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/OldSchoolRS.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RSBot-7084.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RSBot.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hs_err_pid9800.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jagexappletviewer.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/Bank.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/Collection/Animations.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/Collection/BoundaryCollection$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/Collection/BoundaryCollection.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/Collection/ItemIds.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/ENUM/BoundaryType.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/ENUM/state.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/GroundItem.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/Interfaces/Core.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/Interfaces/EnvironmentDefault.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/Interfaces/IDefault.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/Interfaces/IGroundItem.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/Interfaces/IInventoryItem.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/Interfaces/IInventoryItemInteractive.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/Interfaces/IMob.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/Interfaces/IObjectInteractive.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/Interfaces/IPlayerCombat.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/ItemInventory.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/ItemInventoryInteractive.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/JobCore.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/Mobs.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/NPC.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/NPCInteractive.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/Object.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/ObjectInteractive.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/Player.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/PlayerCombat.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/WalkerMethods.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/WalkerTMPMethods$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/WalkerTMPMethods$2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/WalkerTMPMethods$3.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/WalkerTMPMethods$Type.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Core/WalkerTMPMethods.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Jobs/PlayRunescape/JobPlayRunescape.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Location/GrandExchange.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Location/RSWorld.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Player/Player.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Skills/Agility.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Skills/Construction.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Skills/Cooking.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Skills/CoreSkill.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Skills/Crafting.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Skills/Farming.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Skills/Firemaking.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Skills/Fishing.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Skills/Fletching.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Skills/Herblore.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Skills/Hunter.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Skills/Magic.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Skills/Melee.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Skills/Mining.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Skills/Prayer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Skills/Ranged.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Skills/Runecrafting.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Skills/Slayer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Skills/Smithing.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Skills/Thieving.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Skills/Woodcutting.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Tools/ATimer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Tools/Algoritm/Dijkstra.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Tools/Algoritm/Edge.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Tools/Algoritm/F2PMap.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Tools/Algoritm/Vertex.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Tools/Factory/CombatOptionsTabFactory.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Tools/Factory/CraftingScreenFactory.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Tools/Factory/ExchangeFactory.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Tools/Factory/PrayerTabFactory.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Tools/Factory/QuickMenuFactory.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Tools/Factory/RunesFactory.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Tools/Factory/ShopFactory.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Tools/Factory/SmeltBarFactory.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Tools/Factory/StatsTabFactory.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Tools/Factory/VertexGenerator.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Tools/Factory/WorldFactory.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Tools/Generator.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Tools/InventoryTool.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Tools/Queue.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Tools/Stack.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/Scripts/Tools/WalkGenerator.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalFish.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Scripts/Planners/Planner.java" />
+    <list default="true" id="34c1e6d7-e41a-4a72-b73b-33439bc802c1" name="Default" comment="Atomic goals&#10;added Fishing&#10;added Mining">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4ee033c0b0f89bbc48b5eeb77c00d64f5e03a8fe" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4ee033c0b0f89bbc48b5eeb77c00d64f5e03a8fe" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/829b3a723cfd4219233a5a66584c550f6d94132c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/89f36fa0b2662ff9528b2c6f06c4c9aa7f3fc13b" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/89f36fa0b2662ff9528b2c6f06c4c9aa7f3fc13b" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e9f2554538a28c71ad2f240aad6b1b77ca66fff" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e9f2554538a28c71ad2f240aad6b1b77ca66fff" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d7505224e8e7120de5e7043f987a40be4204cdad" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d7505224e8e7120de5e7043f987a40be4204cdad" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/da1d351a50f54c7aec9d138d576678d1e1147c30" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/da1d351a50f54c7aec9d138d576678d1e1147c30" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f2c8e9870afe832e638da20548b6abc08206e696" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f2c8e9870afe832e638da20548b6abc08206e696" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f6e060388047d1147803cdbacc5a1c4036723d21" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f6e060388047d1147803cdbacc5a1c4036723d21" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/Scripts/Core/Bank.class" afterPath="$PROJECT_DIR$/out/Scripts/Core/Bank.class" />
+      <change beforePath="$PROJECT_DIR$/out/Scripts/Core/JobCore.class" afterPath="$PROJECT_DIR$/out/Scripts/Core/JobCore.class" />
+      <change beforePath="$PROJECT_DIR$/out/Scripts/Core/WalkerMethods.class" afterPath="$PROJECT_DIR$/out/Scripts/Core/WalkerMethods.class" />
+      <change beforePath="$PROJECT_DIR$/out/Scripts/Jobs/PlayRunescape/JobPlayRunescape.class" afterPath="$PROJECT_DIR$/out/Scripts/Jobs/PlayRunescape/JobPlayRunescape.class" />
+      <change beforePath="$PROJECT_DIR$/out/Scripts/Player/Player.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/Scripts/Skills/Fishing.class" afterPath="$PROJECT_DIR$/out/Scripts/Skills/Fishing.class" />
       <change beforePath="$PROJECT_DIR$/src/Scripts/Core/Bank.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/Bank.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/Goal.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/IGoal.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/GoalAntiBanCheckGuide.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/GoalAntiBanCheckStatsXp.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalAntiBanCheckStatsXp.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/GoalAntiBanExamineRandomObject.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/GoalBankAllItems.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalBankAllItems.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/GoalDropOre.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalDropItem.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/GoalFishUntilInventoryFull.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/GoalGetEquipment.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalWithdrawEquipment.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/GoalMine1.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalMine1.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/GoalMineUntilInventoryFull.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/GoalMining.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/GoalNoChildren.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/GoalNoChildren.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/GoalPickupItem.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/GoalRunAway.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/GoalRunAway.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/GoalTime.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/GoalTime.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/GoalWalkToLocation.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/GoalWalkToLocation.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/GoalXp.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/GoalXp.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/fillInventoryGoal.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/GroundItem.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/GroundItem.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/Interfaces/Core.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/Interfaces/Core.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/Interfaces/EnvironmentDefault.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/Interfaces/EnvironmentDefault.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/Interfaces/IPlayerCombat.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/Interfaces/IPlayerCombat.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/ItemInventory.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/ItemInventory.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/ItemInventoryInteractive.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/ItemInventoryInteractive.java" />
+      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalAntiBanCheckStatsXp.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/atomicgoal/GoalAntiBanCheckStatsXp.java" />
+      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalBankAllItems.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/atomicgoal/GoalBankAllItems.java" />
+      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalDropItem.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/atomicgoal/GoalDropItem.java" />
+      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalFish.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/atomicgoal/GoalFish.java" />
+      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalMine1.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/atomicgoal/GoalMine1.java" />
+      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalWithdrawEquipment.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/atomicgoal/GoalWithdrawEquipment.java" />
+      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/GoalNoChildren.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/compositegoal/GoalNoChildren.java" />
+      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/GoalRunAway.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/compositegoal/GoalRunAway.java" />
+      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/GoalTime.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/compositegoal/GoalTime.java" />
+      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/GoalWalkToLocation.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/compositegoal/GoalWalkToLocation.java" />
+      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/GoalXp.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/compositegoal/GoalXp.java" />
       <change beforePath="$PROJECT_DIR$/src/Scripts/Core/JobCore.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/JobCore.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/Mobs.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/Mobs.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/NPC.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/NPC.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/NPCInteractive.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/NPCInteractive.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/Object.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/Object.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/ObjectInteractive.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/ObjectInteractive.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/Player.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/Player.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/PlayerCombat.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/PlayerCombat.java" />
       <change beforePath="$PROJECT_DIR$/src/Scripts/Core/WalkerMethods.java" afterPath="$PROJECT_DIR$/src/Scripts/Core/WalkerMethods.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/garbage/ChatMethod.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/garbage/EquipmentTabMethods.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/garbage/GroundItemIdCollection.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/garbage/GroundMethods.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/garbage/InventoryMethods.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/garbage/ItemIdCollection.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/garbage/ItemMethod.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/garbage/LocationMethods.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/garbage/NPCMethods.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/garbage/NpcIdCollection.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/garbage/ObjectMethods.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/garbage/PlayerMethods.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/garbage/RandomActionMethods.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/garbage/RandomizerMethods.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/garbage/ScreenMethods.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Core/garbage/TabMethods.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/AntiBan/JobAntiBan.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/AntiBan/TaskAntiBan.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/BuyRunesAubury/JobBuyRunesFromAubury.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/BuyRunesAubury/TaskBuyRunesFromAubury.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/Cooking/JobCooking.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/Cooking/TaskCooking.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/CookingRawMeatJob/JobCookingRawMeat.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/CookingRawMeatJob/TaskCookRawMeat.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/CookingRawMeatJob/TaskCreateFire.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/CookingRawMeatJob/TaskgetWood.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/CowKillerFalador/JobCowKillerFalador.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/CowKillerFalador/TaskAttackCow.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/CowKillerFalador/TaskDropItem.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/CowKillerFalador/TaskEatWhenHealthIsLow.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/CowKillerFalador/TaskPickUpItem.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/Crafting/JobCrafting.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/Crafting/TaskCrafting.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/Firemaking/JobFiremaking.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/Firemaking/TaskFiremaking.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/GetBucketOfMilk/JobGetBucketOfMilk.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/GetBucketOfMilk/TaskBankBucketOfMilk.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/GetBucketOfMilk/TaskGetBucketFromBank.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/GetBucketOfMilk/TaskGetMilkFromDairyCow.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/GetBucketOfMilk/TaskWalkToBank.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/GetBucketOfMilk/TaskWalkToDairyCow.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/Mining/JobMining.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/Mining/TaskMining.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/MonkKiller/JobMonkKiller.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/MonkKiller/MonkKiller.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/MonkKiller/TaskKillMonk.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/Smithing/JobSmithing.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/Smithing/TaskSmith.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/Woodcutting/JobWoodcutting.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/Woodcutting/TaskWoodcutting.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/WoodcuttingTreeAndBank/TaskBankWood.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/WoodcuttingTreeAndBank/TaskWalkToBank.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/WoodcuttingTreeAndBank/TaskWalkToWood.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Garbage/WoodcuttingTreeAndBank/TaskgetWoodUntilInventoryFull.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/JobTemplate.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/Jobs.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/PlayRunescape/JobPlayRunescape.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/PlayRunescape/TaskPlayRunescape.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/TaskTemplate.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/WalkGenerator/JobTemplate.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/WalkGenerator/TaskTemplate.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/WalkTo/JobTemplate.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/WalkTo/TaskTemplate.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Location/GrandExchange.java" afterPath="$PROJECT_DIR$/src/Scripts/Location/GrandExchange.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Location/RSWorld.java" afterPath="$PROJECT_DIR$/src/Scripts/Location/RSWorld.java" />
+      <change beforePath="$PROJECT_DIR$/src/Scripts/Jobs/PlayRunescape/JobPlayRunescape.java" afterPath="$PROJECT_DIR$/src/Scripts/Jobs/PlayRunescape/JobPlayRunescape.java" />
+      <change beforePath="$PROJECT_DIR$/src/Scripts/Planners/Planner.java" afterPath="$PROJECT_DIR$/src/Scripts/Planners/Planner.java" />
+      <change beforePath="$PROJECT_DIR$/src/Scripts/Planners/PlannerFishing.java" afterPath="$PROJECT_DIR$/src/Scripts/Planners/PlannerFishing.java" />
+      <change beforePath="$PROJECT_DIR$/src/Scripts/Planners/PlannerMining.java" afterPath="$PROJECT_DIR$/src/Scripts/Planners/PlannerMining.java" />
+      <change beforePath="$PROJECT_DIR$/src/Scripts/Player/Player.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/Scripts/Skills/Fishing.java" afterPath="$PROJECT_DIR$/src/Scripts/Skills/Fishing.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Skills/Mining.java" afterPath="$PROJECT_DIR$/src/Scripts/Skills/Mining.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Tasks/MoneyMethods.java" afterPath="$PROJECT_DIR$/src/Scripts/Planners/PlannerMoneyMethods.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Tasks/PlayRunescape.java" afterPath="$PROJECT_DIR$/src/Scripts/Planners/PlannerRunescape.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Tasks/Task.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Tasks/TestTask.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Tasks/TrainCooking.java" afterPath="$PROJECT_DIR$/src/Scripts/Planners/PlannerCooking.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Tasks/TrainCrafting.java" afterPath="$PROJECT_DIR$/src/Scripts/Planners/PlannerCrafting.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Tasks/TrainFiremaking.java" afterPath="$PROJECT_DIR$/src/Scripts/Planners/PlannerFiremaking.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Tasks/TrainFishing.java" afterPath="$PROJECT_DIR$/src/Scripts/Planners/PlannerFishing.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Tasks/TrainMelee.java" afterPath="$PROJECT_DIR$/src/Scripts/Planners/PlannerMelee.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Tasks/TrainMining.java" afterPath="$PROJECT_DIR$/src/Scripts/Planners/PlannerMining.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Tasks/TrainSmithing.java" afterPath="$PROJECT_DIR$/src/Scripts/Planners/PlannerSmithing.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Tasks/TrainWoodcutting.java" afterPath="$PROJECT_DIR$/src/Scripts/Planners/PlannerWoodcutting.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Tasks/WalkTask.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Tools/ATimer.java" afterPath="$PROJECT_DIR$/src/Scripts/Tools/ATimer.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Tools/Algoritm/F2PMap.java" afterPath="$PROJECT_DIR$/src/Scripts/Tools/Algoritm/F2PMap.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Tools/Algoritm/Vertex.java" afterPath="$PROJECT_DIR$/src/Scripts/Tools/Algoritm/Vertex.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Tools/Factory/SmeltBarFactory.java" afterPath="$PROJECT_DIR$/src/Scripts/Tools/Factory/SmeltBarFactory.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scripts/Tools/Factory/VertexGenerator.java" afterPath="$PROJECT_DIR$/src/Scripts/Tools/Factory/VertexGenerator.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -264,84 +66,125 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JobPlayRunescape.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Scripts/Jobs/PlayRunescape/JobPlayRunescape.java">
+      <file leaf-file-name="GoalMoveTo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/atomicgoal/GoalMoveTo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+            <state relative-caret-position="748">
+              <caret line="50" column="8" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Planner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Scripts/Planners/Planner.java">
+      <file leaf-file-name="PlannerFishing.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Scripts/Planners/PlannerFishing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="54" column="16" lean-forward="false" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+            <state relative-caret-position="204">
+              <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bank.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Scripts/Core/Bank.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
               <folding>
-                <element signature="e#846#847#0" expanded="true" />
-                <element signature="e#876#877#0" expanded="true" />
-                <element signature="e#1069#1070#0" expanded="true" />
-                <element signature="e#1105#1106#0" expanded="true" />
-                <element signature="e#1146#1147#0" expanded="true" />
-                <element signature="e#1188#1189#0" expanded="true" />
-                <element signature="e#1290#1291#0" expanded="true" />
-                <element signature="e#1326#1327#0" expanded="true" />
+                <element signature="e#1972#1973#0" expanded="true" />
+                <element signature="e#2039#2040#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlannerRunescape.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Scripts/Planners/PlannerRunescape.java">
+      <file leaf-file-name="Fishing.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Scripts/Skills/Fishing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoreSkill.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Scripts/Skills/CoreSkill.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoalBankAllItems.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/atomicgoal/GoalBankAllItems.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
               <folding>
-                <element signature="e#191#192#0" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#761#762#0" expanded="true" />
+                <element signature="e#806#807#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlannerMining.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Scripts/Planners/PlannerMining.java">
+      <file leaf-file-name="WalkerMethods.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Scripts/Core/WalkerMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="731">
+              <caret line="51" column="28" lean-forward="false" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+              <folding>
+                <element signature="e#5141#5142#0" expanded="true" />
+                <element signature="e#5217#5218#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JobCore.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Scripts/Core/JobCore.java">
+      <file leaf-file-name="GoalTime.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/compositegoal/GoalTime.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="67" column="49" lean-forward="true" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
-              <folding />
+            <state relative-caret-position="68">
+              <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+              <folding>
+                <element signature="e#410#411#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#665#666#0" expanded="true" />
+                <element signature="e#958#959#0" expanded="true" />
+                <element signature="e#997#998#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CompositeGoal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/CompositeGoal.java">
+      <file leaf-file-name="GoalMine1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/atomicgoal/GoalMine1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="274">
+              <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoalXp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/GoalXp.java">
+      <file leaf-file-name="GoalWithdrawEquipment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/atomicgoal/GoalWithdrawEquipment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="408">
+              <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding>
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#831#832#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -359,8 +202,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>while</find>
-      <find>componen</find>
       <find>stream</find>
       <find>orien</find>
       <find>TARGET_FILL_COLOR</find>
@@ -389,6 +230,8 @@
       <find>proce</find>
       <find>subgoal</find>
       <find>plan</find>
+      <find>execute</find>
+      <find>activate</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -410,57 +253,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/HighLevelGoal/HighLevelGoal.java" />
-        <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalGetEquipment.java" />
-        <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/GoalAntiBanCheckGuide.java" />
-        <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/split/GoalAntiBanCheckGuide.java" />
-        <option value="$PROJECT_DIR$/src/Scripts/Core/Object.java" />
-        <option value="$PROJECT_DIR$/src/Scripts/Core/Interfaces/EnvironmentDefault.java" />
         <option value="$PROJECT_DIR$/src/Scripts/Core/Interfaces/Core.java" />
         <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalDropOre.java" />
         <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/split/GoalSwitchTab.java" />
         <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/split/GoalAntiBanCloseGuide.java" />
         <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalAntiBanExamineRandomObject.java" />
-        <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalSwitchTab.java" />
-        <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalAntiBanOpenGuide.java" />
-        <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalAntiBanCloseGuide.java" />
         <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalIdle.java" />
-        <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalWithdrawEquipment.java" />
         <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/split/GoalAntiBanCheckStatsXp.java" />
         <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalAntiBanCheckStatsXp.java" />
         <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/split/GoalPickupItem.java" />
         <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/split/AtomicGoalTemplate.java" />
         <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/split/GoalBankAllItems.java" />
-        <option value="$PROJECT_DIR$/src/Scripts/Core/Bank.java" />
-        <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalBankAllItems.java" />
-        <option value="$PROJECT_DIR$/src/Scripts/Core/WalkerMethods.java" />
-        <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalMoveTo.java" />
         <option value="$PROJECT_DIR$/src/Scripts/Core/Player.java" />
-        <option value="$PROJECT_DIR$/src/Scripts/Planners/PlannerFishing.java" />
         <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/HighLevelGoal/GoalXp.java" />
-        <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/GoalTime.java" />
         <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/GoalRunAway.java" />
         <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/GoalFishUntilInventoryFull.java" />
         <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/GoalFishWithSmallFishingNet.java" />
-        <option value="$PROJECT_DIR$/src/Scripts/Skills/fishingSpots.java" />
         <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/GoalFish.java" />
-        <option value="$PROJECT_DIR$/src/Scripts/Skills/Fishing.java" />
         <option value="$PROJECT_DIR$/src/Scripts/Core/NPCInteractive.java" />
         <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalDropItem.java" />
-        <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalMine1.java" />
         <option value="$PROJECT_DIR$/src/Scripts/Skills/Mining.java" />
-        <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/GoalWalkToLocation.java" />
         <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/IGoal.java" />
-        <option value="$PROJECT_DIR$/src/Scripts/Core/JobCore.java" />
-        <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/CompositeGoal.java" />
         <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/GoalNoChildren.java" />
         <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/AtomicGoalTemplate.java" />
-        <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalFish.java" />
         <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/AtomicGoal.java" />
         <option value="$PROJECT_DIR$/src/Scripts/Planners/Planner.java" />
         <option value="$PROJECT_DIR$/src/Scripts/Planners/PlannerRunescape.java" />
-        <option value="$PROJECT_DIR$/src/Scripts/Planners/PlannerMining.java" />
         <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/GoalXp.java" />
+        <option value="$PROJECT_DIR$/src/Scripts/Planners/PlannerMining.java" />
+        <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalSwitchTab.java" />
+        <option value="$PROJECT_DIR$/src/Scripts/Jobs/PlayRunescape/JobPlayRunescape.java" />
+        <option value="$PROJECT_DIR$/src/Scripts/Skills/fishingSpots.java" />
+        <option value="$PROJECT_DIR$/src/Scripts/Skills/FISHINGSPOTS.java" />
+        <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalFish.java" />
+        <option value="$PROJECT_DIR$/src/Scripts/Core/JobCore.java" />
+        <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/CompositeGoal.java" />
+        <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/GoalWalkToLocation.java" />
+        <option value="$PROJECT_DIR$/src/Scripts/Tools/Factory/BankFactory.java" />
+        <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalWithdrawEquipment.java" />
+        <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalOpenBank.java" />
+        <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalCloseBank.java" />
+        <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalAntiBanOpenGuide.java" />
+        <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalAntiBanCloseGuide.java" />
+        <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalMoveTo.java" />
+        <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalBankAllItems.java" />
+        <option value="$PROJECT_DIR$/src/Scripts/Core/Bank.java" />
+        <option value="$PROJECT_DIR$/src/Scripts/Skills/Fishing.java" />
+        <option value="$PROJECT_DIR$/src/Scripts/Core/WalkerMethods.java" />
+        <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/GoalTime.java" />
+        <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalMine1.java" />
+        <option value="$PROJECT_DIR$/src/Scripts/Planners/PlannerFishing.java" />
+        <option value="$PROJECT_DIR$/src/Scripts/Core/GoalMethods/atomicgoal/GoalMine1.java" />
       </list>
     </option>
   </component>
@@ -499,10 +342,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -569,7 +412,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Scripts" type="462c0819:PsiDirectoryNode" />
               <item name="Core" type="462c0819:PsiDirectoryNode" />
-              <item name="Collection" type="462c0819:PsiDirectoryNode" />
+              <item name="GoalMethods" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
@@ -578,6 +421,7 @@
               <item name="Scripts" type="462c0819:PsiDirectoryNode" />
               <item name="Core" type="462c0819:PsiDirectoryNode" />
               <item name="GoalMethods" type="462c0819:PsiDirectoryNode" />
+              <item name="atomicgoal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
@@ -600,36 +444,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Scripts" type="462c0819:PsiDirectoryNode" />
               <item name="Planners" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OSRSPB" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="Skills" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OSRSPB" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="Tools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OSRSPB" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="Tools" type="462c0819:PsiDirectoryNode" />
-              <item name="Algoritm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OSRSPB" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="Tools" type="462c0819:PsiDirectoryNode" />
-              <item name="Factory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
@@ -681,24 +495,24 @@
     <property name="GO_FMT" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Scripts.Core.GoalMethods" />
+      <recent name="Scripts.Collection" />
+      <recent name="Scripts" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Scripts.Core.GoalMethods.AtomicGoal" />
+      <recent name="Scripts.Tools.Factory" />
+      <recent name="Scripts.Core.GoalMethods.AtomicGoal.split" />
+      <recent name="Scripts.Core.GoalMethods" />
+      <recent name="Scripts.Core" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\dev\OldSchoolRS\src\Scripts\Jobs\PlayRunescape" />
       <recent name="C:\dev\OldSchoolRS\src\Scripts\Jobs\WalkTo" />
       <recent name="C:\dev\OldSchoolRS\src\Scripts\Jobs\WalkGenerator" />
       <recent name="C:\dev\OldSchoolRS\src\Scripts\Jobs\Crafting" />
       <recent name="C:\dev\OldSchoolRS\src\Scripts\Jobs\Woodcutting" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Scripts.Core.GoalMethods.AtomicGoal" />
-      <recent name="Scripts.Core.GoalMethods.AtomicGoal.split" />
-      <recent name="Scripts.Tools.Factory" />
-      <recent name="Scripts.Core.GoalMethods" />
-      <recent name="Scripts.Core" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="Scripts.Core.GoalMethods" />
-      <recent name="Scripts.Collection" />
-      <recent name="Scripts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -872,7 +686,9 @@
       <workItem from="1543767657559" duration="7688000" />
       <workItem from="1543857160093" duration="848000" />
       <workItem from="1544014143169" duration="129000" />
-      <workItem from="1544868685068" duration="19069000" />
+      <workItem from="1544868685068" duration="19589000" />
+      <workItem from="1544954572093" duration="25002000" />
+      <workItem from="1545064856747" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1543501482164</created>
@@ -895,11 +711,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543501815338</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="init">
+      <created>1544898657358</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1544898657358</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="940007000" />
+    <option name="totallyTimeSpent" value="965540000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -912,33 +735,30 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cargo" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37335527" sideWeight="0.33812407" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37335527" sideWeight="0.33812407" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.055219363" sideWeight="0.4888889" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.4969743" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.4969743" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23600605" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19667171" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37335527" sideWeight="0.66187596" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47697368" sideWeight="0.66187596" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5574887" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32072368" sideWeight="0.4054463" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31743422" sideWeight="0.4697428" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2526475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23903178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.4969743" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32072368" sideWeight="0.44478065" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -947,9 +767,11 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.49394855" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32730263" sideWeight="0.5544629" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32072368" sideWeight="0.4054463" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.055895865" sideWeight="0.51111114" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32072368" sideWeight="0.44478065" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -998,7 +820,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="Atomic goals&#10;added Fishing&#10;added Mining" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atomic goals&#10;added Fishing&#10;added Mining" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1034,7 +857,7 @@
           <option name="timeStamp" value="1258" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1485" />
+      <option name="time" value="1527" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JarApplication">
@@ -1047,62 +870,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/RSBot.jar!/org/powerbot/script/Tile.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Planners/PlannerMoneyMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Planners/PlannerMelee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Tools/Algoritm/Dijkstra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="97" column="26" lean-forward="false" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Tools/ATimer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="32" column="11" lean-forward="false" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/RSBot.jar!/org/powerbot/script/rt4/Interactive.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="106" column="19" lean-forward="false" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/ItemInventory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="36" column="3" lean-forward="false" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Scripts/Tools/Factory/StatsTabFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1130,7 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
           <caret line="175" column="19" lean-forward="false" selection-start-line="175" selection-start-column="19" selection-end-line="175" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1138,10 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="52" lean-forward="false" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-          <folding>
-            <element signature="e#339#340#0" expanded="false" />
-            <element signature="e#365#366#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1171,226 +933,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalAntiBanCloseGuide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding>
-            <element signature="e#512#513#0" expanded="false" />
-            <element signature="e#539#540#0" expanded="false" />
-            <element signature="e#1306#1307#0" expanded="false" />
-            <element signature="e#1351#1352#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalAntiBanOpenGuide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding>
-            <element signature="e#1256#1257#0" expanded="false" />
-            <element signature="e#1301#1302#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalIdle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <element signature="e#237#238#0" expanded="false" />
-            <element signature="e#264#265#0" expanded="false" />
-            <element signature="e#936#937#0" expanded="false" />
-            <element signature="e#964#965#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalWithdrawEquipment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="48" lean-forward="false" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-          <folding>
-            <element signature="e#701#702#0" expanded="false" />
-            <element signature="e#780#781#0" expanded="false" />
-            <element signature="e#1346#1347#0" expanded="false" />
-            <element signature="e#1382#1383#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/split/GoalAntiBanCheckGuide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalAntiBanExamineRandomObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="e#780#781#0" expanded="false" />
-            <element signature="e#814#815#0" expanded="false" />
-            <element signature="e#1218#1219#0" expanded="false" />
-            <element signature="e#1263#1264#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalSwitchTab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#1432#1433#0" expanded="false" />
-            <element signature="e#1477#1478#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/Bank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalBankAllItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#554#555#0" expanded="false" />
-            <element signature="e#581#582#0" expanded="false" />
-            <element signature="e#779#780#0" expanded="false" />
-            <element signature="e#840#841#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/WalkerMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#5195#5196#0" expanded="false" />
-            <element signature="e#5249#5250#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalMoveTo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#992#993#0" expanded="false" />
-            <element signature="e#1049#1050#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="145" column="46" lean-forward="false" selection-start-line="145" selection-start-column="46" selection-end-line="145" selection-end-column="46" />
-          <folding>
-            <element signature="e#3313#3314#0" expanded="false" />
-            <element signature="e#3366#3367#0" expanded="false" />
-            <element signature="e#3788#3789#0" expanded="false" />
-            <element signature="e#3845#3846#0" expanded="false" />
-            <element signature="e#3884#3885#0" expanded="false" />
-            <element signature="e#3937#3938#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/HighLevelGoal/HighLevelGoal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Skills/fishingSpots.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <element signature="e#126#127#0" expanded="false" />
-            <element signature="e#158#159#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Planners/PlannerFishing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-218">
-          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <element signature="e#918#919#0" expanded="false" />
-            <element signature="e#945#946#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalAntiBanCheckStatsXp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-          <folding>
-            <element signature="e#795#796#0" expanded="false" />
-            <element signature="e#829#830#0" expanded="false" />
-            <element signature="e#1179#1180#0" expanded="false" />
-            <element signature="e#1224#1225#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Skills/Fishing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/NPCInteractive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-          <folding>
-            <element signature="e#3132#3133#0" expanded="false" />
-            <element signature="e#3224#3225#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalDropItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalMine1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/split/GoalAntiBanCheckGuide.java" />
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/HighLevelGoal/HighLevelGoal.java" />
     <entry file="file://$PROJECT_DIR$/src/Scripts/Skills/Mining.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
@@ -1399,147 +943,340 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/GoalNoChildren.java">
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/compositegoal/GoalNoChildren.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/GoalRunAway.java">
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/compositegoal/GoalRunAway.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-60">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/GoalTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-213">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/GoalWalkToLocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-551">
-          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding>
-            <element signature="e#876#877#0" expanded="false" />
-            <element signature="e#940#941#0" expanded="false" />
-            <element signature="e#971#972#0" expanded="false" />
-            <element signature="e#999#1000#0" expanded="false" />
-            <element signature="e#1602#1603#0" expanded="false" />
-            <element signature="e#1634#1635#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/AtomicGoalTemplate.java">
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/atomicgoal/AtomicGoalTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/IGoal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/GoalFish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/AtomicGoal/AtomicGoal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding>
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#1417#1418#0" expanded="true" />
-            <element signature="e#1444#1445#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Player/Player.java" />
     <entry file="file://$PROJECT_DIR$/src/Scripts/Planners/PlannerRunescape.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/RSBot.jar!/org/powerbot/script/rt4/Movement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/RSBot.jar!/org/powerbot/script/PollingScript.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Skills/FISHINGSPOTS.java" />
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/NPCInteractive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="24" column="15" lean-forward="false" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
           <folding>
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="false" />
+            <element signature="e#693#694#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Planners/Planner.java">
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="54" column="16" lean-forward="false" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        <state relative-caret-position="709">
+          <caret line="99" column="19" lean-forward="false" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
           <folding>
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#1069#1070#0" expanded="true" />
-            <element signature="e#1105#1106#0" expanded="true" />
-            <element signature="e#1146#1147#0" expanded="true" />
-            <element signature="e#1188#1189#0" expanded="true" />
-            <element signature="e#1290#1291#0" expanded="true" />
-            <element signature="e#1326#1327#0" expanded="true" />
+            <element signature="e#2704#2705#0" expanded="false" />
+            <element signature="e#2784#2785#0" expanded="false" />
+            <element signature="e#3313#3314#0" expanded="false" />
+            <element signature="e#3366#3367#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Jobs/PlayRunescape/JobPlayRunescape.java">
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Planners/PlannerMelee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/compositegoal/GoalXp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-93">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Scripts/Planners/PlannerMining.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+        <state relative-caret-position="135">
+          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/GoalXp.java">
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Jobs/PlayRunescape/JobPlayRunescape.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        <state relative-caret-position="34">
+          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/CompositeGoal/CompositeGoal.java">
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/atomicgoal/AtomicGoal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="100">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#537#538#0" expanded="false" />
+            <element signature="e#564#565#0" expanded="false" />
+            <element signature="e#1347#1348#0" expanded="false" />
+            <element signature="e#1376#1377#0" expanded="false" />
+            <element signature="e#1417#1418#0" expanded="false" />
+            <element signature="e#1444#1445#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/compositegoal/CompositeGoal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="76" column="9" lean-forward="true" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Planners/Planner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/compositegoal/GoalWalkToLocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="44" column="41" lean-forward="false" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Tools/Factory/BankFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Scripts/Core/JobCore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="67" column="49" lean-forward="true" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
+        <state relative-caret-position="51">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#2706#2707#0" expanded="false" />
+            <element signature="e#2755#2756#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/IGoal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/atomicgoal/GoalAntiBanCheckStatsXp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/atomicgoal/GoalAntiBanCloseGuide.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="31" column="37" lean-forward="false" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/atomicgoal/GoalAntiBanExamineRandomObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-461">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/atomicgoal/GoalAntiBanOpenGuide.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-172">
+          <caret line="35" column="37" lean-forward="false" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/atomicgoal/GoalCloseBank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-70">
+          <caret line="31" column="30" lean-forward="false" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/atomicgoal/GoalDropItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/atomicgoal/GoalFish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+          <folding>
+            <element signature="e#973#974#0" expanded="false" />
+            <element signature="e#1020#1021#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/atomicgoal/GoalIdle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="43" column="20" lean-forward="false" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/atomicgoal/GoalOpenBank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="33" column="38" lean-forward="false" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/atomicgoal/GoalSwitchTab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="49" column="14" lean-forward="false" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/atomicgoal/GoalWithdrawEquipment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/atomicgoal/GoalMoveTo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="50" column="8" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="e#1972#1973#0" expanded="true" />
+            <element signature="e#2039#2040#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Skills/CoreSkill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Skills/Fishing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/atomicgoal/GoalBankAllItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <folding>
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/WalkerMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="51" column="28" lean-forward="false" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+          <folding>
+            <element signature="e#5141#5142#0" expanded="true" />
+            <element signature="e#5217#5218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/compositegoal/GoalTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding>
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Planners/PlannerFishing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scripts/Core/GoalMethods/atomicgoal/GoalMine1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

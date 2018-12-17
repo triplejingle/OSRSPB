@@ -1,4 +1,4 @@
-package Scripts.Core.GoalMethods.AtomicGoal;
+package Scripts.Core.GoalMethods.atomicgoal;
 
 import Scripts.Core.Collection.Animations;
 import Scripts.Core.ENUM.state;
@@ -11,29 +11,28 @@ public class GoalMine1 extends AtomicGoal {
     Animations animations = new Animations();
     Player player = new Player(ctx, "its you but in code");
     int prevNOItems;
-    static int nrOfItems=28;
+    String rockName;
     public GoalMine1(ClientContext arg0, String rockName) {
         super(arg0);
         this.rockName = rockName;
     }
-    String rockName;
+
     @Override
     public void activate() {
-        if(madeAttempt==false) {
-            prevNOItems=ctx.inventory.select().count();
-            if(mining.tmo(rockName)){
-                madeAttempt =true;
-                executeTimer.setPeriodBetween(27000,30000);
-            }
+        if(madeAttempt==false&&mining.tmo(rockName)){
+            prevNOItems = player.countItemsInventory();
+            madeAttempt =true;
+            executeTimer.setPeriodBetween(1000,3000);
         }
     }
+
 
     public boolean goalReached() {
         if(player.isInventoryFull()){
             return true;
         }
         if(madeAttempt) {
-            return prevNOItems+1==ctx.inventory.select().count();
+            return prevNOItems < player.countItemsInventory();
         }
         return false;
     }
@@ -49,7 +48,6 @@ public class GoalMine1 extends AtomicGoal {
         }
         if(status==state.INACTIVE){
             status = state.ACTIVE;
-            prevNOItems=ctx.inventory.select().count();
             activateTimer.setPeriodBetween(5000,10000);
         }
         if(status==state.ACTIVE&&!goalReached()){
@@ -58,13 +56,12 @@ public class GoalMine1 extends AtomicGoal {
     }
 
     public boolean isStuck() {
-        if(ctx.players.local().animation()!=animations.getNothing()) {
+        if(!player.isDoingNothing()) {
             return false;
         }
         if(madeAttempt){
-            return executeTimer.isTime();
+            return  executeTimer.isTime();
         }
         return activateTimer.isTime();
     }
-
 }

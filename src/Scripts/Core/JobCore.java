@@ -40,6 +40,7 @@ public abstract class JobCore extends PollingScript<ClientContext> implements Ke
         if(IGoalStack.peek().getState()==state.COMPLETED){
             IGoalStack.pop();
             System.out.println("yeaye goal reached");
+            stop();
         }
     }
     private void replanIfFailed(){
@@ -73,8 +74,8 @@ public abstract class JobCore extends PollingScript<ClientContext> implements Ke
     }
     @Override
     public void keyTyped(KeyEvent e) {
-//            ATimer.saveTime();
-//            pauseScript = true;
+            ATimer.saveTime();
+            pauseScript = true;
     }
 
     @Override

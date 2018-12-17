@@ -1,7 +1,6 @@
 package Scripts.Planners;
 
 import Scripts.Core.GoalMethods.IGoal;
-import Scripts.Core.GoalMethods.CompositeGoal.GoalWalkToLocation;
 import Scripts.Core.WalkerMethods;
 import org.powerbot.script.Random;
 import org.powerbot.script.Tile;

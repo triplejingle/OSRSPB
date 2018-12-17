@@ -9,17 +9,17 @@ import org.powerbot.script.rt4.ClientContext;
 import org.powerbot.script.rt4.Item;
 
 public class Fishing extends CoreSkill{
-
-    ATimer ATimer = new ATimer();
     Animations animations = new Animations();
     Random random = new Random();
     public Fishing(ClientContext arg0) {
         super(arg0);
     }
     NPCInteractive fishing_spot = new NPCInteractive(ctx,"Fishing spot");
-    public boolean fish(String fishingTool){
+    NPCInteractive rod_fishing_spot = new NPCInteractive(ctx,"Rod Fishing spot");
+
+    public boolean fish(String fishingTool,String fishingSpot){
         if(ctx.inventory.select().name(fishingTool).count()>0) {
-            return fishing_spot.fish(fishingSpots.valueOf(fishingTool).toString());
+            return fishing_spot.fish(fishingSpot);
         }
         return false;
     }
@@ -39,7 +39,7 @@ public class Fishing extends CoreSkill{
             }
         }
     }
-    NPCInteractive rod_fishing_spot = new NPCInteractive(ctx,"Rod Fishing spot");
+
     public void fishUsingFlyFishingRod() {
         if(ctx.players.local().animation()==animations.getNothing()) {
             rod_fishing_spot.fish("Lure");

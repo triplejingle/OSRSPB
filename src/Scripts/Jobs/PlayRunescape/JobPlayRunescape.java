@@ -2,6 +2,7 @@ package Scripts.Jobs.PlayRunescape;
 
 import Scripts.Core.JobCore;
 import Scripts.Planners.Planner;
+import Scripts.Planners.PlannerFishing;
 import Scripts.Planners.PlannerRunescape;
 import org.powerbot.script.Script;
 
@@ -10,7 +11,7 @@ public class JobPlayRunescape extends JobCore{
 
     @Override
     public void start() {
-        planner = new PlannerRunescape(ctx);
+        planner = new PlannerFishing(ctx);
         planner.setXpGoal(5000);
         planner.plan();
 

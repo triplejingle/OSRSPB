@@ -1,8 +1,6 @@
-package Scripts.Core.GoalMethods.CompositeGoal;
+package Scripts.Core.GoalMethods.compositegoal;
 
 import Scripts.Core.ENUM.state;
-import Scripts.Core.GoalMethods.CompositeGoal.CompositeGoal;
-import Scripts.Core.GoalMethods.IGoal;
 import org.powerbot.script.rt4.ClientContext;
 
 public class GoalXp extends CompositeGoal {
@@ -33,7 +31,7 @@ public class GoalXp extends CompositeGoal {
 
     public boolean goalReached() {
         long currentXp = ctx.skills.experience(skill);
-        return prevXp+expGoal<=currentXp;
+        return prevXp+expGoal<currentXp;
     }
 
     @Override

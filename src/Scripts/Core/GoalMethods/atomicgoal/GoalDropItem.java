@@ -1,4 +1,4 @@
-package Scripts.Core.GoalMethods.AtomicGoal;
+package Scripts.Core.GoalMethods.atomicgoal;
 
 import Scripts.Core.ENUM.state;
 import Scripts.Core.Player;

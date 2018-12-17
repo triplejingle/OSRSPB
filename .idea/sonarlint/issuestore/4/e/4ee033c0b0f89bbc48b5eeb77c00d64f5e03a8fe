@@ -1,10 +1,8 @@
 
-Ksquid:S1481"(Remove this unused "tmp" local variable.(´²—€ùÿÿÿÿ8ï©ÒŞõ,
-Xsquid:S2209"5Change this instance-reference to a static reference.(µÚûÿÿÿÿ8ï©ÒŞõ,
-Csquid:S2440"&Remove this instantiation of "Random".(¼İÅf8ï©ÒŞõ,
-Rsquid:S2387"/"ATimer" is the name of a field in "CoreSkill".(‚Î§ùÿÿÿÿ8ï©ÒŞõ,
-squid:S00116'"[Rename this field "rod_fishing_spot" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…«ÊÂşÿÿÿÿ8ï©ÒŞõ,
-ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯ğâ»8ï©ÒŞõ,
-usquid:S00116"QRename this field "ATimer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚Î§ùÿÿÿÿ8ï©ÒŞõ,
-Zsquid:S1854"7Remove this useless assignment to local variable "tmp".(´²—€ùÿÿÿÿ8ï©ÒŞõ,
-{squid:S00116"WRename this field "fishing_spot" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ Ç÷üÿÿÿÿ8ğ¿áŞõ,
+}squid:S00116"[Rename this field "rod_fishing_spot" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…«ÊÂşÿÿÿÿ8ş£ïÂû,
+Isquid:S1481"(Remove this unused "tmp" local variable.(´²—€ùÿÿÿÿ8ï©ÒŞõ,
+Asquid:S2440"&Remove this instantiation of "Random".(¼İÅf8ï©ÒŞõ,
+ysquid:S00116"WRename this field "fishing_spot" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ Ç÷üÿÿÿÿ8ğ¿áŞõ,
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯ğâ»8ï©ÒŞõ,
+Vsquid:S2209"5Change this instance-reference to a static reference.(µÚûÿÿÿÿ8ï©ÒŞõ,
+Xsquid:S1854"7Remove this useless assignment to local variable "tmp".(´²—€ùÿÿÿÿ8ï©ÒŞõ,

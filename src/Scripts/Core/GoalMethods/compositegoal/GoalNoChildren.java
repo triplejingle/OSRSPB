@@ -1,11 +1,8 @@
-package Scripts.Core.GoalMethods.CompositeGoal;
+package Scripts.Core.GoalMethods.compositegoal;
 
 import Scripts.Core.ENUM.state;
-import Scripts.Core.GoalMethods.IGoal;
 import org.powerbot.script.Random;
 import org.powerbot.script.rt4.ClientContext;
-
-import java.util.Stack;
 
 
 public class GoalNoChildren extends CompositeGoal {

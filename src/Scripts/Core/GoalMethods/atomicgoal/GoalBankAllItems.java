@@ -1,10 +1,7 @@
-package Scripts.Core.GoalMethods.AtomicGoal;
+package Scripts.Core.GoalMethods.atomicgoal;
 
 import Scripts.Core.Bank;
 import Scripts.Core.ENUM.state;
-import Scripts.Core.GoalMethods.AtomicGoal.AtomicGoal;
-import Scripts.Core.GoalMethods.CompositeGoal.CompositeGoal;
-import Scripts.Core.GoalMethods.IGoal;
 import Scripts.Core.Player;
 import org.powerbot.script.rt4.ClientContext;
 
@@ -19,15 +16,15 @@ public class GoalBankAllItems extends AtomicGoal {
     }
 
     public  void activate() {
-        if(madeAttempt) {
+        if(madeAttempt==false) {
             if(bank.depositAllItems()){
-                madeAttempt=false;
+                madeAttempt=true;
             }
         }
     }
 
     public boolean goalReached() {
-        return prevItems>player.countItemsInventory();
+        return prevItems<player.countItemsInventory();
     }
 
     public  void terminate(){
@@ -35,16 +32,13 @@ public class GoalBankAllItems extends AtomicGoal {
     }
 
     public boolean isStuck() {
-        if(madeAttempt){
-            return activateTimer.isTime();
-        }
-        return false;
+        return activateTimer.isTime();
     }
 
     public void activateIfInactive(){
         if(status==state.INACTIVE){
             status = state.ACTIVE;
-            activateTimer.setPeriodBetween(5000,10000);
+            activateTimer.setPeriodBetween(8000,10000);
             prevItems = player.countItemsInventory();
         }
         if(status==state.ACTIVE&&!goalReached()){

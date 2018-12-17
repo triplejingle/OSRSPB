@@ -1,7 +1,6 @@
-package Scripts.Core.GoalMethods.CompositeGoal;
+package Scripts.Core.GoalMethods.compositegoal;
 
 import Scripts.Core.ENUM.state;
-import Scripts.Core.GoalMethods.IGoal;
 import org.powerbot.script.rt4.ClientContext;
 
 public class GoalRunAway extends CompositeGoal {

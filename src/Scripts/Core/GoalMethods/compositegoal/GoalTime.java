@@ -1,15 +1,15 @@
-package Scripts.Core.GoalMethods.CompositeGoal;
+package Scripts.Core.GoalMethods.compositegoal;
 
 import Scripts.Core.ENUM.state;
-import Scripts.Core.GoalMethods.IGoal;
 import org.powerbot.script.rt4.ClientContext;
 
 public class GoalTime extends CompositeGoal {
-    long startTime;
     private long runTime;
 
-    public GoalTime(ClientContext arg0) {
+    public GoalTime(ClientContext arg0, long runTime) {
         super(arg0);
+        startTime=System.currentTimeMillis();
+        this.runTime = runTime*60000;
     }
 
     @Override
@@ -19,7 +19,7 @@ public class GoalTime extends CompositeGoal {
 
     public boolean goalReached() {
         long currentTime = System.currentTimeMillis();
-        return startTime + runTime <=currentTime;
+        return startTime + runTime <currentTime;
     }
 
     @Override
@@ -39,9 +39,5 @@ public class GoalTime extends CompositeGoal {
 
     public boolean isStuck() {
         return hasChildFailed();
-    }
-
-    public void setRunTime(long runTime) {
-        this.runTime = runTime;
     }
 }

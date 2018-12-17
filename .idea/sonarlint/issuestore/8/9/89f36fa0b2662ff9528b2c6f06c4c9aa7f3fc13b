@@ -1,17 +1,17 @@
 
-qsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(³ø£îÿÿÿÿÿ8ê¤ã‘ð,
-jsquid:UselessImportCheck":Remove this unused import 'org.powerbot.script.Condition'.(¶³Î÷ýÿÿÿÿ8ê¤ã‘ð,
-Xsquid:S2209Z"5Change this instance-reference to a static reference.(«ûÅÄúÿÿÿÿ8¤«ÕÞõ,
-Xsquid:S2209C"5Change this instance-reference to a static reference.(ú¼©øýÿÿÿÿ8¤«ÕÞõ,
-Msquid:S1066"/Merge this if statement with the enclosing one.(Øî“Ñ8¼ÍÞâõ,
-Csquid:S2440"&Remove this instantiation of "Random".(¼ÝÅf8ê¤ã‘ð,
-usquid:S00116"QRename this field "ATimer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚Î§Žùÿÿÿÿ8ê¤ã‘ð,
-Osquid:S1153]"1Directly append the argument of String.valueOf().(Ù¹«È8¤«ÕÞõ,
-Msquid:S1066]"/Merge this if statement with the enclosing one.(Ù¹«È8ê¤ã‘ð,
-usquid:S00117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚Î§Žùÿÿÿÿ8¤«ÕÞõ,
-Xsquid:S2209k"5Change this instance-reference to a static reference.(ú¼©øýÿÿÿÿ8¤«ÕÞõ,
-hsquid:HiddenFieldCheckB":Rename "ATimer" which hides the field declared at line 18.(‚Î§Žùÿÿÿÿ8¤«ÕÞõ,
-Xsquid:S2209."5Change this instance-reference to a static reference.(ú¼©øýÿÿÿÿ8¤«ÕÞõ,
-ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(éÖëö8ê¤ã‘ð,
-jsquid:S1192+"GDefine a constant instead of duplicating this literal "screen" 3 times.(º›Á§ùÿÿÿÿ8¤«ÕÞõ,
-Msquid:S1066\"/Merge this if statement with the enclosing one.(¿ú™ƒ8¤«ÕÞõ,
+Vsquid:S2209"5Change this instance-reference to a static reference.(ú¼©øýÿÿÿÿ8¤«ÕÞõ,
+fsquid:HiddenFieldCheck":Rename "ATimer" which hides the field declared at line 17.(‚Î§Žùÿÿÿÿ8¤«ÕÞõ,
+Ksquid:S1066"/Merge this if statement with the enclosing one.(¿ú™ƒ8¤«ÕÞõ,
+hsquid:S1192"GDefine a constant instead of duplicating this literal "screen" 3 times.(º›Á§ùÿÿÿÿ8¤«ÕÞõ,
+ssquid:S00116"QRename this field "ATimer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚Î§Žùÿÿÿÿ8ê¤ã‘ð,
+ssquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚Î§Žùÿÿÿÿ8¤«ÕÞõ,
+Vsquid:S2209"5Change this instance-reference to a static reference.(ú¼©øýÿÿÿÿ8¤«ÕÞõ,
+Vsquid:S2209"5Change this instance-reference to a static reference.(«ûÅÄúÿÿÿÿ8¤«ÕÞõ,
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(éÖëö8ê¤ã‘ð,
+Asquid:S2440"&Remove this instantiation of "Random".(¼ÝÅf8ê¤ã‘ð,
+Ksquid:S1066"/Merge this if statement with the enclosing one.(Øî“Ñ8¼ÍÞâõ,
+Vsquid:S2209"5Change this instance-reference to a static reference.(ú¼©øýÿÿÿÿ8¤«ÕÞõ,
+osquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(³ø£îÿÿÿÿÿ8ê¤ã‘ð,
+Lsquid:S1481"+Remove this unused "screen" local variable.(º›Á§ùÿÿÿÿ8ìàŸ¼û,
+[squid:S1854":Remove this useless assignment to local variable "screen".(º›Á§ùÿÿÿÿ8ìàŸ¼û,
+Msquid:S1153"1Directly append the argument of String.valueOf().(¡Õ®8ìàŸ¼û,

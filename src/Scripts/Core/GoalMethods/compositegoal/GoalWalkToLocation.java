@@ -1,15 +1,13 @@
 
-package Scripts.Core.GoalMethods.CompositeGoal;
+package Scripts.Core.GoalMethods.compositegoal;
 import Scripts.Core.ENUM.state;
-import Scripts.Core.GoalMethods.AtomicGoal.GoalMoveTo;
+import Scripts.Core.GoalMethods.atomicgoal.GoalMoveTo;
 import Scripts.Core.GoalMethods.IGoal;
 import Scripts.Core.WalkerMethods;
-import Scripts.Tools.ATimer;
 import org.powerbot.script.Tile;
 import org.powerbot.script.rt4.ClientContext;
 
 public class GoalWalkToLocation extends CompositeGoal {
-    java.util.Stack<IGoal> subgoals = new java.util.Stack();
     WalkerMethods walkerMethods =new WalkerMethods(ctx);
     Tile[] path;
     public GoalWalkToLocation(ClientContext arg0,Tile[] path) {
@@ -19,11 +17,11 @@ public class GoalWalkToLocation extends CompositeGoal {
 
     @Override
     public void activate() {
-        IGoal goal = subgoals.peek();
+        IGoal goal = children.peek();
         if(goal.getState()!=state.COMPLETED){
             goal.process();
         }else{
-            subgoals.pop();
+            children.pop();
         }
     }
 
@@ -43,8 +41,8 @@ public class GoalWalkToLocation extends CompositeGoal {
     public void activateIfInactive(){
         if(status==state.INACTIVE){
             status = state.ACTIVE;
-            for(int i = path.length;i>0;i--){
-                IGoal goal = new GoalMoveTo(ctx);
+            for(int i = path.length-1;i>=0;i--){
+                IGoal goal = new GoalMoveTo(ctx,path[i]);
                 addSubGoal(goal);
             }
         }
@@ -54,9 +52,9 @@ public class GoalWalkToLocation extends CompositeGoal {
     }
 
     public void removeAllSubGoals(){
-        for(IGoal IGoal : subgoals){
+        for(IGoal IGoal : children){
             IGoal.terminate();
-            subgoals.remove(IGoal);
+            children.remove(IGoal);
         }
     }
 

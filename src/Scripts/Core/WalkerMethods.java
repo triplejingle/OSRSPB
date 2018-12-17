@@ -22,7 +22,7 @@ public class WalkerMethods  extends ClientAccessor {
     }
 
     public void addPath(Tile[] path){
-        queue = new Queue<Tile>(path.length);
+        queue = new Queue<>(path.length);
         for(int i = 0 ;i<path.length;i++) {
             queue.addToQueue(path[i]);
         }
@@ -62,7 +62,6 @@ public class WalkerMethods  extends ClientAccessor {
             } else {
                 setPath();
                 if (ATimer.isTime()) {
-                    System.out.println(nextTile);
                     handleObstacle();
                 }
             }
@@ -154,7 +153,6 @@ public class WalkerMethods  extends ClientAccessor {
     }
 
     public boolean walkToTile(Tile nextLocation) {
-        return ctx.movement.step(nextLocation);
+        return ctx.movement.step(getReachableTile(nextLocation,3,3));
     }
-
 }

@@ -1,10 +1,7 @@
-package Scripts.Core.GoalMethods.AtomicGoal;
+package Scripts.Core.GoalMethods.atomicgoal;
 
 import Scripts.Core.ENUM.state;
-import Scripts.Core.GoalMethods.AtomicGoal.AtomicGoal;
-import Scripts.Core.GoalMethods.IGoal;
 import Scripts.Core.Player;
-import org.powerbot.script.Random;
 import org.powerbot.script.rt4.ClientContext;
 
 public class GoalAntiBanCheckStatsXp extends AtomicGoal {

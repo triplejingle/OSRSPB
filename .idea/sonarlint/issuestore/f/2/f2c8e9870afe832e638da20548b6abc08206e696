@@ -1,19 +1,18 @@
 
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¿ÉäÉúÿÿÿÿ8¹šãñõ,
-Qsquid:S2209"5Change this instance-reference to a static reference.(…éÊ¡8¹šãñõ,
 wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(éÖëö8¹šãñõ,
-7squid:S3626"Remove this redundant jump.(ûÁÝ…8¹šãñõ,
-msquid:S1871"LThis branch's code block is the same as the block for the branch on line 87.(°»ú¾ýÿÿÿÿ8¹šãñõ,
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(á©´É8¹šãñõ,
-]squid:S1126"AReplace this if-then-else statement by a single return statement.(ÆÞ®¾8¹šãñõ,
-Qsquid:S2209"5Change this instance-reference to a static reference.(ŠÀß¡8¹šãñõ,
-7squid:S3626"Remove this redundant jump.(ûÁÝ…8¹šãñõ,
-Qsquid:S2209"5Change this instance-reference to a static reference.(¶£Î‘8¹šãñõ,
-7squid:S3626"Remove this redundant jump.(ûÁÝ…8¹šãñõ,
-Psquid:S1066"/Merge this if statement with the enclosing one.(¼€¢Ÿúÿÿÿÿ8¹šãñõ,
-Asquid:S2440"&Remove this instantiation of "Random".(¼ÝÅf8¹šãñõ,
-7squid:S3626"Remove this redundant jump.(ûÁÝ…8¹šãñõ,
 Qsquid:S2209"5Change this instance-reference to a static reference.(ä…õç8¹šãñõ,
-Psquid:S1066"/Merge this if statement with the enclosing one.(®ß¶àüÿÿÿÿ8¹šãñõ,
-msquid:S1871"LThis branch's code block is the same as the block for the branch on line 87.(¨¸«¶úÿÿÿÿ8¹šãñõ,
+msquid:S1871"LThis branch's code block is the same as the block for the branch on line 58.(°»ú¾ýÿÿÿÿ8¹šãñõ,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¿ÉäÉúÿÿÿÿ8¹šãñõ,
+]squid:S1126"AReplace this if-then-else statement by a single return statement.(ÆÞ®¾8¹šãñõ,
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ö¼÷óüÿÿÿÿ8òÍÔ´û,
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“†…ÿÿÿÿÿ8òÍÔ´û,
+Psquid:S1066"/Merge this if statement with the enclosing one.(¼€¢Ÿúÿÿÿÿ8¹šãñõ,
+bsquid:S1126"AReplace this if-then-else statement by a single return statement.(ÞÑ«Øÿÿÿÿÿ8òÍÔ´û,
 Qsquid:S2209"5Change this instance-reference to a static reference.(…éÊ¡8¹šãñõ,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(á©´É8¹šãñõ,
+Qsquid:S2209"5Change this instance-reference to a static reference.(…éÊ¡8¹šãñõ,
+msquid:S1871"LThis branch's code block is the same as the block for the branch on line 58.(¨¸«¶úÿÿÿÿ8¹šãñõ,
+Qsquid:S2209"5Change this instance-reference to a static reference.(ŠÀß¡8¹šãñõ,
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Êô™÷üÿÿÿÿ8òÍÔ´û,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ò›¨ñ8òÍÔ´û,
+Asquid:S2440"&Remove this instantiation of "Random".(¼ÝÅf8¹šãñõ,
