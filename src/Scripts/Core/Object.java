@@ -13,17 +13,20 @@ public class Object extends EnvironmentDefault  {
     public  Object(ClientContext ctx){
         super(ctx);
     }
+
     public void chooseRandomObject(){
-        GameObject gameObject = ctx.objects.select().within(20).limit(5).shuffle().poll();
+        GameObject gameObject = ctx.objects.select().within(10).shuffle().poll();
         super.setName(gameObject.name());
+        String tmp = gameObject.name();
     }
+
     public GameObject getGameObject() {
         return gameObject;
     }
 
     @Override
     public boolean examine() {
-       gameObject = ctx.objects.select().name(super.getName()).poll();
+       gameObject = ctx.objects.select().name(super.getName()).within(10).poll();
        if(gameObject.inViewport()) {
            return gameObject.interact("Examine");
        }else{
@@ -36,5 +39,10 @@ public class Object extends EnvironmentDefault  {
     public boolean cancel() {
         gameObject = ctx.objects.select().name(super.getName()).poll();
         return gameObject.interact("Cancel");
+    }
+
+    public void turnTo() {
+        gameObject = ctx.objects.select().name(super.getName()).poll();
+        ctx.camera.turnTo(gameObject);
     }
 }

@@ -1,6 +1,9 @@
 package Scripts.Planners;
 
 import Scripts.Core.GoalMethods.IGoal;
+import Scripts.Core.GoalMethods.atomicgoal.GoalAntiBanExamineRandomObject;
+import Scripts.Core.GoalMethods.atomicgoal.GoalTurnToObject;
+import Scripts.Core.GoalMethods.compositegoal.GoalCheckGuide;
 import Scripts.Core.WalkerMethods;
 import org.powerbot.script.Random;
 import org.powerbot.script.Tile;
@@ -55,7 +58,27 @@ public abstract class Planner extends ClientAccessor{
         this.xpGoal = xpGoal;
     }
 
-    public void walkTo(Tile[] path){
+    protected IGoal getRandomAntiBan() {
+        int antiban = random.nextInt(0,2);
+        switch (antiban){
+            case 0:
+                return new GoalCheckGuide(ctx);
+            case 1:
+                return new GoalAntiBanExamineRandomObject(ctx);
+            case 2:
+                return  new GoalTurnToObject(ctx);
+            default:
+                return new GoalAntiBanExamineRandomObject(ctx);
+        }
+    }
 
+    protected void addRandomAntiBan(){
+        if(addAntiBan()){
+            IGoal.addSubGoal(getRandomAntiBan());
+        }
+    }
+
+    private boolean addAntiBan() {
+        return random.nextInt(0,100)<=50;
     }
 }

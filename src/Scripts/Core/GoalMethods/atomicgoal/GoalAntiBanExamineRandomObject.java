@@ -1,26 +1,23 @@
 package Scripts.Core.GoalMethods.atomicgoal;
 
 import Scripts.Core.ENUM.state;
-import Scripts.Core.Player;
+import Scripts.Core.Object;
 import org.powerbot.script.rt4.ClientContext;
 
-public class GoalAntiBanCheckStatsXp extends AtomicGoal {
-
-    Player player = new Player(ctx,"its you but in code");
-    public GoalAntiBanCheckStatsXp(ClientContext arg0) {
+public class GoalAntiBanExamineRandomObject extends AtomicGoal {
+    Object object = new Object(ctx,"");
+    public GoalAntiBanExamineRandomObject(ClientContext arg0) {
         super(arg0);
     }
-    int skill;
-    public void setSkill(int skill){
-        this.skill = skill;
-    }
-    
+
     @Override
     public void activate() {
         if(madeAttempt==false) {
-          if(player.checkStatsXP(skill)){
-              madeAttempt = true;
-          }
+            object = new Object(ctx);
+            object.chooseRandomObject();
+            if (object.examine()) {
+                madeAttempt = true;
+            }
         }
     }
 
@@ -34,9 +31,12 @@ public class GoalAntiBanCheckStatsXp extends AtomicGoal {
     }
 
     public void activateIfInactive(){
+        if(madeAttempt){
+            return;
+        }
         if(status==state.INACTIVE){
             status = state.ACTIVE;
-            activateTimer.setPeriodBetween(5000,10000);
+            activateTimer.setPeriodBetween(3000,7000);
         }
         if(status==state.ACTIVE&&!goalReached()){
             activate();

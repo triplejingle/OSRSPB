@@ -149,10 +149,11 @@ public class WalkerMethods  extends ClientAccessor {
     }
 
     public boolean isNear(Tile tile) {
-        return ctx.players.local().tile().distanceTo(tile)<10;
+        return ctx.players.local().tile().distanceTo(tile)<8;
     }
 
     public boolean walkToTile(Tile nextLocation) {
+
         return ctx.movement.step(getReachableTile(nextLocation,3,3));
     }
 }

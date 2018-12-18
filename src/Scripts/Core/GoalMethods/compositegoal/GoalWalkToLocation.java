@@ -15,16 +15,6 @@ public class GoalWalkToLocation extends CompositeGoal {
         this.path = path;
     }
 
-    @Override
-    public void activate() {
-        IGoal goal = children.peek();
-        if(goal.getState()!=state.COMPLETED){
-            goal.process();
-        }else{
-            children.pop();
-        }
-    }
-
     public boolean goalReached() {
         return walkerMethods.isNear(path[path.length-1]);
     }
@@ -35,7 +25,7 @@ public class GoalWalkToLocation extends CompositeGoal {
 
     @Override
     public void terminate() {
-
+        emptyStack();
     }
 
     public void activateIfInactive(){

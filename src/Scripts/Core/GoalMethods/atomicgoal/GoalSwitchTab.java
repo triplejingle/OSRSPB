@@ -3,29 +3,31 @@ package Scripts.Core.GoalMethods.atomicgoal;
 import Scripts.Core.ENUM.state;
 import Scripts.Core.Player;
 import org.powerbot.script.rt4.ClientContext;
+import org.powerbot.script.rt4.Game;
 
-public class GoalAntiBanCheckStatsXp extends AtomicGoal {
-
+public class GoalSwitchTab extends AtomicGoal {
     Player player = new Player(ctx,"its you but in code");
-    public GoalAntiBanCheckStatsXp(ClientContext arg0) {
+    Game.Tab tab;
+
+    public GoalSwitchTab(ClientContext arg0, Game.Tab tab) {
         super(arg0);
+        this.tab = tab;
     }
-    int skill;
-    public void setSkill(int skill){
-        this.skill = skill;
-    }
-    
+
     @Override
     public void activate() {
         if(madeAttempt==false) {
-          if(player.checkStatsXP(skill)){
-              madeAttempt = true;
-          }
+            if(player.switchToTab(tab)){
+                madeAttempt=true;
+            }
         }
     }
 
     public boolean goalReached() {
-        return madeAttempt;
+        if(madeAttempt) {
+            return ctx.game.tab()==tab;
+        }
+        return false;
     }
 
     @Override
@@ -34,11 +36,15 @@ public class GoalAntiBanCheckStatsXp extends AtomicGoal {
     }
 
     public void activateIfInactive(){
+        if(madeAttempt){
+            return;
+        }
         if(status==state.INACTIVE){
             status = state.ACTIVE;
-            activateTimer.setPeriodBetween(5000,10000);
+            activateTimer.setPeriodBetween(4000,7000);
+	        System.out.println("switching tabs");
         }
-        if(status==state.ACTIVE&&!goalReached()){
+        if (status == state.ACTIVE ) {
             activate();
         }
     }

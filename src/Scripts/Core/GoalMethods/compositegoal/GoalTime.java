@@ -12,11 +12,6 @@ public class GoalTime extends CompositeGoal {
         this.runTime = runTime*60000;
     }
 
-    @Override
-    public void activate() {
-       processLowLevelGoal();
-    }
-
     public boolean goalReached() {
         long currentTime = System.currentTimeMillis();
         return startTime + runTime <currentTime;

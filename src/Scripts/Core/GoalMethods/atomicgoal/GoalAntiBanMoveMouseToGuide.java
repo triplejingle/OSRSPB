@@ -4,24 +4,21 @@ import Scripts.Core.ENUM.state;
 import Scripts.Core.Player;
 import org.powerbot.script.rt4.ClientContext;
 
-public class GoalAntiBanCheckStatsXp extends AtomicGoal {
-
+public class GoalAntiBanMoveMouseToGuide extends AtomicGoal {
     Player player = new Player(ctx,"its you but in code");
-    public GoalAntiBanCheckStatsXp(ClientContext arg0) {
+
+    public GoalAntiBanMoveMouseToGuide(ClientContext arg0) {
         super(arg0);
     }
-    int skill;
-    public void setSkill(int skill){
-        this.skill = skill;
-    }
-    
+
     @Override
     public void activate() {
-        if(madeAttempt==false) {
-          if(player.checkStatsXP(skill)){
-              madeAttempt = true;
-          }
+        if(madeAttempt==false){ ;
+            if(player.moveMouseInGuideScreen()) {
+                madeAttempt = true;
+            }
         }
+
     }
 
     public boolean goalReached() {
@@ -36,9 +33,10 @@ public class GoalAntiBanCheckStatsXp extends AtomicGoal {
     public void activateIfInactive(){
         if(status==state.INACTIVE){
             status = state.ACTIVE;
-            activateTimer.setPeriodBetween(5000,10000);
+           activateTimer.setPeriodBetween(2000,4000);
+            System.out.println("just moving my mouse to the guide");
         }
-        if(status==state.ACTIVE&&!goalReached()){
+        if (status == state.ACTIVE) {
             activate();
         }
     }

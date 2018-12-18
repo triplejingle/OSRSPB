@@ -4,28 +4,29 @@ import Scripts.Core.ENUM.state;
 import Scripts.Core.Player;
 import org.powerbot.script.rt4.ClientContext;
 
-public class GoalAntiBanCheckStatsXp extends AtomicGoal {
-
+public class GoalAntiBanOpenGuide extends AtomicGoal {
     Player player = new Player(ctx,"its you but in code");
-    public GoalAntiBanCheckStatsXp(ClientContext arg0) {
-        super(arg0);
-    }
     int skill;
-    public void setSkill(int skill){
+
+    public GoalAntiBanOpenGuide(ClientContext arg0, int skill) {
+        super(arg0);
         this.skill = skill;
     }
-    
+
     @Override
     public void activate() {
-        if(madeAttempt==false) {
-          if(player.checkStatsXP(skill)){
-              madeAttempt = true;
-          }
+        if(madeAttempt==false){
+            if(player.openGuide(skill)){
+                madeAttempt=true;
+            }
         }
     }
 
     public boolean goalReached() {
-        return madeAttempt;
+        if(madeAttempt) {
+            return player.isGuideOpen();
+        }
+        return false;
     }
 
     @Override
@@ -35,10 +36,11 @@ public class GoalAntiBanCheckStatsXp extends AtomicGoal {
 
     public void activateIfInactive(){
         if(status==state.INACTIVE){
+            System.out.println("open guide");
             status = state.ACTIVE;
-            activateTimer.setPeriodBetween(5000,10000);
+           activateTimer.setPeriodBetween(3000,6000);
         }
-        if(status==state.ACTIVE&&!goalReached()){
+        if (status == state.ACTIVE) {
             activate();
         }
     }

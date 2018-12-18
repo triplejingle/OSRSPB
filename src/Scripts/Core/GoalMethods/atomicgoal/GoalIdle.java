@@ -4,28 +4,21 @@ import Scripts.Core.ENUM.state;
 import Scripts.Core.Player;
 import org.powerbot.script.rt4.ClientContext;
 
-public class GoalAntiBanCheckStatsXp extends AtomicGoal {
-
+public class GoalIdle extends AtomicGoal {
+    int waitForSeconds;
     Player player = new Player(ctx,"its you but in code");
-    public GoalAntiBanCheckStatsXp(ClientContext arg0) {
+    public GoalIdle(ClientContext arg0, int seconds) {
         super(arg0);
+        this.waitForSeconds = seconds*1000;
     }
-    int skill;
-    public void setSkill(int skill){
-        this.skill = skill;
-    }
-    
+
     @Override
     public void activate() {
-        if(madeAttempt==false) {
-          if(player.checkStatsXP(skill)){
-              madeAttempt = true;
-          }
-        }
+
     }
 
     public boolean goalReached() {
-        return madeAttempt;
+        return activateTimer.isTime();
     }
 
     @Override
@@ -36,14 +29,15 @@ public class GoalAntiBanCheckStatsXp extends AtomicGoal {
     public void activateIfInactive(){
         if(status==state.INACTIVE){
             status = state.ACTIVE;
-            activateTimer.setPeriodBetween(5000,10000);
+            activateTimer.setPeriod(waitForSeconds);
+            System.out.println("waiting...");
         }
-        if(status==state.ACTIVE&&!goalReached()){
+        if (status == state.ACTIVE) {
             activate();
         }
     }
 
-    public boolean isStuck() {
-        return activateTimer.isTime();
+    public boolean isStuck(){
+        return player.getHealth()<100;
     }
 }

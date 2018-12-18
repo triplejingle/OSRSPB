@@ -1,0 +1,12 @@
+
+<squid:S2440"&Remove this instantiation of "Random".(¼ÝÅf
+Psquid:S1854":Remove this useless assignment to local variable "random".(¼ÝÅf
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(’£¿–ÿÿÿÿÿ
+Asquid:S1481"+Remove this unused "random" local variable.(¼ÝÅf
+P"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ãØ´ú
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Û°Îãûÿÿÿÿ
+}squid:S00116"eRename this field "BankToBarbarianvillageFish" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øô¥ô
+bsquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(ãØ´ú
+”"squid:ClassVariableVisibilityCheck"fMake BankToBarbarianvillageFish a static final constant or non-public and provide accessors if needed.(Øô¥ô
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¢ÅÊýÿÿÿÿ

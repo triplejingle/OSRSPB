@@ -1,36 +1,37 @@
 package Scripts.Core.GoalMethods.atomicgoal;
 
+import Scripts.Core.Bank;
 import Scripts.Core.ENUM.state;
 import Scripts.Core.Player;
 import org.powerbot.script.rt4.ClientContext;
 
-public class GoalAntiBanCheckStatsXp extends AtomicGoal {
+public class GoalOpenBank extends AtomicGoal {
 
-    Player player = new Player(ctx,"its you but in code");
-    public GoalAntiBanCheckStatsXp(ClientContext arg0) {
+    Bank bank =  new Bank(ctx);
+    Player player = new Player(ctx, "its you but in code");
+
+    public GoalOpenBank(ClientContext arg0) {
         super(arg0);
     }
-    int skill;
-    public void setSkill(int skill){
-        this.skill = skill;
-    }
-    
-    @Override
-    public void activate() {
+
+    public  void activate() {
         if(madeAttempt==false) {
-          if(player.checkStatsXP(skill)){
-              madeAttempt = true;
-          }
+            if(bank.openBank()){
+                madeAttempt=true;
+            }
         }
     }
 
     public boolean goalReached() {
-        return madeAttempt;
+        return bank.isBankOpened();
     }
 
-    @Override
-    public void terminate() {
+    public  void terminate(){
 
+    }
+
+    public boolean isStuck() {
+        return activateTimer.isTime();
     }
 
     public void activateIfInactive(){
@@ -41,9 +42,5 @@ public class GoalAntiBanCheckStatsXp extends AtomicGoal {
         if(status==state.ACTIVE&&!goalReached()){
             activate();
         }
-    }
-
-    public boolean isStuck() {
-        return activateTimer.isTime();
     }
 }

@@ -36,7 +36,13 @@ public class Bank extends Core {
         }
         return false;
     }
-
+    public boolean depositAllItemsExcept(String item){
+	    depositATimer.setPeriod(random.nextInt(1000, 3000));
+	    if (depositATimer.isTime()) {
+		    return ctx.bank.depositAllExcept(item);
+	    }
+	    return false;
+    }
     public boolean openBank(){
         if (ctx.bank.inViewport()) {
             openATimer.setPeriod(random.nextInt(500,2000));

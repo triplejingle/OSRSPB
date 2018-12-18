@@ -4,6 +4,7 @@ import Scripts.Core.Collection.Animations;
 import Scripts.Core.Interfaces.Core;
 import Scripts.Tools.ATimer;
 import Scripts.Tools.Factory.StatsTabFactory;
+import org.powerbot.script.Locatable;
 import org.powerbot.script.Random;
 import org.powerbot.script.Tile;
 import org.powerbot.script.rt4.ClientContext;
@@ -15,6 +16,7 @@ public class Player extends Core{
     ATimer runATimer =new ATimer();
     Game.Tab prevTab;
     Animations animations = new Animations();
+    int closeComponent=999;
     public Player(ClientContext arg0, String name) {
         super(arg0,name);
     }
@@ -53,44 +55,37 @@ public class Player extends Core{
     }
     Random random = new Random();
 
-    public void doRandomAntiBan(){
-        int antiBanNr = random.nextInt(0,2);
-        if(antiBanNr==0){
-           // checkStatsXP("Defence");
-            moveMouseOutOfScreen();
-        }else if(antiBanNr==1){
-//            if(!ctx.players.local().inCombat()) {
-//                openGuide("Defence");
-//            }
-            moveMouseOutOfScreen();
-        }else if(antiBanNr==2){
-            moveMouseOutOfScreen();
-        }
-    }
-
     public void moveMouseOutOfScreen(){
         ctx.input.move(-1,random.nextInt(0,300));
     }
 
-    public boolean checkStatsXP(String skill) {
+    public boolean checkStatsXP(int skill) {
         prevTab = ctx.game.tab();
         ctx.game.tab(Game.Tab.STATS);
         Component component =  statsTabFactory.getComponent(skill);
         return component.hover();
     }
 
-    public boolean openGuide(String skill){
+    public boolean openGuide(int skill){
         Component component =  statsTabFactory.getComponent(skill);
-        component.click();
-        ctx.widgets.widget(214).component(8);
-        ctx.input.move(random.nextInt(28,303),random.nextInt(84,310));
-       return ctx.input.scroll();
+        return component.click();
+    }
+	public boolean moveMouseInGuideScreen(){
+    	int x = random.nextInt(28, 303);
+			    int y = random.nextInt(84, 310);
+		ctx.widgets.widget(214).component(8);
+		ctx.input.move(x,y );
+		return x<=ctx.input.getLocation().x;
+	}
+    public void scrollThroughGuide() {
+	    ctx.input.scroll();
     }
     public boolean switchToTab(Game.Tab tab){
-        return ctx.game.tab(tab);
+         ctx.game.tab(tab);
+         return ctx.input.click(true);
     }
     public boolean closeGuide(){
-        Component close = statsTabFactory.getComponent("Close");
+        Component close = statsTabFactory.getComponent(closeComponent);
         if (close.visible()) {
             return close.click();
         }
@@ -134,7 +129,7 @@ public class Player extends Core{
     }
 
     public boolean isGuideOpen() {
-        Component component  = statsTabFactory.getComponent("Close");
+        Component component  = statsTabFactory.getComponent(closeComponent);
         return component.visible();
     }
 
@@ -144,5 +139,13 @@ public class Player extends Core{
 
     public boolean isPlayerMoving() {
         return ctx.players.local().inMotion();
+    }
+
+	public int getHealth() {
+		return ctx.players.local().healthPercent();
+	}
+
+    public void showYourself() {
+    	ctx.camera.turnTo(ctx.players.local());
     }
 }

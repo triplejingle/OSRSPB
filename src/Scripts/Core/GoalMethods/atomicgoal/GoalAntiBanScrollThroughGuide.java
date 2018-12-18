@@ -4,28 +4,25 @@ import Scripts.Core.ENUM.state;
 import Scripts.Core.Player;
 import org.powerbot.script.rt4.ClientContext;
 
-public class GoalAntiBanCheckStatsXp extends AtomicGoal {
-
+public class GoalAntiBanScrollThroughGuide extends AtomicGoal {
     Player player = new Player(ctx,"its you but in code");
-    public GoalAntiBanCheckStatsXp(ClientContext arg0) {
+
+    public GoalAntiBanScrollThroughGuide(ClientContext arg0) {
         super(arg0);
     }
-    int skill;
-    public void setSkill(int skill){
-        this.skill = skill;
-    }
-    
+
     @Override
     public void activate() {
-        if(madeAttempt==false) {
-          if(player.checkStatsXP(skill)){
-              madeAttempt = true;
-          }
+        if(madeAttempt==false){
+            if(activateTimer.isTime()) {
+                madeAttempt = true;
+            }
         }
+        player.scrollThroughGuide();
     }
 
     public boolean goalReached() {
-        return madeAttempt;
+       return madeAttempt;
     }
 
     @Override
@@ -36,14 +33,16 @@ public class GoalAntiBanCheckStatsXp extends AtomicGoal {
     public void activateIfInactive(){
         if(status==state.INACTIVE){
             status = state.ACTIVE;
-            activateTimer.setPeriodBetween(5000,10000);
+           activateTimer.setPeriodBetween(1000,6000);
+           executeTimer.setPeriod(7000);
+            System.out.println("never mind me just scrolling through the guide");
         }
-        if(status==state.ACTIVE&&!goalReached()){
+        if (status == state.ACTIVE) {
             activate();
         }
     }
 
     public boolean isStuck() {
-        return activateTimer.isTime();
+        return executeTimer.isTime();
     }
 }
