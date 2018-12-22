@@ -1,19 +1,0 @@
-
-Ksquid:S2209"5Change this instance-reference to a static reference.(’ëñQ
-Esquid:S1068"/Remove this unused "eatAtHealth" private field.(Ô­»'
-psquid:S1450"ZRemove the "eatAtHealth" field and declare it as a local variable in the relevant methods.(Ô­»'
-Ksquid:S1066W"/Merge this if statement with the enclosing one.(¥ôÃÀşÿÿÿÿ
-Ksquid:S1066%"/Merge this if statement with the enclosing one.(¥ôÃÀşÿÿÿÿ
-Lsquid:S2209o"5Change this instance-reference to a static reference.(’ÊÓå
-N
-squid:S106Y"9Replace this use of System.out or System.err by a logger.(ç€ØV
-U
-squid:S106D"9Replace this use of System.out or System.err by a logger.(ç€ØV8Ş­¢ğ,
-Fsquid:S10668"/Merge this if statement with the enclosing one.(ô¦¨ş
-Lsquid:S2209-"5Change this instance-reference to a static reference.(©ù‹¦
-Lsquid:S2209@"5Change this instance-reference to a static reference.(‡ãÚ…
-T
-squid:S106'"9Replace this use of System.out or System.err by a logger.(ôÑÜşÿÿÿÿ
-Lsquid:S2209_"5Change this instance-reference to a static reference.(ª‹Ù
-rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯ğâ»
-<squid:S2440"&Remove this instantiation of "Random".(¼İÅf

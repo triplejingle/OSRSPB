@@ -7,22 +7,12 @@ Y
 )src/Scripts/Core/Interfaces/IDefault.java,c\e\ceade250d8c7d6cc7b5309bfba8979a127fe88ce
 S
 #src/Scripts/Core/ItemInventory.java,3\4\34ddacc8484fb35af3f8473beb34ee622fc323a1
-^
-.src/Scripts/Core/ItemInventoryInteractive.java,8\1\815dd6683d50056e52cca738654a63bc3c8eaa2f
 I
 src/Scripts/Core/NPC.java,f\9\f929bfd31ffcf8b9057610e30a2a92790298454c
-W
-'src/Scripts/Core/ObjectInteractive.java,3\5\35ba671f8efb151246f9d74c263228429a65bf2d
 L
 src/Scripts/Core/Player.java,f\2\f2c8e9870afe832e638da20548b6abc08206e696
-R
-"src/Scripts/Core/PlayerCombat.java,f\9\f96264d5443f3a01d5c937af2de8d6aa4fd4bbb9
-T
-$src/Scripts/Core/NPCInteractive.java,8\9\89f36fa0b2662ff9528b2c6f06c4c9aa7f3fc13b
 U
 %src/Scripts/Core/Interfaces/Core.java,e\1\e1a138781b408144abffa2a9bcf185c16dbb18f1
-O
-src/Scripts/Skills/Fishing.java,4\e\4ee033c0b0f89bbc48b5eeb77c00d64f5e03a8fe
 L
 src/Scripts/Core/Object.java,2\9\298e07732c21c60b49d28fe223a512810bfce4e7
 M
@@ -30,11 +20,7 @@ M
 J
 src/Scripts/Core/Mobs.java,0\4\04efec201e67cf7550ac6e07429feca114525132
 M
-src/Scripts/Skills/Melee.java,9\a\9aaadfc98f492ecc78983e3c802931ed4c048846
-M
 src/Scripts/Tools/ATimer.java,d\a\da17509d06715b628b48d827b15056d53f58dcfb
-N
-src/Scripts/Skills/Mining.java,c\0\c0a9f568c48f104d9d51bbb3eec320e788124cd2
 d
 4src/Scripts/Jobs/PlayRunescape/JobPlayRunescape.java,f\6\f6e060388047d1147803cdbacc5a1c4036723d21
 ^
@@ -49,10 +35,6 @@ c
 3src/Scripts/Core/Collection/BoundaryCollection.java,5\a\5a510f691fc9974206e9f1008837871b025737af
 X
 (src/Scripts/Core/Collection/ItemIds.java,c\4\c468934e44a1c9140a99e9f7a8ee811abc1262e1
-W
-'src/Scripts/Core/ENUM/BoundaryType.java,c\1\c14250977e956e85281e48f63332541432b3ca09
-P
- src/Scripts/Core/ENUM/state.java,2\1\217f61e0a1c2e0ba5c27f0dc940d7a03faa6ed8b
 \
 ,src/Scripts/Core/Interfaces/IGroundItem.java,4\b\4bae9b04220791c14888be7111b5133b5119522c
 _
@@ -65,48 +47,10 @@ c
 3src/Scripts/Core/Interfaces/IObjectInteractive.java,4\8\4899f60eb53a90909dfd7d9074f50b129c926974
 ^
 .src/Scripts/Core/Interfaces/IPlayerCombat.java,2\f\2f140d374cdf41b0b4b9c1aa1e4c5375af0ec632
-V
-&src/Scripts/Core/WalkerTMPMethods.java,b\1\b131ed15d6dae18f5ee2cb66a8c4462cf2ae502a
 W
 'src/Scripts/Location/GrandExchange.java,e\2\e26f644e1f5767c3e5331d0c3c229d94f79efa78
 Q
 !src/Scripts/Location/RSWorld.java,2\9\2922ffb3a3ca14f942e8870c8070d616327ef413
-O
-src/Scripts/Skills/Agility.java,c\c\ccdc257cdaa265371c96a8ec50c20a5ddd77e8f6
-T
-$src/Scripts/Skills/Construction.java,4\f\4ff19bc0f94ea7c312a144a3ec65d7bbcb364940
-O
-src/Scripts/Skills/Cooking.java,8\f\8f1df184e372b7b1c6f6e61b788e6b6301036df2
-Q
-!src/Scripts/Skills/CoreSkill.java,1\2\124c59e4a6f364852fb5c2cb8da428579db9c32d
-P
- src/Scripts/Skills/Crafting.java,5\4\54446599dd774bb863b3eaa3baca56d48b318650
-O
-src/Scripts/Skills/Farming.java,0\b\0bcc40f3b7cacae76905c5c0ab830e60aa2575e2
-R
-"src/Scripts/Skills/Firemaking.java,a\1\a1d81737247511387d2630be313dde37be2a2079
-Q
-!src/Scripts/Skills/Fletching.java,3\a\3a2fb3178110d0ba1e3fdc993b3734ebe45fb485
-P
- src/Scripts/Skills/Herblore.java,0\b\0b2b91a27a2f36fd41bd9daad7a94b776de3fee9
-N
-src/Scripts/Skills/Hunter.java,0\3\03001a4ae4f8bc35b9f40fa8accb1063f51524a7
-M
-src/Scripts/Skills/Magic.java,9\f\9f7fd6043be9dc70c13df0a3c761c4b3f00d0c56
-N
-src/Scripts/Skills/Prayer.java,c\b\cb0464af0df702584e7f09b1f93e659c3aaa3ae0
-N
-src/Scripts/Skills/Ranged.java,e\d\ed36f5cfaf767219a66e500a02528a09d5486d3e
-T
-$src/Scripts/Skills/Runecrafting.java,5\f\5f770c1fbc551123aadf5e3c09b915a01014da08
-N
-src/Scripts/Skills/Slayer.java,0\9\0915eb89e1e9edd48efc93ef63c38fe89b511a90
-P
- src/Scripts/Skills/Smithing.java,e\f\efb9a52e5ca199e8b64fdca80590af94c356b357
-P
- src/Scripts/Skills/Thieving.java,4\d\4d74b642f59b8ca29a3fa63fd9b4f2a56020e43b
-S
-#src/Scripts/Skills/Woodcutting.java,6\3\633dfbff78a5f0e54ab43d6e8f6b91b077bb98b0
 X
 (src/Scripts/Tools/Algoritm/Dijkstra.java,a\5\a5f05ddc9b61b84e344fe41921d47a18b857d5fc
 T
@@ -149,12 +93,6 @@ k
 ;src/Scripts/Core/GoalMethods/CompositeGoal/GoalRunAway.java,4\3\433049c80518dccd9641688044062a371171115b
 r
 Bsrc/Scripts/Core/GoalMethods/CompositeGoal/GoalWalkToLocation.java,c\c\ccdfbaec4cf99bb9b25a860b6f077e8c19f604ff
-Z
-*src/Scripts/Planners/PlannerRunescape.java,7\a\7a970709085da93e683ff80e00db120cc8c4c5f3
-V
-&src/Scripts/Planners/PlannerMelee.java,9\d\9d3271505fed261eee55ad7bf30a9956dfca4ba5
-Q
-!src/Scripts/Planners/Planner.java,2\d\2d7179eb6ece49365920ab132bd4bff6eb43d2d9
 t
 Dsrc/Scripts/Core/GoalMethods/atomicgoal/GoalAntiBanCheckStatsXp.java,2\8\28a229b9f1d0a69ffebdf6ccc2c1bba1a3bbc18d
 i
@@ -163,8 +101,6 @@ e
 5src/Scripts/Core/GoalMethods/atomicgoal/GoalFish.java,8\f\8fa2373e4e767a9bcc57e7607abc1ed3aba3df6d
 f
 6src/Scripts/Core/GoalMethods/compositegoal/GoalXp.java,8\a\8a90d88ca0e2009db290614f7ff882296fef0313
-W
-'src/Scripts/Planners/PlannerMining.java,b\e\bea911d9e43805bee8049bdceb9ff8eb5aac62a7
 r
 Bsrc/Scripts/Core/GoalMethods/compositegoal/GoalWalkToLocation.java,3\5\35d2344f2011491c6bc2402354f6b07e83fe9949
 W
@@ -175,7 +111,17 @@ m
 =src/Scripts/Core/GoalMethods/atomicgoal/GoalBankAllItems.java,2\5\25c2e1fac7af170a195cb7d7b2e111e877bade05
 r
 Bsrc/Scripts/Core/GoalMethods/atomicgoal/GoalWithdrawEquipment.java,8\2\82420735438b937fc663bb7a8a2d6803cb37f21c
-X
-(src/Scripts/Planners/PlannerFishing.java,5\8\58740b9fcb24d2e0aa540d0bc82e00a5101c6fdc
 f
 6src/Scripts/Core/GoalMethods/atomicgoal/GoalMine1.java,a\0\a067f2232a777cb7f07986828ee6f367b91b4bf4
+m
+=src/Scripts/Core/GoalMethods/compositegoal/CompositeGoal.java,a\7\a7b4ecfe352623327a139fe290f75bf0ccb72d37
+m
+=src/Scripts/Core/GoalMethods/atomicgoal/GoalTurnToObject.java,7\a\7a5d41b5664242bc368539138315ee028a373e7f
+q
+Asrc/Scripts/Core/GoalMethods/atomicgoal/GoalAntiBanOpenGuide.java,a\d\ad302830ceb1769074fb504c608bf5a980eee6a9
+W
+'src/Scripts/Core/Data/ExchangeData.java,2\d\2d905c431760bc7d9a2a20baa1cb0a4162066507
+U
+%src/Scripts/Core/Data/ObjectData.java,0\1\013af903c33492697634d689b7d185c36bbba8de
+V
+&src/Scripts/Core/Data/IObjectData.java,3\8\385a39754c9c1de3704878b3b914c9522c4a3dac

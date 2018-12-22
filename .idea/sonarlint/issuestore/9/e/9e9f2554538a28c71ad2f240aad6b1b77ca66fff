@@ -1,21 +1,21 @@
 
-Ysquid:S1155">Use isEmpty() to check whether the collection is empty or not.(üæ“T8Ìƒâ³û,
-lsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÃÆ¥Ë8Ìƒâ³û,
-Zsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(ÇÑò8Ìƒâ³û,
-nsquid:S00116"QRename this field "ATimer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êö§8ÈÌÓô,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(œŸÇ†şÿÿÿÿ8ÈÌÓô,
-~squid:S4144"]Update this method so that its implementation is not identical to "mouseClicked" on line 117.(®î’×üÿÿÿÿ8ÈÌÓô,
-Psquid:S1066"/Merge this if statement with the enclosing one.(Ÿñ÷ùÿÿÿÿ8ÈÌÓô,
-ysquid:S4144"]Update this method so that its implementation is not identical to "mouseClicked" on line 117.(ãÆĞÂ8ÈÌÓô,
-"squid:ClassVariableVisibilityCheck"WMake pauseScript a static final constant or non-public and provide accessors if needed.(ƒ Óûúÿÿÿÿ8ÈÌÓô,
-…"squid:ClassVariableVisibilityCheck"SMake planner a static final constant or non-public and provide accessors if needed.(‘‚àn8Ìƒâ³û,
-S
-squid:S106"9Replace this use of System.out or System.err by a logger.(–®£8Ìƒâ³û,
-_squid:S1155">Use isEmpty() to check whether the collection is empty or not.(ÉüÉÚşÿÿÿÿ8Ìƒâ³û,
-ssquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°Ï•úÿÿÿÿ8Ìƒâ³û,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(¶ÙŞÄúÿÿÿÿ8Ìƒâ³û,
-rsquid:S00116"URename this field "IGoalStack" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÆ¥Ë8Ìƒâ³û,
-ysquid:S4144"XUpdate this method so that its implementation is not identical to "keyTyped" on line 76.(˜Â½€øÿÿÿÿ8Ìƒâ³û,
-wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(éÖëö8ÈÌÓô,
+Rsquid:S1066n"/Merge this if statement with the enclosing one.(Ÿñ÷ùÿÿÿÿ8ÈÌÓô,
+psquid:S00116"QRename this field "ATimer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êö§8ÈÌÓô,
+asquid:S1155">Use isEmpty() to check whether the collection is empty or not.(ÉüÉÚşÿÿÿÿ8Ìƒâ³û,
+ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(éÖëö8ÈÌÓô,
+[squid:S1155 ">Use isEmpty() to check whether the collection is empty or not.(üæ“T8Ìƒâ³û,
+|squid:S4144€"]Update this method so that its implementation is not identical to "mouseClicked" on line 116.(ãÆĞÂ8ÈÌÓô,
+[
+squid:S106U"9Replace this use of System.out or System.err by a logger.(œŸÇ†şÿÿÿÿ8ÈÌÓô,
+€squid:S4144z"]Update this method so that its implementation is not identical to "mouseClicked" on line 116.(®î’×üÿÿÿÿ8ÈÌÓô,
+‡"squid:ClassVariableVisibilityCheck"SMake planner a static final constant or non-public and provide accessors if needed.(‘‚àn8Ìƒâ³û,
+‘"squid:ClassVariableVisibilityCheck"WMake pauseScript a static final constant or non-public and provide accessors if needed.(ƒ Óûúÿÿÿÿ8ÈÌÓô,
+[
+squid:S106)"9Replace this use of System.out or System.err by a logger.(¶ÙŞÄúÿÿÿÿ8Ìƒâ³û,
+{squid:S4144Z"XUpdate this method so that its implementation is not identical to "keyTyped" on line 75.(˜Â½€øÿÿÿÿ8Ìƒâ³û,
+tsquid:S00116"URename this field "IGoalStack" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÆ¥Ë8Ìƒâ³û,
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°Ï•úÿÿÿÿ8Ìƒâ³û,
+nsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÃÆ¥Ë8Ìƒâ³û,
+\squid:S11556">Use isEmpty() to check whether the collection is empty or not.(ÇÑò8Ìƒâ³û,
+U
+squid:S1061"9Replace this use of System.out or System.err by a logger.(–®£8Ìƒâ³û,

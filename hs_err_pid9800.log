@@ -6,7 +6,7 @@
 # JRE version: Java(TM) SE Runtime Environment (8.0_181-b13) (build 1.8.0_181-b13)
 # Java VM: Java HotSpot(TM) Client VM (25.181-b13 mixed mode windows-x86 )
 # Problematic frame:
-# j  Scripts.Location.RSWorld.switchToRandomFreeWorld()V+64
+# j  scripts.location.RSWorld.switchToRandomFreeWorld()V+64
 #
 # Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
 #
@@ -58,10 +58,10 @@ EDI=0x2f8df890 is pointing into the stack for thread: 0x29ecbc00
 
 Stack: [0x2f6e0000,0x2f8e0000],  sp=0x2f8df864,  free space=2046k
 Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
-j  Scripts.Location.RSWorld.switchToRandomFreeWorld()V+64
-j  Scripts.Planners.PlannerMoneyMethods.buyMindRunesVarrock()V+140
-j  Scripts.Jobs.TaskTemplate.execute()V+4
-j  Scripts.Jobs.JobTemplate.poll()V+37
+j  scripts.location.RSWorld.switchToRandomFreeWorld()V+64
+j  scripts.planner.PlannerMoneyMethods.buyMindRunesVarrock()V+140
+j  scripts.jobs.TaskTemplate.execute()V+4
+j  scripts.jobs.JobTemplate.poll()V+37
 J 2398 C1 org.powerbot.script.PollingScript$6.run()V (147 bytes) @ 0x02a745c8 [0x02a74520+0xa8]
 j  java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V+95
 j  java.util.concurrent.ThreadPoolExecutor$Worker.run()V+5
@@ -262,16 +262,16 @@ Deoptimization events (0 events):
 No events
 
 Classes redefined (10 events):
-Event: 1551.535 Thread 0x25a4ac00 redefined class name=Scripts.Location.RSWorld, count=6
-Event: 1551.595 Thread 0x25a4ac00 redefined class name=Scripts.Location.RSWorld, count=5
-Event: 1551.627 Thread 0x25a4ac00 redefined class name=Scripts.Location.RSWorld, count=4
-Event: 1551.654 Thread 0x25a4ac00 redefined class name=Scripts.Location.RSWorld, count=3
-Event: 1551.734 Thread 0x25a4ac00 redefined class name=Scripts.Location.RSWorld, count=2
-Event: 1551.793 Thread 0x25a4ac00 redefined class name=Scripts.Location.RSWorld, count=2
-Event: 1551.891 Thread 0x25a4ac00 redefined class name=Scripts.Location.RSWorld, count=2
-Event: 1551.946 Thread 0x25a4ac00 redefined class name=Scripts.Location.RSWorld, count=2
-Event: 1552.045 Thread 0x25a4ac00 redefined class name=Scripts.Location.RSWorld, count=2
-Event: 1552.088 Thread 0x25a4ac00 redefined class name=Scripts.Location.RSWorld, count=1
+Event: 1551.535 Thread 0x25a4ac00 redefined class name=scripts.location.RSWorld, count=6
+Event: 1551.595 Thread 0x25a4ac00 redefined class name=scripts.location.RSWorld, count=5
+Event: 1551.627 Thread 0x25a4ac00 redefined class name=scripts.location.RSWorld, count=4
+Event: 1551.654 Thread 0x25a4ac00 redefined class name=scripts.location.RSWorld, count=3
+Event: 1551.734 Thread 0x25a4ac00 redefined class name=scripts.location.RSWorld, count=2
+Event: 1551.793 Thread 0x25a4ac00 redefined class name=scripts.location.RSWorld, count=2
+Event: 1551.891 Thread 0x25a4ac00 redefined class name=scripts.location.RSWorld, count=2
+Event: 1551.946 Thread 0x25a4ac00 redefined class name=scripts.location.RSWorld, count=2
+Event: 1552.045 Thread 0x25a4ac00 redefined class name=scripts.location.RSWorld, count=2
+Event: 1552.088 Thread 0x25a4ac00 redefined class name=scripts.location.RSWorld, count=1
 
 Internal exceptions (10 events):
 Event: 1557.328 Thread 0x29ec8c00 Exception <a 'java/io/FileNotFoundException'> (0x06232458) thrown at [C:\workspace\8-2-build-windows-i586-cygwin\jdk8u181\11358\hotspot\src\share\vm\prims\jni.cpp, line 709]
@@ -411,7 +411,7 @@ java_class_path (initial): C:\dev\OldSchoolRS\jagexappletviewer.jar;C:/dev/OldSc
 Launcher Type: SUN_STANDARD
 
 Environment Variables:
-PATH=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Go\bin;C:\WINDOWS\system32\wbem;C:\Program Files (x86)\IVT Corporation\BlueSoleil\Mobile;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files (x86)\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\WINDOWS\System32\OpenSSH\;C:\Users\djima\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\djima\AppData\Local\Programs\Python\Python36-32\;C:\Users\djima\.cargo\bin;C:\Users\djima\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker Toolbox;C:\Users\djima\AppData\Roaming\npm;C:\Users\djima\AppData\Local\Programs\Fiddler;C:\dev\maven\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk-9.0.4\bin;C:\Users\djima\AppData\Local\Microsoft\WindowsApps
+PATH=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Go\bin;C:\WINDOWS\system32\wbem;C:\Program Files (x86)\IVT Corporation\BlueSoleil\Mobile;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files (x86)\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\WINDOWS\System32\OpenSSH\;C:\Users\djima\AppData\Local\Programs\Python\Python36-32\scripts\;C:\Users\djima\AppData\Local\Programs\Python\Python36-32\;C:\Users\djima\.cargo\bin;C:\Users\djima\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker Toolbox;C:\Users\djima\AppData\Roaming\npm;C:\Users\djima\AppData\Local\Programs\Fiddler;C:\dev\maven\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk-9.0.4\bin;C:\Users\djima\AppData\Local\Microsoft\WindowsApps
 USERNAME=djima
 OS=Windows_NT
 PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 69 Stepping 1, GenuineIntel

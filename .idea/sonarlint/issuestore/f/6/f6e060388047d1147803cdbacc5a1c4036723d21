@@ -1,4 +1,5 @@
 
-usquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(·â×·üÿÿÿÿ
-csquid:UselessImportCheck"5Remove this unused import 'Scripts.Planners.Planner'.(ê¥ùÉùÿÿÿÿ8Õƒâ³û,
-lsquid:UselessImportCheck">Remove this unused import 'Scripts.Planners.PlannerRunescape'.(…­èÿÿÿÿÿÿ8ãÁ¢»û,
+nsquid:UselessImportCheck">Remove this unused import 'Scripts.Planners.PlannerRunescape'.(…­èÿÿÿÿÿÿ8ãÁ¢»û,
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(·â×·üÿÿÿÿ
+esquid:UselessImportCheck"5Remove this unused import 'Scripts.Planners.Planner'.(ê¥ùÉùÿÿÿÿ8Õƒâ³û,
+isquid:UselessImportCheck">Remove this unused import 'org.powerbot.bot.rt4.RandomEvents'.(¥Â¦Û8ê˜ø¬ü,
