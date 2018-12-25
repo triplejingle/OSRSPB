@@ -8,30 +8,32 @@ import scripts.core.goalmethods.IGoal;
 import scripts.core.goalmethods.atomicgoal.GoalMoveTo;
 
 public class GoalWalkToLocation extends CompositeGoal {
-    WalkerMethods walkerMethods =new WalkerMethods(ctx);
+    WalkerMethods walkerMethods = new WalkerMethods(ctx);
     Tile[] path;
-    public GoalWalkToLocation(ClientContext arg0,Tile[] path) {
+
+    public GoalWalkToLocation(ClientContext arg0, Tile[] path) {
         super(arg0);
         this.path = path;
     }
+
     @Override
     protected void setup() {
-        if(setup){
-            setup=false;
-            for(int i = path.length-1;i>=0;i--){
-                addSubGoal(new IdleUntilNearNextLocation(ctx,path[i]));
-                addSubGoal(new GoalMoveTo(ctx,path[i]));
-
+        if (setup) {
+            setup = false;
+            addSubGoal(new GoalMoveTo(ctx, path[path.length - 1]));
+            for (int i = path.length - 2; i >= 0; i--) {
+                addSubGoal(new IdleUntilNearNextLocation(ctx, path[i]));
+                addSubGoal(new GoalMoveTo(ctx, path[i]));
             }
-            goal="walk to location"+ System.currentTimeMillis()/1000;
+            goal = "walk to location" + System.currentTimeMillis() / 1000;
         }
     }
 
     public boolean goalReached() {
-        return walkerMethods.isNear(path[path.length-1]);
+        return walkerMethods.isNear(path[path.length - 1]);
     }
 
-    public boolean isStuck(){
+    public boolean isStuck() {
         return false;
     }
 
@@ -40,8 +42,8 @@ public class GoalWalkToLocation extends CompositeGoal {
         emptyStack();
     }
 
-    public void removeAllSubGoals(){
-        for(IGoal IGoal : children){
+    public void removeAllSubGoals() {
+        for (IGoal IGoal : children) {
             IGoal.terminate();
             children.remove(IGoal);
         }

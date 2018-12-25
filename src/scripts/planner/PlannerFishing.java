@@ -5,6 +5,7 @@ import org.powerbot.script.Tile;
 import org.powerbot.script.rt4.ClientContext;
 import org.powerbot.script.rt4.Game;
 import scripts.core.Player;
+import scripts.core.goalmethods.IGoal;
 import scripts.core.goalmethods.atomicgoal.*;
 import scripts.core.goalmethods.compositegoal.GoalTime;
 import scripts.core.goalmethods.compositegoal.GoalWaitUntilInventoryFull;
@@ -18,9 +19,16 @@ public class PlannerFishing extends Planner {
     String[] userSettings;
     public PlannerFishing(ClientContext arg0, String[] userSettings){
         super(arg0);
-        int minutes = 120;
-        IGoal = new GoalTime(ctx,minutes);
+        IGoal = getGoal(new String[]{"xp","10"});
         this.userSettings = userSettings;
+    }
+
+    private IGoal getGoal(String[] goalInfo){
+        switch (goalInfo[0]){
+            case "xp":
+                return new GoalTime(ctx, Integer.valueOf(goalInfo[1]));
+        }
+        return null;//run until stopped
     }
 
     public void chooseMethod() {
@@ -28,7 +36,6 @@ public class PlannerFishing extends Planner {
         method =0; //random.nextInt(0,1);
         switch(method){
             case 0:
-                System.out.println("fish and bank");
                 fishAndBank(userSettings[1],getCorrespondingPathToBank(userSettings[0]),getCorrespondingPathToFishingSpot(userSettings[0]));
             break;
         }
@@ -53,6 +60,7 @@ public class PlannerFishing extends Planner {
         }
         return null;
     }
+
     Player player = new Player(ctx,"its you but in code");
     private void fishAndBank(String tool,Tile[] pathToBank, Tile[] pathToFishingSpot){
         if(player.isInventoryFull()) {
@@ -89,14 +97,15 @@ public class PlannerFishing extends Planner {
                 return new String[]{""};
         }
     }
-    String getCorrespondingFishingSpot(String tool){
+
+    String[] getCorrespondingFishingSpot(String tool){
         switch (tool){
             case "Small fishing net":
-                return "Small Net";
+                return new String[] {"Small Net","Fishing spot"};
             case "Fly fishing rod":
-                return "Lure";
+                return new String[]{"Lure", "Rod Fishing spot"};
                 default:
-                    return "";
+                    return new String[]{""};
         }
     }
 }
