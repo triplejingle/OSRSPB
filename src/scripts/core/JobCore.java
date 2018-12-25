@@ -2,6 +2,7 @@ package scripts.core;
 
 import org.powerbot.script.PollingScript;
 import org.powerbot.script.rt4.ClientContext;
+import scripts.Gui.FishingGui;
 import scripts.core.enumcollection.state;
 import scripts.core.goalmethods.IGoal;
 import scripts.planner.Planner;

@@ -2,8 +2,9 @@ package scripts.core.goalmethods.atomicgoal;
 
 import org.powerbot.script.rt4.ClientContext;
 import scripts.core.Guide;
+import scripts.core.enumcollection.state;
 
-public class GoalAntiBanCloseGuide extends AtomicGoal {
+public class GoalAntiBanCloseGuide extends AntiBanGoal {
     Guide guide = new Guide(ctx);
 
     public GoalAntiBanCloseGuide(ClientContext arg0) {
@@ -11,6 +12,9 @@ public class GoalAntiBanCloseGuide extends AtomicGoal {
     }
     @Override
     protected void setup() {
+        if(isEnabled==false){
+            this.status= state.COMPLETED;
+        }
         if(setup){
             setup=false;
             System.out.println("Closing guide");

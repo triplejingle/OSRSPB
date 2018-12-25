@@ -5,7 +5,7 @@ import org.powerbot.script.rt4.ClientAccessor;
 import org.powerbot.script.rt4.ClientContext;
 import scripts.core.goalmethods.IGoal;
 import scripts.core.goalmethods.atomicgoal.GoalAntiBanExamineRandomObject;
-import scripts.core.goalmethods.atomicgoal.GoalTurnToObject;
+import scripts.core.goalmethods.atomicgoal.GoalAntiBanTurnToObject;
 import scripts.core.goalmethods.compositegoal.GoalCheckGuide;
 
 import java.util.Stack;
@@ -62,7 +62,7 @@ public abstract class Planner extends ClientAccessor {
             case 1:
                 return new GoalAntiBanExamineRandomObject(ctx);
             case 2:
-                return  new GoalTurnToObject(ctx);
+                return  new GoalAntiBanTurnToObject(ctx);
             default:
                 return new GoalAntiBanExamineRandomObject(ctx);
         }

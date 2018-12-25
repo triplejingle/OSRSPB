@@ -35,9 +35,12 @@ public abstract class CompositeGoal extends ClientAccessor implements IGoal {
 		if (isStuck()) {
 			System.out.println("task failed when executing "+goal);
 			status = state.FAILED;
+			return status;
 		} else if (goalReached()) {
 			System.out.println("goal reached "+ goal);
 			status = state.COMPLETED;
+			terminate();
+			return status;
 		}
         activateIfInactive();
 		return status;
@@ -48,7 +51,6 @@ public abstract class CompositeGoal extends ClientAccessor implements IGoal {
     public void activateIfInactive(){
         if(status==state.INACTIVE){
             status = state.ACTIVE;
-
         }
         if(status==state.ACTIVE){
             activate();

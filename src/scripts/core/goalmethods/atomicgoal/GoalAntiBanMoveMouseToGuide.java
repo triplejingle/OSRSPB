@@ -2,8 +2,9 @@ package scripts.core.goalmethods.atomicgoal;
 
 import org.powerbot.script.rt4.ClientContext;
 import scripts.core.Guide;
+import scripts.core.enumcollection.state;
 
-public class GoalAntiBanMoveMouseToGuide extends AtomicGoal {
+public class GoalAntiBanMoveMouseToGuide extends AntiBanGoal {
     Guide guide = new Guide(ctx);
 
     public GoalAntiBanMoveMouseToGuide(ClientContext arg0) {
@@ -11,6 +12,9 @@ public class GoalAntiBanMoveMouseToGuide extends AtomicGoal {
     }
     @Override
     protected void setup() {
+        if(isEnabled==false){
+            this.status= state.COMPLETED;
+        }
         if(setup){
             setup=false;
             activateTimer.setPeriodBetween(2000,4000);

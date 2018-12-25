@@ -4,9 +4,10 @@ import org.powerbot.script.rt4.ClientContext;
 import org.powerbot.script.rt4.GameObject;
 import scripts.core.Object;
 import scripts.core.data.ObjectData;
+import scripts.core.enumcollection.state;
 import scripts.core.selector.ObjectSelector;
 
-public class GoalAntiBanExamineRandomObject extends AtomicGoal {
+public class GoalAntiBanExamineRandomObject extends AntiBanGoal {
     Object object = new Object(ctx);
     ObjectData objectData = new ObjectData(ctx);
     ObjectSelector objectSelector = new ObjectSelector(ctx);
@@ -15,6 +16,9 @@ public class GoalAntiBanExamineRandomObject extends AtomicGoal {
     }
     @Override
     protected void setup() {
+        if(isEnabled==false){
+            this.status= state.COMPLETED;
+        }
         if(setup){
             setup=false;
             activateTimer.setPeriodBetween(7000,10000);

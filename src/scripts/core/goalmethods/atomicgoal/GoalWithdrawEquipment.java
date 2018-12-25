@@ -5,13 +5,13 @@ import scripts.core.Bank;
 import scripts.core.Player;
 
 public class GoalWithdrawEquipment extends AtomicGoal {
-    int itemId;
+    String itemName;
     int amount;
     Bank bank = new Bank(ctx);
     Player player = new Player(ctx,"its you but in code");
-    public GoalWithdrawEquipment(ClientContext arg0, int itemId) {
+    public GoalWithdrawEquipment(ClientContext arg0, String itemName) {
         super(arg0);
-        this.itemId = itemId;
+        this.itemName = itemName;
     }
     @Override
     protected void setup() {
@@ -26,7 +26,7 @@ public class GoalWithdrawEquipment extends AtomicGoal {
     @Override
     public void activate() {
         if(madeAttempt==false) {
-            if(bank.withdraw(itemId, amount)){
+            if(bank.withdraw(itemName, amount)){
                 madeAttempt=true;
                 executeTimer.setPeriodBetween(5000,10000);
             }
@@ -39,14 +39,9 @@ public class GoalWithdrawEquipment extends AtomicGoal {
 
     int prevNumberOfItems;
 
-
     @Override
     public void terminate() {
 
-    }
-
-    public void addEquipment(int equipmentId){
-        itemId = equipmentId;
     }
 
     public boolean isStuck() {

@@ -14,6 +14,7 @@ public class GoalMoveTo extends AtomicGoal {
         this.nextLocation= nextLocation;
         PlayerData.setPlayer(playerSelector.local());
     }
+
     @Override
     protected void setup() {
         if(setup){
@@ -32,7 +33,6 @@ public class GoalMoveTo extends AtomicGoal {
                 executeTimer.setPeriodBetween(3000,5000);
             }
         }
-        ctx.camera.turnTo(nextLocation);
     }
 
     @Override
@@ -42,7 +42,7 @@ public class GoalMoveTo extends AtomicGoal {
 
     @Override
     public boolean goalReached() {
-        return walkerMethods.isNear(nextLocation);
+        return walkerMethods.isDestinationSetNearTile(nextLocation);
     }
 
     @Override

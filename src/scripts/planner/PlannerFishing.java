@@ -15,11 +15,12 @@ public class PlannerFishing extends Planner {
     public final Tile[] barbarianVillageFishToEdgeBank = ctx.movement.newTilePath(BankToBarbarianvillageFish).reverse().toArray();
     Tile[] fishDraynor = {new Tile(3090, 3232,0)};
     Tile[] draynorBank = {new Tile(3094, 3243,0)};
-
-    public PlannerFishing(ClientContext arg0){
+    String[] userSettings;
+    public PlannerFishing(ClientContext arg0, String[] userSettings){
         super(arg0);
         int minutes = 120;
         IGoal = new GoalTime(ctx,minutes);
+        this.userSettings = userSettings;
     }
 
     public void chooseMethod() {
@@ -28,37 +29,74 @@ public class PlannerFishing extends Planner {
         switch(method){
             case 0:
                 System.out.println("fish and bank");
-                fishAndBank();
+                fishAndBank(userSettings[1],getCorrespondingPathToBank(userSettings[0]),getCorrespondingPathToFishingSpot(userSettings[0]));
             break;
         }
     }
 
-    Player player = new Player(ctx,"its you but in code");
-    private void fishAndBank(){
-        int fishingNet = 303;
+    Tile[] getCorrespondingPathToBank(String location){
+        switch (location){
+            case "Barbarian village":
+                return barbarianVillageFishToEdgeBank;
+            case "Draynor village":
+                return draynorBank;
+        }
+        return null;
+    }
 
+    Tile[] getCorrespondingPathToFishingSpot(String location){
+        switch (location){
+            case "Barbarian village":
+                return BankToBarbarianvillageFish;
+            case "Draynor village":
+                return fishDraynor;
+        }
+        return null;
+    }
+    Player player = new Player(ctx,"its you but in code");
+    private void fishAndBank(String tool,Tile[] pathToBank, Tile[] pathToFishingSpot){
         if(player.isInventoryFull()) {
-	        //addRandomAntiBan();
             IGoal.addSubGoal(new GoalCloseBank(ctx));
-            IGoal.addSubGoal(new GoalBankAllItemsExcept(ctx,"Small fishing net"));
+            IGoal.addSubGoal(new GoalBankAllItemsExcept(ctx,getCorrespondingTool(tool)));
             IGoal.addSubGoal(new GoalOpenBank(ctx));
-            IGoal.addSubGoal(new GoalWalkToLocation(ctx,draynorBank));
+            IGoal.addSubGoal(new GoalWalkToLocation(ctx,pathToBank));
         }else {
             IGoal.addSubGoal(new GoalWaitUntilInventoryFull(ctx));
-            IGoal.addSubGoal(new GoalFish(ctx, "Small Net"));
-	       // addRandomAntiBan();
-            if(ctx.game.tab()!= Game.Tab.INVENTORY) {
-                IGoal.addSubGoal(new GoalSwitchTab(ctx, Game.Tab.INVENTORY));
-            }
-            IGoal.addSubGoal(new GoalWalkToLocation(ctx, fishDraynor));
+            IGoal.addSubGoal(new GoalFish(ctx, getCorrespondingFishingSpot(tool)));
+            IGoal.addSubGoal(new GoalSwitchTab(ctx, Game.Tab.INVENTORY));
+            IGoal.addSubGoal(new GoalWalkToLocation(ctx, pathToFishingSpot));
         }
-       if(!player.hasItem(fishingNet)) {
-        	addRandomAntiBan();
+       if(!player.hasItem(getCorrespondingTool(tool))) {
            IGoal.addSubGoal(new GoalCloseBank(ctx));
-           IGoal.addSubGoal(new GoalWithdrawEquipment(ctx, fishingNet));
+           String[] tools = getCorrespondingTool(tool);
+           for(String missingTool:tools) {
+               if(!player.hasItem(new String[]{missingTool})) {
+                   IGoal.addSubGoal(new GoalWithdrawEquipment(ctx, missingTool));
+               }
+           }
            IGoal.addSubGoal(new GoalOpenBank(ctx));
-           IGoal.addSubGoal(new GoalWalkToLocation(ctx,draynorBank));
+           IGoal.addSubGoal(new GoalWalkToLocation(ctx,pathToBank));
        }
     }
 
+    String[] getCorrespondingTool(String tool){
+        switch (tool){
+            case "Small fishing net":
+                return new String[]{"Small fishing net"};
+            case "Fly fishing rod":
+                return new String[]{"Fly fishing rod","Feather"};
+            default:
+                return new String[]{""};
+        }
+    }
+    String getCorrespondingFishingSpot(String tool){
+        switch (tool){
+            case "Small fishing net":
+                return "Small Net";
+            case "Fly fishing rod":
+                return "Lure";
+                default:
+                    return "";
+        }
+    }
 }

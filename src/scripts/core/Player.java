@@ -49,7 +49,7 @@ public class Player extends Core{
          return false;
     }
 
-    public boolean hasItem(String item) {
+    public boolean hasItem(String[] item) {
         if(ctx.inventory.select().name(item).count()>0){
             return true;
         }

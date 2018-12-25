@@ -17,7 +17,7 @@ public class PlannerRunescape extends Planner {
 
                 break;
             case 1:
-                planner = new PlannerFishing(ctx);
+               // planner = new PlannerFishing(ctx, userSettings);
                 planner.plan();
 
                 break;

@@ -1,12 +1,13 @@
 package scripts.tools;
 
-import org.powerbot.script.Random;
+import java.util.Random;
 
 public class ATimer {
      long end = 0;
      long start = 0;
-    private static Random random = new Random();
 
+    private static Random random = new Random();
+    float multiplier;
     public void setPeriod(int period) {
         if(this.period==0||period==0) {
             this.period = period;
@@ -15,7 +16,10 @@ public class ATimer {
     }
 
     public void setPeriodBetween(int begin, int end){
-        setPeriod(random.nextInt(begin,end));
+        int boundEnd=random.nextInt((int) (end*multiplier));
+        int boundStart=random.nextInt((int) (begin*multiplier));
+
+        setPeriod(boundEnd+boundStart);
     }
 
     public long getPeriod() {
@@ -25,7 +29,7 @@ public class ATimer {
     private int period = 0;
 
     public ATimer() {
-
+        multiplier = random.nextFloat()+1;
     }
 
     public boolean isTime() {

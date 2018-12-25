@@ -4,13 +4,16 @@ import org.powerbot.script.rt4.ClientContext;
 import scripts.core.Guide;
 import scripts.core.enumcollection.state;
 
-public class GoalAntiBanScrollThroughGuide extends AtomicGoal {
+public class GoalAntiBanScrollThroughGuide extends AntiBanGoal {
     Guide guide = new Guide(ctx);
     public GoalAntiBanScrollThroughGuide(ClientContext arg0) {
         super(arg0);
     }
     @Override
     protected void setup() {
+        if(isEnabled==false){
+            this.status=state.COMPLETED;
+        }
         if(setup){
             setup=false;
             activateTimer.setPeriodBetween(1000,6000);

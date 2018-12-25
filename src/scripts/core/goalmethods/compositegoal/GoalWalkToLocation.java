@@ -19,8 +19,9 @@ public class GoalWalkToLocation extends CompositeGoal {
         if(setup){
             setup=false;
             for(int i = path.length-1;i>=0;i--){
-                IGoal goal = new GoalMoveTo(ctx,path[i]);
-                addSubGoal(goal);
+                addSubGoal(new IdleUntilNearNextLocation(ctx,path[i]));
+                addSubGoal(new GoalMoveTo(ctx,path[i]));
+
             }
             goal="walk to location"+ System.currentTimeMillis()/1000;
         }

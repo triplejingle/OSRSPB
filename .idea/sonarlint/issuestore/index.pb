@@ -115,8 +115,6 @@ f
 6src/Scripts/Core/GoalMethods/atomicgoal/GoalMine1.java,a\0\a067f2232a777cb7f07986828ee6f367b91b4bf4
 m
 =src/Scripts/Core/GoalMethods/compositegoal/CompositeGoal.java,a\7\a7b4ecfe352623327a139fe290f75bf0ccb72d37
-m
-=src/Scripts/Core/GoalMethods/atomicgoal/GoalTurnToObject.java,7\a\7a5d41b5664242bc368539138315ee028a373e7f
 q
 Asrc/Scripts/Core/GoalMethods/atomicgoal/GoalAntiBanOpenGuide.java,a\d\ad302830ceb1769074fb504c608bf5a980eee6a9
 W

@@ -22,7 +22,7 @@ public class GoalFish extends AtomicGoal {
         if(setup){
             setup=false;
             activateTimer.setPeriodBetween(8000,10000);
-            NpcData.setNpc(npcSelector.select().name("Fishing spot").nearest().poll());
+            NpcData.setNpc(npcSelector.select().name("Rod Fishing spot").nearest().poll());
             System.out.println("i'm fishing");
             goal="fish"+ System.currentTimeMillis()/1000;
             StatsData.addSkill(Constants.SKILLS_FISHING);

@@ -3,20 +3,24 @@ package scripts.core.goalmethods.atomicgoal;
 import org.powerbot.script.rt4.ClientContext;
 import scripts.core.data.IObjectData;
 import scripts.core.data.ObjectData;
+import scripts.core.enumcollection.state;
 import scripts.core.selector.ObjectSelector;
 
-public class GoalTurnToObject extends AtomicGoal {
+public class GoalAntiBanTurnToObject extends AntiBanGoal {
     IObjectData iObjectData=new ObjectData(ctx);
     ObjectSelector objectSelector = new ObjectSelector(ctx);
-    public GoalTurnToObject(ClientContext arg0) {
+    public GoalAntiBanTurnToObject(ClientContext arg0) {
         super(arg0);
     }
     @Override
     protected void setup() {
+        if(isEnabled==false){
+            this.status= state.COMPLETED;
+        }
         if(setup){
             setup=false;
             activateTimer.setPeriodBetween(300,1000);
-            iObjectData.setObject(objectSelector.select().shuffle().poll());
+            IObjectData.setObject(objectSelector.select().shuffle().poll());
             goal="goal turn to object"+ System.currentTimeMillis()/1000;
         }
     }

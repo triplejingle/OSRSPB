@@ -9,11 +9,12 @@ public class GoalBankAllItemsExcept extends AtomicGoal {
     private int prevItems;
     Bank bank =  new Bank(ctx);
     InventoryData inventoryData = new InventoryData(ctx);
-    String item;
-    public GoalBankAllItemsExcept(ClientContext arg0, String item) {
+    String[] item;
+    public GoalBankAllItemsExcept(ClientContext arg0, String[] item) {
         super(arg0);
         this.item =item;
     }
+
     @Override
     protected void setup() {
         if(setup){

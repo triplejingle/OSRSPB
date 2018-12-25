@@ -3,6 +3,7 @@ package scripts.core;
 
 import org.powerbot.script.Random;
 import org.powerbot.script.rt4.ClientContext;
+import org.powerbot.script.rt4.Item;
 import scripts.core.interfaces.Core;
 import scripts.tools.ATimer;
 import scripts.tools.factory.BankFactory;
@@ -37,7 +38,7 @@ public class Bank extends Core {
         return false;
     }
 
-    public boolean depositAllItemsExcept(String item){
+    public boolean depositAllItemsExcept(String[] item){
 	    depositATimer.setPeriod(random.nextInt(1000, 3000));
 	    if (depositATimer.isTime()) {
 		    return ctx.bank.depositAllExcept(item);
@@ -64,10 +65,17 @@ public class Bank extends Core {
         return false;
     }
 
-    public boolean withdraw(int itemId, int amount){
+    public boolean withdraw(String itemName, int amount){
         withdrawATimer.setPeriod(random.nextInt(800,2000));
         if(withdrawATimer.isTime()) {
-            return ctx.bank.withdraw(itemId, amount);
+            int itemID =0;
+            for(Item item : ctx.bank.select()){
+                if(item.name().equals(itemName)){
+                    itemID = item.id();
+                    break;
+                }
+            }
+            return ctx.bank.withdraw(itemID, amount);
         }
         return false;
     }
