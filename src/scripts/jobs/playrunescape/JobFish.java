@@ -5,8 +5,8 @@ import scripts.Gui.FishingGui;
 import scripts.core.JobCore;
 import scripts.planner.PlannerFishing;
 
-@Script.Manifest(name = "playRunescape", description = "for testing purposes", properties = "author=triplejingle; topic=999; client=4;")
-public class JobPlayRunescape extends JobCore{
+@Script.Manifest(name = "Random newbies fisher", description = "for testing purposes", properties = "author=triplejingle; topic=999; client=4;")
+public class JobFish extends JobCore{
     FishingGui fishingGui = new FishingGui();
     @Override
     public void start() {

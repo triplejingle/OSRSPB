@@ -42,11 +42,7 @@ public class Player extends Core{
     }
 
     public boolean switchToTab(Game.Tab tab){
-         if(ctx.game.tab(tab)) {
-             //return ctx.input.click(true);
-             return true;
-         }
-         return false;
+         return ctx.game.tab(tab);
     }
 
     public boolean hasItem(String[] item) {

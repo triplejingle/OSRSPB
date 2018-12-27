@@ -1,11 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="OldSchoolRS:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="34c1e6d7-e41a-4a72-b73b-33439bc802c1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/RSBot.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalFish.java" afterPath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalFish.java" />
+      <change beforePath="$PROJECT_DIR$/OldSchoolRS.iml" afterPath="$PROJECT_DIR$/OldSchoolRS.iml" />
+      <change beforePath="$PROJECT_DIR$/out/Scripts/Core/Bank.class" afterPath="$PROJECT_DIR$/out/Scripts/Core/Bank.class" />
+      <change beforePath="$PROJECT_DIR$/out/Scripts/Core/JobCore.class" afterPath="$PROJECT_DIR$/out/Scripts/Core/JobCore.class" />
+      <change beforePath="$PROJECT_DIR$/out/Scripts/Core/Player.class" afterPath="$PROJECT_DIR$/out/Scripts/Core/Player.class" />
+      <change beforePath="$PROJECT_DIR$/out/Scripts/Core/WalkerMethods.class" afterPath="$PROJECT_DIR$/out/Scripts/Core/WalkerMethods.class" />
+      <change beforePath="$PROJECT_DIR$/out/Scripts/Jobs/PlayRunescape/JobPlayRunescape.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Scripts/core/WalkerMethods.java" afterPath="$PROJECT_DIR$/src/Scripts/core/WalkerMethods.java" />
+      <change beforePath="$PROJECT_DIR$/src/Scripts/core/goalmethods/atomicgoal/GoalOpenBank.java" afterPath="$PROJECT_DIR$/src/Scripts/core/goalmethods/atomicgoal/GoalOpenBank.java" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/core/Bank.java" afterPath="$PROJECT_DIR$/src/scripts/core/Bank.java" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/core/JobCore.java" afterPath="$PROJECT_DIR$/src/scripts/core/JobCore.java" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/core/Player.java" afterPath="$PROJECT_DIR$/src/scripts/core/Player.java" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanCheckStatsXp.java" afterPath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanHoverMouseAboveStats.java" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanCloseGuide.java" afterPath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanCloseGuide.java" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanExamineRandomObject.java" afterPath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanExamineRandomObject.java" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanTurnToObject.java" afterPath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanTurnToObject.java" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalBankAllItemsExcept.java" afterPath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalBankItemsExcept.java" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalFish.java" afterPath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalClickOnFishingSpot.java" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalMoveTo.java" afterPath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalMoveTo.java" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalSwitchTab.java" afterPath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalSwitchTab.java" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/CompositeGoal.java" afterPath="$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/CompositeGoal.java" />
       <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalWalkToLocation.java" afterPath="$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalWalkToLocation.java" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/jobs/playrunescape/JobPlayRunescape.java" afterPath="$PROJECT_DIR$/src/scripts/jobs/playrunescape/JobFish.java" />
       <change beforePath="$PROJECT_DIR$/src/scripts/planner/PlannerFishing.java" afterPath="$PROJECT_DIR$/src/scripts/planner/PlannerFishing.java" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/planner/PlannerMining.java" afterPath="$PROJECT_DIR$/src/scripts/planner/PlannerMining.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,21 +65,60 @@
       <file leaf-file-name="GoalMoveTo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalMoveTo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+            <state relative-caret-position="68">
+              <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlannerFishing.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scripts/planner/PlannerFishing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="70" column="38" lean-forward="false" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
               <folding>
-                <element signature="e#1232#1233#0" expanded="true" />
-                <element signature="e#1307#1308#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JobPlayRunescape.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scripts/jobs/playrunescape/JobPlayRunescape.java">
+      <file leaf-file-name="GoalGetEquipment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalGetEquipment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+            <state relative-caret-position="118">
+              <caret line="27" column="52" lean-forward="false" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoalAntiBanTurnToObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanTurnToObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FishingGui.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scripts/Gui/FishingGui.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="25" column="68" lean-forward="false" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WalkerMethods.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scripts/core/WalkerMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="39" column="57" lean-forward="false" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -60,8 +127,8 @@
       <file leaf-file-name="JobCore.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scripts/core/JobCore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="-34">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -70,85 +137,29 @@
       <file leaf-file-name="GoalWalkToLocation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalWalkToLocation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-              <folding>
-                <element signature="e#1094#1095#0" expanded="true" />
-                <element signature="e#1122#1123#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlannerFishing.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/scripts/planner/PlannerFishing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="107" column="44" lean-forward="false" selection-start-line="107" selection-start-column="44" selection-end-line="107" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoalFish.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalFish.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="33" column="43" lean-forward="false" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+            <state relative-caret-position="169">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NPC.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scripts/core/NPC.java">
+      <file leaf-file-name="GoalOpenBankComp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalOpenBankComp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="28" column="44" lean-forward="false" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+            <state relative-caret-position="231">
+              <caret line="28" column="55" lean-forward="false" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NpcData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scripts/core/data/NpcData.java">
+      <file leaf-file-name="GoalWaitUntilInventoryFull.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalWaitUntilInventoryFull.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+            <state relative-caret-position="226">
+              <caret line="60" column="46" lean-forward="false" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IdleUntilNearNextLocation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/IdleUntilNearNextLocation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#638#639#0" expanded="true" />
-                <element signature="e#695#696#0" expanded="true" />
-                <element signature="e#848#849#0" expanded="true" />
-                <element signature="e#876#877#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WalkerMethods.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scripts/core/WalkerMethods.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1989">
-              <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-              <folding>
-                <element signature="e#4263#4264#0" expanded="true" />
-                <element signature="e#4339#4340#0" expanded="true" />
-                <element signature="e#4379#4380#0" expanded="true" />
-                <element signature="e#4448#4449#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -166,21 +177,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>small</find>
-      <find>fish and</find>
-      <find>fish and b</find>
-      <find>PlannerFishing</find>
-      <find>proce</find>
-      <find>subgoal</find>
-      <find>plan</find>
-      <find>execute</find>
-      <find>activate</find>
-      <find>type</find>
-      <find>tab</find>
-      <find>fact</find>
-      <find>select</find>
-      <find>move</find>
-      <find>contains</find>
       <find>fish and bank</find>
       <find>SKi</find>
       <find>FI</find>
@@ -196,6 +192,21 @@
       <find>multi</find>
       <find>propert</find>
       <find>list</find>
+      <find>is</find>
+      <find>f</find>
+      <find>(3098, 3473, 0)</find>
+      <find>(3098, 3473, 0</find>
+      <find>3098, 3473, 0</find>
+      <find>while</find>
+      <find>fa</find>
+      <find>fail</find>
+      <find>just afk</find>
+      <find>main</find>
+      <find>failed</find>
+      <find>(3093, 3494, 0)</find>
+      <find>(3098, 3483, 0)</find>
+      <find>(3089, 3450, 0)</find>
+      <find>(3098, 3482, 0)</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -204,6 +215,7 @@
       <dir>C:\dev\OldSchoolRS\RSBot.jar!\org\powerbot\script</dir>
       <dir>C:\dev\OldSchoolRS\src\Scripts\Tools</dir>
       <dir>C:\dev\OSRSPB\src\Scripts\Core\GoalMethods</dir>
+      <dir>C:\dev\OSRSPB\src</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -217,57 +229,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/scripts/core/enumcollection/Skills.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/Guide.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/data/StatsData.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/selector/ObjectSelector.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalWaitUntilAnimationStopped.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/IGoal.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/AtomicGoalTemplate.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/AtomicGoalWaitUntilAnimationStopped.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalBankAllItems.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalCloseBank.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalDropItem.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalIdle.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalMine1.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalOpenBank.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalSwitchTab.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalCheckGuide.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalNoChildren.java" />
         <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalRunAway.java" />
         <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalTime.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalWaitUntilInventoryFull.java" />
         <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalXp.java" />
         <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanScrollThroughGuide.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanCloseGuide.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanExamineRandomObject.java" />
         <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanMouseFromScreen.java" />
         <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanMoveMouseToGuide.java" />
         <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanOpenGuide.java" />
         <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalTurnToObject.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanCheckStatsXp.java" />
         <option value="$PROJECT_DIR$/src/scripts/tools/ATimer.java" />
         <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/AntiBanGoal.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/data/ObjectData.java" />
         <option value="$PROJECT_DIR$/src/scripts/core/data/IObjectData.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanTurnToObject.java" />
         <option value="$PROJECT_DIR$/src/scripts/core/data/IPlayerData.java" />
         <option value="$PROJECT_DIR$/src/scripts/core/data/PlayerData.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/AtomicGoal.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalMoveTo.java" />
         <option value="$PROJECT_DIR$/src/scripts/planner/PlannerRunescape.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalWithdrawEquipment.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalFish.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/data/ObjectData.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/Bank.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalOpenBank.java" />
+        <option value="$PROJECT_DIR$/src/scripts/planner/PlannerMining.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanCheckStatsXp.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalSwitchTab.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanCloseGuide.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanHoverMouseAboveStats.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalBankAllItemsExcept.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalBankItemsExcept.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalFishComp.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalBankAllItemsExcept.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalOpenBank.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/AtomicGoal.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalAntiBanCheckXp.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/IdleUntilNearNextLocation.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/JobCore.java" />
         <option value="$PROJECT_DIR$/src/scripts/jobs/playrunescape/JobPlayRunescape.java" />
         <option value="$PROJECT_DIR$/src/scripts/Gui/FishingGui.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/Bank.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalBankAllItemsExcept.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/JobCore.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalWithdrawEquipment.java" />
         <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/CompositeGoal.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/WalkerMethods.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/IdleUntilNearNextLocation.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalWalkToLocation.java" />
-        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalFish.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalClickOnFishingSpot.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/data/NpcData.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanExamineRandomObject.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/Player.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalMoveToNpc.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalFish.java" />
         <option value="$PROJECT_DIR$/src/scripts/planner/PlannerFishing.java" />
+        <option value="$PROJECT_DIR$/src/scripts/jobs/playrunescape/JobFish.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/WalkerMethods.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalMoveTo.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalWalkToLocation.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalOpenBankComp.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalGetEquipment.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanTurnToObject.java" />
+        <option value="$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalWaitUntilInventoryFull.java" />
       </list>
     </option>
   </component>
@@ -307,7 +319,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -318,37 +331,45 @@
             <path>
               <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
               <item name="OSRSPB" type="462c0819:PsiDirectoryNode" />
-              <item name="RSBot.jar" type="ab9368bb:PsiFileNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
               <item name="OSRSPB" type="462c0819:PsiDirectoryNode" />
-              <item name="RSBot.jar" type="ab9368bb:PsiFileNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OSRSPB" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OSRSPB" type="462c0819:PsiDirectoryNode" />
+              <item name="RSBot-7085.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OSRSPB" type="462c0819:PsiDirectoryNode" />
+              <item name="RSBot-7085.jar" type="ab9368bb:PsiFileNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
               <item name="OSRSPB" type="462c0819:PsiDirectoryNode" />
-              <item name="RSBot.jar" type="ab9368bb:PsiFileNode" />
+              <item name="RSBot-7085.jar" type="ab9368bb:PsiFileNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="powerbot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
               <item name="OSRSPB" type="462c0819:PsiDirectoryNode" />
-              <item name="RSBot.jar" type="ab9368bb:PsiFileNode" />
+              <item name="RSBot-7085.jar" type="ab9368bb:PsiFileNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="powerbot" type="462c0819:PsiDirectoryNode" />
-              <item name="script" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OSRSPB" type="462c0819:PsiDirectoryNode" />
-              <item name="RSBot.jar" type="ab9368bb:PsiFileNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="powerbot" type="462c0819:PsiDirectoryNode" />
-              <item name="script" type="462c0819:PsiDirectoryNode" />
-              <item name="rt4" type="462c0819:PsiDirectoryNode" />
+              <item name="bot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
@@ -367,22 +388,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OSRSPB" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OSRSPB" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
@@ -437,71 +442,23 @@
               <item name="OSRSPB" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="location" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OSRSPB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
               <item name="planner" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OSRSPB" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OSRSPB" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="deploy.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="deploy.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="deploy.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="deploy.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="deploy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="deploy.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="deploy" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
@@ -515,6 +472,22 @@
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
@@ -529,59 +502,62 @@
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javax" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OSRSPB" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javax" type="462c0819:PsiDirectoryNode" />
-              <item name="swing" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+              <item name="misc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15234375" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="GO_FMT" value="false" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="osrspb" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\dev\OldSchoolRS\src\Scripts\Jobs\PlayRunescape" />
-      <recent name="C:\dev\OldSchoolRS\src\Scripts\Jobs\WalkTo" />
-      <recent name="C:\dev\OldSchoolRS\src\Scripts\Jobs\WalkGenerator" />
-      <recent name="C:\dev\OldSchoolRS\src\Scripts\Jobs\Crafting" />
-      <recent name="C:\dev\OldSchoolRS\src\Scripts\Jobs\Woodcutting" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="scripts.core.goalmethods.atomicgoal" />
-      <recent name="scripts.core.selector" />
-      <recent name="scripts.core.data" />
-      <recent name="Scripts.Core.GoalMethods.AtomicGoal" />
-      <recent name="Scripts.Tools.Factory" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="scripts.core.goalmethods.compositegoal" />
       <recent name="scripts.core.goalmethods.atomicgoal" />
       <recent name="Scripts.Core.GoalMethods" />
       <recent name="Scripts.Core.Data" />
       <recent name="Scripts.Collection" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="scripts.core.goalmethods.atomicgoal" />
+      <recent name="scripts.core.goalmethods.compositegoal" />
+      <recent name="scripts.core.selector" />
+      <recent name="scripts.core.data" />
+      <recent name="Scripts.Core.GoalMethods.AtomicGoal" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\OSRSPB" />
+      <recent name="C:\dev\OldSchoolRS\src\Scripts\Jobs\PlayRunescape" />
+      <recent name="C:\dev\OldSchoolRS\src\Scripts\Jobs\WalkTo" />
+      <recent name="C:\dev\OldSchoolRS\src\Scripts\Jobs\WalkGenerator" />
+      <recent name="C:\dev\OldSchoolRS\src\Scripts\Jobs\Crafting" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -596,7 +572,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JAR Application.Unnamed">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -637,6 +613,16 @@
       </option>
       <envs />
       <patterns />
+    </configuration>
+    <configuration name="RSBot-7085.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/RSBot-7085.jar" />
+      <envs />
+    </configuration>
+    <configuration name="RSBot.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/RSBot.jar" />
+      <envs />
     </configuration>
     <configuration name="Unnamed" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -688,6 +674,17 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="JAR Application.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="JAR Application.RSBot.jar" />
+      <item index="2" class="java.lang.String" itemvalue="JAR Application.RSBot-7085.jar" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JAR Application.RSBot-7085.jar" />
+        <item index="1" class="java.lang.String" itemvalue="JAR Application.RSBot.jar" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -769,7 +766,10 @@
       <workItem from="1545498371794" duration="42586000" />
       <workItem from="1545646414947" duration="2659000" />
       <workItem from="1545670687986" duration="17074000" />
-      <workItem from="1545729408956" duration="604000" />
+      <workItem from="1545729408956" duration="668000" />
+      <workItem from="1545730131421" duration="22955000" />
+      <workItem from="1545816226830" duration="22691000" />
+      <workItem from="1545904125268" duration="24484000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1543501482164</created>
@@ -813,11 +813,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545696948523</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="destination tile changed">
+      <created>1545730059399</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1545730059399</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1067533000" />
+    <option name="totallyTimeSpent" value="1137727000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -830,12 +837,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cargo" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46546054" sideWeight="0.11043873" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39144737" sideWeight="0.17927383" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.055219363" sideWeight="0.4888889" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -845,17 +851,18 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27912253" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19667171" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46546054" sideWeight="0.8895613" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39144737" sideWeight="0.82072616" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5574887" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32072368" sideWeight="0.4054463" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32072368" sideWeight="0.36459908" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31743422" sideWeight="0.45763993" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31743422" sideWeight="0.4697428" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2322239" sideWeight="0.7661539" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25037822" sideWeight="0.7661539" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.4969743" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32072368" sideWeight="0.44478065" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22239032" sideWeight="0.23384616" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -867,7 +874,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.055895865" sideWeight="0.51111114" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32072368" sideWeight="0.44478065" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -922,7 +928,8 @@
     <MESSAGE value="selector object data" />
     <MESSAGE value="selector object data map refactor" />
     <MESSAGE value="refactoring + antiban" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring + antiban" />
+    <MESSAGE value="destination tile changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="destination tile changed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -957,417 +964,507 @@
           <properties />
           <option name="timeStamp" value="1258" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/java/net/URL.java</url>
+          <line>746</line>
+          <properties />
+          <option name="timeStamp" value="1648" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1571" />
+      <option name="time" value="1655" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="JarApplication">
-        <watch expression="ctx.inventory" language="JAVA" />
-      </configuration>
-    </watches-manager>
+    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalCloseBank.java">
+    <entry file="file://$PROJECT_DIR$/src/scripts/core/Bank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="130">
+          <caret line="91" column="27" lean-forward="false" selection-start-line="91" selection-start-column="27" selection-end-line="91" selection-end-column="27" />
+          <folding>
+            <element signature="e#2644#2645#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalDropItem.java">
+    <entry file="file://$PROJECT_DIR$/src/scripts/planner/PlannerMining.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="62" lean-forward="false" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalIdle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="19" column="57" lean-forward="false" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalMine1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalOpenBank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalSwitchTab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="21" column="63" lean-forward="false" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+        <state relative-caret-position="39">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalNoChildren.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalRunAway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalCheckGuide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanExamineRandomObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" column="63" lean-forward="false" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanMouseFromScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="59" lean-forward="false" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanMoveMouseToGuide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanOpenGuide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanScrollThroughGuide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanCloseGuide.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanCheckStatsXp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/tools/ATimer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/AntiBanGoal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/data/ObjectData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/data/IObjectData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanTurnToObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/data/IPlayerData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/data/PlayerData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="61" column="13" lean-forward="false" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/javax/swing/BoxLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="148" column="28" lean-forward="false" selection-start-line="148" selection-start-column="28" selection-end-line="148" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/javax/swing/BorderFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="86" column="6" lean-forward="true" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/javax/swing/JComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="1775" column="56" lean-forward="true" selection-start-line="1775" selection-start-column="56" selection-end-line="1775" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/javax/swing/JComboBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="295" column="7" lean-forward="true" selection-start-line="295" selection-start-column="7" selection-end-line="295" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="361" column="6" lean-forward="true" selection-start-line="361" selection-start-column="6" selection-end-line="361" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/RSBot.jar!/org/powerbot/script/ClientContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="90" column="1" lean-forward="true" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/RSBot.jar!/org/powerbot/script/AbstractScript.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="153" column="38" lean-forward="false" selection-start-line="153" selection-start-column="37" selection-end-line="153" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/Player.java">
+    <entry file="jar://$PROJECT_DIR$/RSBot.jar!/org/powerbot/script/Random.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="51" column="19" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/Bank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-          <folding>
-            <element signature="e#2386#2387#0" expanded="false" />
-            <element signature="e#2430#2431#0" expanded="false" />
-            <element signature="e#2467#2468#0" expanded="false" />
-            <element signature="e#2534#2535#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/planner/PlannerRunescape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalBankAllItemsExcept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-          <folding />
+          <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalWithdrawEquipment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
+        <state relative-caret-position="549">
           <caret line="39" column="26" lean-forward="false" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/Gui/FishingGui.java">
+    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/AtomicGoalTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+        <state relative-caret-position="68">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalBankAllItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="33" column="15" lean-forward="true" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalBankItemsExcept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalOpenBank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/RSBot.jar!/org/powerbot/script/rt4/Actor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="141" column="0" lean-forward="false" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/RSBot.jar!/org/powerbot/script/PollingScript.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/AntiBanGoal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/RSBot.jar!/org/powerbot/script/rt4/Movement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/AtomicGoal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="73" column="21" lean-forward="true" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+        <state relative-caret-position="85">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalWaitUntilInventoryFull.java">
+    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalIdle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5397" column="30" lean-forward="false" selection-start-line="5397" selection-start-column="30" selection-end-line="5397" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/planner/PlannerMoneyMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/core/NPC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="28" column="63" lean-forward="false" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="353" column="23" lean-forward="false" selection-start-line="353" selection-start-column="23" selection-end-line="353" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalClickOnFishingSpot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
-          <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalXp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/CompositeGoal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="86" column="31" lean-forward="false" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/WalkerMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1989">
-          <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-          <folding>
-            <element signature="e#4263#4264#0" expanded="true" />
-            <element signature="e#4339#4340#0" expanded="true" />
-            <element signature="e#4379#4380#0" expanded="true" />
-            <element signature="e#4448#4449#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalMoveTo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-          <folding>
-            <element signature="e#1232#1233#0" expanded="true" />
-            <element signature="e#1307#1308#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/jobs/playrunescape/JobPlayRunescape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/JobCore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/IdleUntilNearNextLocation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/NPC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="28" column="44" lean-forward="false" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+        <state relative-caret-position="187">
+          <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/core/data/NpcData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalWalkToLocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="169">
+          <caret line="98" column="21" lean-forward="false" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
           <folding>
-            <element signature="e#1094#1095#0" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="false" />
+            <element signature="e#664#665#0" expanded="false" />
+            <element signature="e#793#794#0" expanded="false" />
+            <element signature="e#832#833#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalFish.java">
+    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/AtomicGoalWaitUntilAnimationStopped.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="33" column="43" lean-forward="false" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+        <state relative-caret-position="-307">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanCloseGuide.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="43" column="38" lean-forward="false" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanExamineRandomObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanHoverMouseAboveStats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-89">
+          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="e#363#364#0" expanded="false" />
+            <element signature="e#390#391#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalSwitchTab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalAntiBanCheckXp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#545#546#0" expanded="false" />
+            <element signature="e#572#573#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/CompositeGoal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/core/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="51" column="15" lean-forward="true" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
+          <folding>
+            <element signature="e#677#678#0" expanded="false" />
+            <element signature="e#718#719#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalBankAllItemsExcept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="31" column="38" lean-forward="false" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalMoveToNpc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="58" column="45" lean-forward="false" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
+          <folding>
+            <element signature="e#1762#1763#0" expanded="false" />
+            <element signature="e#1837#1838#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalFish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+          <folding>
+            <element signature="e#1363#1364#0" expanded="false" />
+            <element signature="e#1410#1411#0" expanded="false" />
+            <element signature="e#1442#1443#0" expanded="false" />
+            <element signature="e#1481#1482#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/Gui/FishingGui.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/jobs/playrunescape/JobFish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/java/net/URL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="745" column="18" lean-forward="false" selection-start-line="745" selection-start-column="18" selection-end-line="745" selection-end-column="18" />
+          <folding>
+            <element signature="e#28748#28749#0" expanded="false" />
+            <element signature="e#28775#28776#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="2294" column="7" lean-forward="false" selection-start-line="2294" selection-start-column="7" selection-end-line="2294" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/RSBot-7085.jar!/org/powerbot/bot/LoaderTransformer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/RSBot-7085.jar!/org/powerbot/Boot.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+          <folding>
+            <marker date="1545925456378" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1545925456378" expanded="false" signature="136:967" ph="..." />
+            <marker date="1545925456378" expanded="true" signature="1108:1115" ph="{}" />
+            <marker date="1545925456378" expanded="true" signature="1196:1396" ph="{...}" />
+            <marker date="1545925456378" expanded="true" signature="1479:1509" ph="{...}" />
+            <marker date="1545925456378" expanded="true" signature="1570:12685" ph="{...}" />
+            <marker date="1545925456378" expanded="true" signature="5407:7468" ph="{...}" />
+            <marker date="1545925456378" expanded="true" signature="8280:8425" ph="{...}" />
+            <marker date="1545925456378" expanded="true" signature="8533:8742" ph="{...}" />
+            <marker date="1545925456378" expanded="true" signature="12739:14979" ph="{...}" />
+            <marker date="1545925456378" expanded="true" signature="15010:16499" ph="{...}" />
+            <marker date="1545925456378" expanded="true" signature="16532:21060" ph="{...}" />
+            <marker date="1545925456378" expanded="true" signature="21093:23029" ph="{...}" />
+            <marker date="1545925456378" expanded="true" signature="21956:23021" ph="{...}" />
+            <marker date="1545925456378" expanded="true" signature="23062:23285" ph="{...}" />
+            <marker date="1545925456378" expanded="true" signature="23298:23672" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/RSBot-7085.jar!/org/powerbot/bot/ScriptClassLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <marker date="1545925456378" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1545925456378" expanded="false" signature="140:479" ph="..." />
+            <marker date="1545925456378" expanded="true" signature="701:769" ph="{...}" />
+            <marker date="1545925456378" expanded="true" signature="835:2333" ph="{...}" />
+            <marker date="1545925456378" expanded="true" signature="2405:3329" ph="{...}" />
+            <marker date="1545925456378" expanded="true" signature="3384:3705" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/RSBot-7085.jar!/org/powerbot/bot/ScriptController.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="114" column="101" lean-forward="false" selection-start-line="114" selection-start-column="101" selection-end-line="114" selection-end-column="101" />
+          <folding>
+            <marker date="1545925456378" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1545925456378" expanded="false" signature="140:1261" ph="..." />
+            <marker date="1545925456378" expanded="true" signature="2109:3297" ph="{...}" />
+            <marker date="1545925456378" expanded="true" signature="2979:3290" ph="{...}" />
+            <marker date="1545925456378" expanded="true" signature="3326:3540" ph="{...}" />
+            <marker date="1545925456378" expanded="true" signature="3564:6329" ph="{...}" />
+            <marker date="1545925456378" expanded="false" signature="5202:5271" ph="run() → {" />
+            <marker date="1545925456378" expanded="false" signature="5410:5445" ph="}" />
+            <marker date="1545925456378" expanded="true" signature="6125:6193" ph="{...}" />
+            <marker date="1545925456378" expanded="true" signature="6363:6637" ph="{...}" />
+            <marker date="1545925456378" expanded="true" signature="6662:7961" ph="{...}" />
+            <marker date="1545925456378" expanded="false" signature="7995:8006" ph=" { " />
+            <marker date="1545925456378" expanded="false" signature="8025:8031" ph=" }" />
+            <marker date="1545925456378" expanded="true" signature="8059:8296" ph="{...}" />
+            <marker date="1545925456378" expanded="true" signature="8323:8566" ph="{...}" />
+            <marker date="1545925456378" expanded="true" signature="8605:8683" ph="{...}" />
+            <marker date="1545925456378" expanded="true" signature="8720:8801" ph="{...}" />
+            <marker date="1545925456378" expanded="true" signature="8834:10985" ph="{...}" />
+            <marker date="1545925456378" expanded="true" signature="10876:10967" ph="{...}" />
+            <marker date="1545925456378" expanded="true" signature="11019:11680" ph="{...}" />
+            <marker date="1545925456378" expanded="true" signature="11757:12074" ph="{...}" />
+            <marker date="1545925456378" expanded="true" signature="11850:11885" ph="{...}" />
+            <marker date="1545925456378" expanded="true" signature="11931:12068" ph="{...}" />
+            <marker date="1545925456378" expanded="true" signature="12136:12864" ph="{...}" />
+            <marker date="1545925456378" expanded="false" signature="12241:12256" ph=" { " />
+            <marker date="1545925456378" expanded="false" signature="12268:12278" ph=" }" />
+            <marker date="1545925456378" expanded="true" signature="12306:12858" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/Gui/FishingGui.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="68" lean-forward="false" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/core/WalkerMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="39" column="57" lean-forward="false" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/core/JobCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/planner/PlannerFishing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="107" column="44" lean-forward="false" selection-start-line="107" selection-start-column="44" selection-end-line="107" selection-end-column="44" />
+        <state relative-caret-position="158">
+          <caret line="70" column="38" lean-forward="false" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalMoveTo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalOpenBankComp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="28" column="55" lean-forward="false" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalWalkToLocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalGetEquipment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="27" column="52" lean-forward="false" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanTurnToObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalWaitUntilInventoryFull.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="60" column="46" lean-forward="false" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1376,11 +1473,20 @@
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor />
+          <artifact-editor>
+            <show-content>
+              <type id="jpa-descriptors" />
+              <type id="library" />
+              <type id="javaee-facet-resources" />
+              <type id="artifact" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>OldSchoolRS:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1448,7 +1554,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>RSBot</last-edited>
+          <last-edited>RSBot-7085</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

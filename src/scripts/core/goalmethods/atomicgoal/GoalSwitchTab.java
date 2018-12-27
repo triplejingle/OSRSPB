@@ -5,37 +5,35 @@ import org.powerbot.script.rt4.Game;
 import scripts.core.Player;
 
 public class GoalSwitchTab extends AtomicGoal {
-    Player player = new Player(ctx,"its you but in code");
+    Player player = new Player(ctx, "its you but in code");
     Game.Tab tab;
 
     public GoalSwitchTab(ClientContext arg0, Game.Tab tab) {
         super(arg0);
         this.tab = tab;
     }
+
     @Override
     protected void setup() {
-        if(setup){
-            setup=false;
-            activateTimer.setPeriodBetween(4000,7000);
+        if (setup) {
+            setup = false;
+            activateTimer.setPeriodBetween(4000, 7000);
             System.out.println("switching tabs");
-            goal="switch tab"+ System.currentTimeMillis()/1000;
+            goal = "switch tab" + System.currentTimeMillis() / 1000;
         }
     }
 
     @Override
     public void activate() {
-        if(madeAttempt==false) {
-            if(player.switchToTab(tab)){
-                madeAttempt=true;
+        if (madeAttempt == false) {
+            if (player.switchToTab(tab)) {
+                madeAttempt = true;
             }
         }
     }
 
     public boolean goalReached() {
-        if(madeAttempt) {
-            return ctx.game.tab()==tab;
-        }
-        return false;
+        return ctx.game.tab() == tab;
     }
 
     @Override

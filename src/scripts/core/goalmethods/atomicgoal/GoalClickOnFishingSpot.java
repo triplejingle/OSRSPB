@@ -8,12 +8,13 @@ import scripts.core.data.NpcData;
 import scripts.core.data.StatsData;
 import scripts.core.selector.NpcSelector;
 
-public class GoalFish extends AtomicGoal {
+public class GoalClickOnFishingSpot extends AtomicGoal {
     private String[] fishingSpot;
     private Player player = new Player(ctx, "its you but in code!:)");
     NpcSelector npcSelector = new NpcSelector(ctx);
     NPC npc = new NPC(ctx);
-    public GoalFish(ClientContext arg0, String[] fishingSpot) {
+    int[] bound = {-32, 48, 2, 0, -37, 44};
+    public GoalClickOnFishingSpot(ClientContext arg0, String[] fishingSpot) {
         super(arg0);
         this.fishingSpot=fishingSpot;
     }
@@ -23,7 +24,7 @@ public class GoalFish extends AtomicGoal {
             setup=false;
             activateTimer.setPeriodBetween(8000,10000);
             NpcData.setNpc(npcSelector.select().name(fishingSpot[1]).nearest().poll());
-            System.out.println("i'm fishing");
+            NpcData.setBounds(bound);
             goal="fish"+ System.currentTimeMillis()/1000;
             StatsData.addSkill(Constants.SKILLS_FISHING);
         }
@@ -33,7 +34,7 @@ public class GoalFish extends AtomicGoal {
         if(madeAttempt==false) {
             if (npc.interact(fishingSpot[0])) {
                 madeAttempt = true;
-                executeTimer.setPeriodBetween(10000,20000);
+                executeTimer.setPeriodBetween(5000,10000);
             }
         }
     }

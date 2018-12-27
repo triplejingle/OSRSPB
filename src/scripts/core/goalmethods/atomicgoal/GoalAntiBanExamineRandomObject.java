@@ -7,6 +7,9 @@ import scripts.core.data.ObjectData;
 import scripts.core.enumcollection.state;
 import scripts.core.selector.ObjectSelector;
 
+import java.util.ArrayList;
+import java.util.Collections;
+
 public class GoalAntiBanExamineRandomObject extends AntiBanGoal {
     Object object = new Object(ctx);
     ObjectData objectData = new ObjectData(ctx);
@@ -21,10 +24,13 @@ public class GoalAntiBanExamineRandomObject extends AntiBanGoal {
         }
         if(setup){
             setup=false;
-            activateTimer.setPeriodBetween(7000,10000);
+            activateTimer.setPeriodBetween(5000,10000);
             goal="examine random object"+ System.currentTimeMillis()/1000;
             GameObject gameObject =objectSelector.select().within(5).shuffle().poll();
-            if(gameObject.name()==null){
+            ArrayList<String> arrayList =new ArrayList();
+            Collections.addAll(arrayList,gameObject.actions());
+
+            if(!arrayList.contains("Examine")){
                 madeAttempt=true;
                 return;
             }

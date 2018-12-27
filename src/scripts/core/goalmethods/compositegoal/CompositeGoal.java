@@ -12,15 +12,14 @@ public abstract class CompositeGoal extends ClientAccessor implements IGoal {
     public Stack<IGoal> children = new Stack<>();
     public state status =state.INACTIVE;
     long startTime;
-    long timeExpected;
     boolean setup =true;
+    String goal;
+    Player player = new Player(ctx,"its you but in code");
+
     @Override
     public String getGoal() {
         return goal;
     }
-
-    String goal;
-	Player player = new Player(ctx,"its you but in code");
 
 	public CompositeGoal(ClientContext arg0) {
         super(arg0);
@@ -35,13 +34,14 @@ public abstract class CompositeGoal extends ClientAccessor implements IGoal {
 		if (isStuck()) {
 			System.out.println("task failed when executing "+goal);
 			status = state.FAILED;
+            terminate();
 			return status;
 		} else if (goalReached()) {
 			System.out.println("goal reached "+ goal);
 			status = state.COMPLETED;
-			terminate();
 			return status;
 		}
+
         activateIfInactive();
 		return status;
 	}
@@ -50,6 +50,7 @@ public abstract class CompositeGoal extends ClientAccessor implements IGoal {
 
     public void activateIfInactive(){
         if(status==state.INACTIVE){
+            System.out.println(goal);
             status = state.ACTIVE;
         }
         if(status==state.ACTIVE){

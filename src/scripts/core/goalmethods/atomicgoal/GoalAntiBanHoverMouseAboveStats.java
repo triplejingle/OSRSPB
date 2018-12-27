@@ -5,10 +5,10 @@ import scripts.core.Guide;
 import scripts.core.data.StatsData;
 import scripts.core.enumcollection.state;
 
-public class GoalAntiBanCheckStatsXp extends AntiBanGoal {
+public class GoalAntiBanHoverMouseAboveStats extends AntiBanGoal {
 
     Guide guide = new Guide(ctx);
-    public GoalAntiBanCheckStatsXp(ClientContext arg0) {
+    public GoalAntiBanHoverMouseAboveStats(ClientContext arg0) {
         super(arg0);
     }
     @Override
@@ -18,7 +18,7 @@ public class GoalAntiBanCheckStatsXp extends AntiBanGoal {
         }
         if(setup){
             setup=false;
-            activateTimer.setPeriodBetween(5000,10000);
+            activateTimer.setPeriodBetween(1000,3000);
             goal="check stats xp" + System.currentTimeMillis()/1000;
         }
     }

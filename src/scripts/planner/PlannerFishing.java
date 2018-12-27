@@ -7,19 +7,17 @@ import org.powerbot.script.rt4.Game;
 import scripts.core.Player;
 import scripts.core.goalmethods.IGoal;
 import scripts.core.goalmethods.atomicgoal.*;
-import scripts.core.goalmethods.compositegoal.GoalTime;
-import scripts.core.goalmethods.compositegoal.GoalWaitUntilInventoryFull;
-import scripts.core.goalmethods.compositegoal.GoalWalkToLocation;
+import scripts.core.goalmethods.compositegoal.*;
 
 public class PlannerFishing extends Planner {
-    public Tile[] BankToBarbarianvillageFish = {new Tile(3094, 3491, 0), new Tile(3090, 3488, 0), new Tile(3095, 3486, 0), new Tile(3098, 3482, 0), new Tile(3098, 3477, 0), new Tile(3098, 3472, 0), new Tile(3098, 3467, 0), new Tile(3093, 3465, 0), new Tile(3088, 3464, 0), new Tile(3088, 3459, 0), new Tile(3089, 3454, 0), new Tile(3090, 3449, 0), new Tile(3093, 3444, 0), new Tile(3097, 3441, 0), new Tile(3101, 3438, 0), new Tile(3103, 3433, 0)};
+    public static final Tile[] BankToBarbarianvillageFish = {new Tile(3093, 3494, 0), new Tile(3098, 3483, 0), new Tile(3100, 3478, 0), new Tile(3099, 3473, 0), new Tile(3099, 3468, 0), new Tile(3095, 3465, 0), new Tile(3090, 3465, 0), new Tile(3088, 3460, 0), new Tile(3089, 3455, 0), new Tile(3089, 3450, 0), new Tile(3091, 3445, 0), new Tile(3093, 3440, 0), new Tile(3097, 3437, 0), new Tile(3101, 3433, 0)};
     public final Tile[] barbarianVillageFishToEdgeBank = ctx.movement.newTilePath(BankToBarbarianvillageFish).reverse().toArray();
     Tile[] fishDraynor = {new Tile(3090, 3232,0)};
     Tile[] draynorBank = {new Tile(3094, 3243,0)};
     String[] userSettings;
     public PlannerFishing(ClientContext arg0, String[] userSettings){
         super(arg0);
-        IGoal = getGoal(new String[]{"xp","10"});
+        IGoal = getGoal(new String[]{"xp","230"});
         this.userSettings = userSettings;
     }
 
@@ -64,27 +62,15 @@ public class PlannerFishing extends Planner {
     Player player = new Player(ctx,"its you but in code");
     private void fishAndBank(String tool,Tile[] pathToBank, Tile[] pathToFishingSpot){
         if(player.isInventoryFull()) {
-            IGoal.addSubGoal(new GoalCloseBank(ctx));
-            IGoal.addSubGoal(new GoalBankAllItemsExcept(ctx,getCorrespondingTool(tool)));
-            IGoal.addSubGoal(new GoalOpenBank(ctx));
-            IGoal.addSubGoal(new GoalWalkToLocation(ctx,pathToBank));
+            IGoal.addSubGoal(new GoalBankAllItemsExcept(ctx,getCorrespondingTool(tool),pathToBank));
         }else {
-            IGoal.addSubGoal(new GoalWaitUntilInventoryFull(ctx));
-            IGoal.addSubGoal(new GoalFish(ctx, getCorrespondingFishingSpot(tool)));
-            IGoal.addSubGoal(new GoalSwitchTab(ctx, Game.Tab.INVENTORY));
-            IGoal.addSubGoal(new GoalWalkToLocation(ctx, pathToFishingSpot));
+            IGoal.addSubGoal(new GoalIdle(ctx,random.nextInt(3,8)));
+            IGoal.addSubGoal(new GoalFish(ctx, getCorrespondingFishingSpot(tool),pathToFishingSpot));
         }
        if(!player.hasItem(getCorrespondingTool(tool))) {
-           IGoal.addSubGoal(new GoalCloseBank(ctx));
-           String[] tools = getCorrespondingTool(tool);
-           for(String missingTool:tools) {
-               if(!player.hasItem(new String[]{missingTool})) {
-                   IGoal.addSubGoal(new GoalWithdrawEquipment(ctx, missingTool));
-               }
-           }
-           IGoal.addSubGoal(new GoalOpenBank(ctx));
-           IGoal.addSubGoal(new GoalWalkToLocation(ctx,pathToBank));
+           IGoal.addSubGoal(new GoalGetEquipment(ctx,getCorrespondingTool(tool),pathToBank));
        }
+
     }
 
     String[] getCorrespondingTool(String tool){

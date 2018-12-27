@@ -1,6 +1,7 @@
 package scripts.core.goalmethods.atomicgoal;
 
 import org.powerbot.script.rt4.ClientContext;
+import org.powerbot.script.rt4.GameObject;
 import scripts.core.data.IObjectData;
 import scripts.core.data.ObjectData;
 import scripts.core.enumcollection.state;
@@ -14,13 +15,15 @@ public class GoalAntiBanTurnToObject extends AntiBanGoal {
     }
     @Override
     protected void setup() {
-        if(isEnabled==false){
-            this.status= state.COMPLETED;
-        }
         if(setup){
             setup=false;
             activateTimer.setPeriodBetween(300,1000);
-            IObjectData.setObject(objectSelector.select().shuffle().poll());
+            GameObject gameObject =objectSelector.select().shuffle().poll();
+            if(gameObject.name()==null){
+                this.status=state.COMPLETED;
+                return;
+            }
+            IObjectData.setObject(gameObject);
             goal="goal turn to object"+ System.currentTimeMillis()/1000;
         }
     }

@@ -67,7 +67,7 @@ public abstract class JobCore extends PollingScript<ClientContext> implements Ke
 
     public void unpauseScript(){
         if(pauseScript) {
-            ATimer.setPeriodBetween(10000,20000);
+            ATimer.setPeriodBetween(5000,8000);
             if (ATimer.isTime()) {
                 pauseScript = false;
             }
@@ -116,20 +116,21 @@ public abstract class JobCore extends PollingScript<ClientContext> implements Ke
         }
     }
     public void mouseClicked(MouseEvent e) {
-        ATimer.saveTime();
-        pauseScript =true;
+        if(!ctx.input.blocking()) {
+            ATimer.saveTime();
+            pauseScript = true;
+        }
     }
 
     @Override
     public void mousePressed(MouseEvent e) {
-        ATimer.saveTime();
-        pauseScript =true;
+
+
     }
 
     @Override
     public void mouseReleased(MouseEvent e) {
-        ATimer.saveTime();
-        pauseScript =true;
+
     }
 
     @Override

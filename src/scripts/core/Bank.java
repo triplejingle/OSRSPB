@@ -2,6 +2,7 @@ package scripts.core;
 
 
 import org.powerbot.script.Random;
+import org.powerbot.script.Tile;
 import org.powerbot.script.rt4.ClientContext;
 import org.powerbot.script.rt4.Item;
 import scripts.core.interfaces.Core;
@@ -86,5 +87,9 @@ public class Bank extends Core {
 
     public boolean isBankOpened() {
         return bankFactory.getComponent("screen").visible();
+    }
+
+    public Tile getTile() {
+        return ctx.bank.nearest().tile();
     }
 }

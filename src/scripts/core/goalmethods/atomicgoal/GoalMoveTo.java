@@ -7,7 +7,7 @@ import scripts.core.data.PlayerData;
 import scripts.core.selector.PlayerSelector;
 
 public class GoalMoveTo extends AtomicGoal {
-	PlayerSelector playerSelector = new PlayerSelector(ctx);
+    PlayerSelector playerSelector = new PlayerSelector(ctx);
 	PlayerData playerData = new PlayerData(ctx);
     public GoalMoveTo(ClientContext arg0, Tile nextLocation) {
         super(arg0);

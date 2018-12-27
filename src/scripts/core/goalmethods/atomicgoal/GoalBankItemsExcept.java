@@ -4,13 +4,13 @@ import org.powerbot.script.rt4.ClientContext;
 import scripts.core.Bank;
 import scripts.core.data.InventoryData;
 
-public class GoalBankAllItemsExcept extends AtomicGoal {
+public class GoalBankItemsExcept extends AtomicGoal {
 
     private int prevItems;
     Bank bank =  new Bank(ctx);
     InventoryData inventoryData = new InventoryData(ctx);
     String[] item;
-    public GoalBankAllItemsExcept(ClientContext arg0, String[] item) {
+    public GoalBankItemsExcept(ClientContext arg0, String[] item) {
         super(arg0);
         this.item =item;
     }
@@ -20,7 +20,6 @@ public class GoalBankAllItemsExcept extends AtomicGoal {
         if(setup){
             setup=false;
             activateTimer.setPeriodBetween(12000,15000);
-
             inventoryData.setInventory();
             prevItems = inventoryData.countInventory();
             goal="bank all items except"+ System.currentTimeMillis()/1000;

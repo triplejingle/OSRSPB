@@ -4,42 +4,56 @@ package scripts.core.goalmethods.compositegoal;
 import org.powerbot.script.Tile;
 import org.powerbot.script.rt4.ClientContext;
 import scripts.core.WalkerMethods;
+import scripts.core.enumcollection.state;
 import scripts.core.goalmethods.IGoal;
 import scripts.core.goalmethods.atomicgoal.GoalMoveTo;
 
 public class GoalWalkToLocation extends CompositeGoal {
     WalkerMethods walkerMethods = new WalkerMethods(ctx);
     Tile[] path;
-
-    public GoalWalkToLocation(ClientContext arg0, Tile[] path) {
+    int tileRange;
+    public GoalWalkToLocation(ClientContext arg0, Tile[] path,int tileRange) {
         super(arg0);
         this.path = path;
+        this.tileRange = tileRange;
     }
 
     @Override
     protected void setup() {
         if (setup) {
             setup = false;
+            ctx.properties.setProperty("randomevents.disable", "false");
             addSubGoal(new GoalMoveTo(ctx, path[path.length - 1]));
-            for (int i = path.length - 2; i >= 0; i--) {
+            for (int i = path.length - 2; i > 0; i--) {
+                if(walkerMethods.isNear(path[i],6)){
+                   break;
+                }
                 addSubGoal(new IdleUntilNearNextLocation(ctx, path[i]));
                 addSubGoal(new GoalMoveTo(ctx, path[i]));
+                if(ctx.movement.energyLevel()>90){
+                    ctx.movement.running(true);
+                }
             }
             goal = "walk to location" + System.currentTimeMillis() / 1000;
         }
     }
 
     public boolean goalReached() {
-        return walkerMethods.isNear(path[path.length - 1]);
+        boolean goalReached= walkerMethods.isNear(path[path.length - 1],10);
+        if(goalReached){
+            ctx.properties.setProperty("randomevents.disable", "true");
+        }
+        return goalReached;
     }
 
     public boolean isStuck() {
-        return false;
+        return hasChildFailed();
     }
 
     @Override
     public void terminate() {
         emptyStack();
+        this.status= state.FAILED;
     }
 
     public void removeAllSubGoals() {

@@ -14,10 +14,11 @@ public class GoalOpenBank extends AtomicGoal {
     protected void setup() {
         if(setup){
             setup=false;
-            activateTimer.setPeriodBetween(10000,12000);
+            activateTimer.setPeriodBetween(7000,10000);
             goal="open bank"+ System.currentTimeMillis()/1000;
         }
     }
+
     public  void activate() {
         if(madeAttempt==false) {
             if(bank.openBank()){

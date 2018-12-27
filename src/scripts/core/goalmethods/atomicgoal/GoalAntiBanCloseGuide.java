@@ -32,10 +32,7 @@ public class GoalAntiBanCloseGuide extends AntiBanGoal {
     }
 
     public boolean goalReached() {
-        if(madeAttempt) {
             return !guide.isGuideOpen();
-        }
-        return false;
     }
 
     @Override
@@ -44,9 +41,6 @@ public class GoalAntiBanCloseGuide extends AntiBanGoal {
     }
 
     public boolean isStuck(){
-        if(madeAttempt) {
-			return activateTimer.isTime();
-        }
-		return false;
+        return activateTimer.isTime();
     }
 }
