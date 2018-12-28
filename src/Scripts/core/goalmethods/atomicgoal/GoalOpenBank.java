@@ -15,7 +15,7 @@ public class GoalOpenBank extends AtomicGoal {
         if(setup){
             setup=false;
             activateTimer.setPeriodBetween(7000,10000);
-            goal="open bank"+ System.currentTimeMillis()/1000;
+            goal="open depositbox"+ System.currentTimeMillis()/1000;
         }
     }
 

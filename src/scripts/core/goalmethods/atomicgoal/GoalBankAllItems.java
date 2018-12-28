@@ -14,7 +14,7 @@ public class GoalBankAllItems extends AtomicGoal {
         super(arg0);
         activateTimer.setPeriodBetween(8000,10000);
         prevItems = player.countItemsInventory();
-        goal="bank all items"+ System.currentTimeMillis()/1000;
+        goal="depositbox all items"+ System.currentTimeMillis()/1000;
     }
     @Override
     protected void setup() {

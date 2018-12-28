@@ -1,6 +1,6 @@
 package scripts.core;
 
-import org.powerbot.script.Random;
+
 import org.powerbot.script.Tile;
 import org.powerbot.script.rt4.ClientAccessor;
 import org.powerbot.script.rt4.ClientContext;
@@ -8,6 +8,7 @@ import org.powerbot.script.rt4.GameObject;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Random;
 
 
 public class WalkerMethods extends ClientAccessor {
@@ -26,7 +27,11 @@ public class WalkerMethods extends ClientAccessor {
         ArrayList<Tile> tileList = new ArrayList<>();
         tileList.add(tile);
         checkDirectlyConnectedTiles(tileList, tile);
-        Collections.shuffle(tileList);
+        Random random = new Random(System.currentTimeMillis());
+        int timesToShuffle = random.nextInt(8);
+        for(int i = 0;i<timesToShuffle;i++) {
+            Collections.shuffle(tileList);
+        }
         System.out.println(tileList.get(0));
         if (tileList.size() > 0) {
             return tileList.get(0);
@@ -37,7 +42,7 @@ public class WalkerMethods extends ClientAccessor {
     public void checkDirectlyConnectedTiles(ArrayList<Tile> tileList, Tile tile) {
 
         int startValue=-1;
-        for (int i = startValue; i < startValue+2; i++) {
+        for (int i = startValue; i < startValue+3; i++) {
             for (int j = startValue; j < startValue+2; j++) {
                 if (i == 0 && j == 0) {
                     continue;

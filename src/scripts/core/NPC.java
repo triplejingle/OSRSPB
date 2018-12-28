@@ -5,7 +5,7 @@ import scripts.core.data.NpcData;
 import scripts.core.interfaces.EnvironmentDefault;
 
 public class NPC extends EnvironmentDefault {
-    NpcData npcData = new NpcData(ctx);
+    NpcData npcData ;
 
     public NPC(ClientContext arg0) {
         super(arg0);

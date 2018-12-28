@@ -21,8 +21,6 @@ J
 src/Scripts/Core/Mobs.java,0\4\04efec201e67cf7550ac6e07429feca114525132
 M
 src/Scripts/Tools/ATimer.java,d\a\da17509d06715b628b48d827b15056d53f58dcfb
-d
-4src/Scripts/Jobs/PlayRunescape/JobPlayRunescape.java,f\6\f6e060388047d1147803cdbacc5a1c4036723d21
 ^
 .src/Scripts/Tools/Factory/StatsTabFactory.java,6\6\66825f5ddc1fe3c0c3ff4d0ed9a6b4c5bd501923
 c
@@ -131,8 +129,6 @@ M
 src/scripts/core/JobCore.java,6\7\6752ed9e39c9f75463c7de5d9bd4873190ab12dd
 R
 "src/scripts/core/data/NpcData.java,5\d\5d13a45f37b48882201f446010e761d56c91045e
-d
-4src/scripts/jobs/playrunescape/JobPlayRunescape.java,1\2\120e62e4ac6d60974a6e095e52927d7d268f2b33
 y
 Isrc/scripts/core/goalmethods/compositegoal/IdleUntilNearNextLocation.java,8\7\87f4ed5924fc2c713457d7b8ec0f1dc0bc7b8503
 r

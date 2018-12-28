@@ -7,6 +7,7 @@ import scripts.core.Player;
 import scripts.core.data.NpcData;
 import scripts.core.data.StatsData;
 import scripts.core.selector.NpcSelector;
+import scripts.core.selector.PlayerSelector;
 
 public class GoalClickOnFishingSpot extends AtomicGoal {
     private String[] fishingSpot;
@@ -23,7 +24,7 @@ public class GoalClickOnFishingSpot extends AtomicGoal {
         if(setup){
             setup=false;
             activateTimer.setPeriodBetween(8000,10000);
-            NpcData.setNpc(npcSelector.select().name(fishingSpot[1]).nearest().poll());
+            npcSelector.select().within(20).action(fishingSpot[0]).shuffle();
             NpcData.setBounds(bound);
             goal="fish"+ System.currentTimeMillis()/1000;
             StatsData.addSkill(Constants.SKILLS_FISHING);

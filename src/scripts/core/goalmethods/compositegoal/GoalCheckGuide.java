@@ -3,14 +3,14 @@ package scripts.core.goalmethods.compositegoal;
 import org.powerbot.script.Random;
 import org.powerbot.script.rt4.ClientContext;
 import org.powerbot.script.rt4.Game;
+import org.powerbot.script.rt6.Hiscores;
 import scripts.core.Player;
+import scripts.core.data.StatsData;
 import scripts.core.goalmethods.atomicgoal.*;
-import scripts.tools.LastSkillXpGained;
 
 public class GoalCheckGuide extends CompositeGoal{
 
 	Player player = new Player(ctx,"its you but in code");
-	LastSkillXpGained lastSkillXpGained = new LastSkillXpGained(ctx);
 	public  GoalCheckGuide(ClientContext arg0) {
 		super(arg0);
 	}
@@ -36,7 +36,7 @@ public class GoalCheckGuide extends CompositeGoal{
 			addSubGoal(new GoalIdle(ctx, seconds));
 			addSubGoal(new GoalAntiBanScrollThroughGuide(ctx));
 			addSubGoal(new GoalAntiBanMoveMouseToGuide(ctx));
-			addSubGoal(new GoalAntiBanOpenGuide(ctx,lastSkillXpGained.getSkill()));
+			addSubGoal(new GoalAntiBanOpenGuide(ctx, StatsData.getLastTrainedSkill()));
 			addSubGoal(new GoalSwitchTab(ctx,Game.Tab.STATS));
 			goal="withdraw equipment"+ System.currentTimeMillis()/1000;
 		}

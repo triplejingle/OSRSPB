@@ -22,7 +22,7 @@ public class GoalBankItemsExcept extends AtomicGoal {
             activateTimer.setPeriodBetween(12000,15000);
             inventoryData.setInventory();
             prevItems = inventoryData.countInventory();
-            goal="bank all items except"+ System.currentTimeMillis()/1000;
+            goal="depositbox all items except"+ System.currentTimeMillis()/1000;
         }
     }
 

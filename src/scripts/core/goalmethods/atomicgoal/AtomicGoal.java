@@ -49,8 +49,8 @@ public abstract class AtomicGoal extends ClientAccessor implements IGoal {
             if (PlayerData.getPlayer() != null) {
                 playerData.turnTo();
             } else {
-                ObjectData.setObject(objectSelector.select().shuffle().poll());
-                if (ObjectData.getObject() != null) {
+
+                if (  objectSelector.select().shuffle().peek() != null) {
                     iObjectData.turnTo();
                 }
             }

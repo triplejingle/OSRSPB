@@ -24,7 +24,7 @@ public class GoalCloseBank extends AtomicGoal {
         if(setup){
             setup=false;
             activateTimer.setPeriodBetween(5000,10000);
-            goal="close bank"+ System.currentTimeMillis()/1000;
+            goal="close depositbox"+ System.currentTimeMillis()/1000;
         }
     }
 

@@ -4,6 +4,7 @@ import org.powerbot.script.rt4.ClientContext;
 import scripts.core.data.IObjectData;
 import scripts.core.data.ObjectData;
 import scripts.core.interfaces.EnvironmentDefault;
+import scripts.core.selector.ObjectSelector;
 
 public class Object extends EnvironmentDefault  {
 
@@ -37,5 +38,7 @@ public class Object extends EnvironmentDefault  {
         return false;
     }
 
-
+    public boolean interactWithouthTurning(String action){
+        return objectData.interact(action);
+    }
 }
