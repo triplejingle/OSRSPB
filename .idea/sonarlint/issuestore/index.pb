@@ -159,3 +159,11 @@ n
 >src/scripts/core/goalmethods/compositegoal/GoalNoChildren.java,d\1\d1b5e68540d69a079bcf5966f6202ebcc3a13fc8
 p
 @src/scripts/core/goalmethods/compositegoal/GoalOpenBankComp.java,1\f\1fae7d83f4a57c77f7bf46ce242a1847b3f681b7
+q
+Asrc/scripts/core/goalmethods/atomicgoal/GoalClickOnGangplank.java,9\1\91f69988814576df80375fbf6e2c55d0022078e1
+k
+;src/scripts/core/goalmethods/compositegoal/GoalPayFare.java,f\6\f6de1bc0584a4e4a3a1a93484ecf47490577f4ca
+o
+?src/scripts/core/goalmethods/atomicgoal/GoalPayFareShipper.java,f\b\fb502a5d92e7076e77fa91a473ad67e1c7636713
+u
+Esrc/scripts/core/goalmethods/atomicgoal/GoalPayFareCustomOfficer.java,b\c\bc171704efd32656cc218b3a6816f54d0695fd7c

@@ -76,7 +76,7 @@ public class PlannerFishing extends Planner {
         if(player.isInventoryFull()) {
             setPathToDepositItems(    destination,tool);
         }else {
-            IGoal.addSubGoal(new GoalIdle(ctx,random.nextInt(3,8)));
+            IGoal.addSubGoal(new GoalIdle(ctx,random.nextInt(3,16)));
             IGoal.addSubGoal(new GoalFish(ctx, getCorrespondingFishingSpot(tool)));
             setPathToFishingSpot(destination);
         }
@@ -91,8 +91,9 @@ public class PlannerFishing extends Planner {
         switch (destination){
             case "Barbarian village":
                 IGoal.addSubGoal(new GoalWalkToLocation(ctx, pathToFishingSpot[0], 5));
+                break;
             case "Draynor village":
-
+                break;
             case "Karamja":
                 IGoal.addSubGoal(new GoalWalkToLocation(ctx, shipToKaramjaFishSpot, 5));
                 IGoal.addSubGoal(new GoalClickOnGangplank(ctx));
@@ -108,17 +109,20 @@ public class PlannerFishing extends Planner {
                      }
                     IGoal.addSubGoal(new GoalWalkToLocation(ctx, depositToSeaman, 5));
                 }
+                break;
         }
     }
 
     public void setPathToDepositItems(String desiredLocation,String tool){
-        Tile[][] pathToBank = getCorrespondingPathToBank(desiredLocation);
         switch (desiredLocation){
             case "Barbarian village":
                 IGoal.addSubGoal(new GoalBankAllItemsExcept(ctx,getCorrespondingTool(tool),barbarianVillageFishToEdgeBank));
                 IGoal.addSubGoal(new GoalWalkToLocation(ctx,barbarianVillageFishToEdgeBank,5));
+                break;
             case "Draynor village":
-
+                IGoal.addSubGoal(new GoalBankAllItemsExcept(ctx,getCorrespondingTool(tool),draynorBank));
+                IGoal.addSubGoal(new GoalWalkToLocation(ctx,draynorBank,5));
+                break;
             case "Karamja":
                 IGoal.addSubGoal(new GoalDepositAllItemsExcept(ctx,getCorrespondingTool(tool),seamanToDeposit));
                 IGoal.addSubGoal(new GoalWalkToLocation(ctx, seamanToDeposit, 5));
@@ -138,6 +142,7 @@ public class PlannerFishing extends Planner {
                     IGoal.addSubGoal(new GoalMoveToNpc(ctx, "Customs officer"));
                     IGoal.addSubGoal(new GoalWalkToLocation(ctx,karamjaFishSpotToShip, 5));
                 }
+                break;
         }
     }
     

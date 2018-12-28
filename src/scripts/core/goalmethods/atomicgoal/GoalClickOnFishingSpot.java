@@ -6,6 +6,7 @@ import scripts.core.NPC;
 import scripts.core.Player;
 import scripts.core.data.NpcData;
 import scripts.core.data.StatsData;
+import scripts.core.enumcollection.state;
 import scripts.core.selector.NpcSelector;
 import scripts.core.selector.PlayerSelector;
 
@@ -22,10 +23,18 @@ public class GoalClickOnFishingSpot extends AtomicGoal {
     @Override
     protected void setup() {
         if(setup){
-            setup=false;
+            if(!player.isPlayerMoving()) {
+                this.status = state.COMPLETED;
+                return;
+            }
             activateTimer.setPeriodBetween(8000,10000);
             npcSelector.select().within(20).action(fishingSpot[0]).shuffle();
-            NpcData.setBounds(bound);
+            if(!npcSelector.peek().name().isEmpty()) {
+
+                setup = false;
+                NpcData.setBounds(bound);
+            }
+
             goal="fish"+ System.currentTimeMillis()/1000;
             StatsData.addSkill(Constants.SKILLS_FISHING);
         }
