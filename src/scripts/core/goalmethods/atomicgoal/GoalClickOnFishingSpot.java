@@ -23,14 +23,9 @@ public class GoalClickOnFishingSpot extends AtomicGoal {
     @Override
     protected void setup() {
         if(setup){
-            if(!player.isPlayerMoving()) {
-                this.status = state.COMPLETED;
-                return;
-            }
             activateTimer.setPeriodBetween(8000,10000);
             npcSelector.select().within(20).action(fishingSpot[0]).shuffle();
             if(!npcSelector.peek().name().isEmpty()) {
-
                 setup = false;
                 NpcData.setBounds(bound);
             }

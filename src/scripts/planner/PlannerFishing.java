@@ -71,6 +71,7 @@ public class PlannerFishing extends Planner {
         }
         return null;
     }
+
     Player player = new Player(ctx,"its you but in code");
     private void fishAndBank(String tool,String destination){
         if(player.isInventoryFull()) {
@@ -98,7 +99,7 @@ public class PlannerFishing extends Planner {
                 IGoal.addSubGoal(new GoalWalkToLocation(ctx, shipToKaramjaFishSpot, 5));
                 IGoal.addSubGoal(new GoalClickOnGangplank(ctx));
                 PlayerSelector playerSelector = new PlayerSelector(ctx);
-                if( playerSelector.local().tile().distanceTo(depositToSeaman[depositToSeaman.length-1])<20) {
+                if( playerSelector.local().tile().distanceTo(depositToSeaman[3])<20) {
                     IGoal.addSubGoal(new GoalIdle(ctx, 20));
                     IGoal.addSubGoal(new GoalContinueChat(ctx));
                     IGoal.addSubGoal(new GoalSelectOption(ctx, 1));
