@@ -7,6 +7,7 @@ public class GoalXp extends CompositeGoal {
     long prevXp;
     long expGoal;
     int skill;
+
     public GoalXp(ClientContext ctx, long xpGoal, int skill) {
         super(ctx);
         this.expGoal = xpGoal;
@@ -27,7 +28,6 @@ public class GoalXp extends CompositeGoal {
         }
     }
 
-
     public boolean goalReached() {
         long currentXp = ctx.skills.experience(skill);
         return prevXp+expGoal<currentXp;
@@ -40,9 +40,5 @@ public class GoalXp extends CompositeGoal {
 
     public boolean isStuck() {
         return hasChildFailed();
-    }
-
-    public void setExpGoal(long expGoal){
-        this.expGoal = expGoal;
     }
 }

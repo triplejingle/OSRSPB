@@ -11,36 +11,39 @@ import scripts.core.goalmethods.compositegoal.GoalCheckGuide;
 import java.util.Stack;
 
 public abstract class Planner extends ClientAccessor {
-    String goalLocation;
-    IGoal IGoal;
-    long xpGoal;
-    int method ;
-    Random random = new Random();
+    private String goalLocation;
+    private IGoal IGoal;
+    private long xpGoal;
+    private int method;
+    private Random random = new Random();
 
     public Planner(ClientContext arg0) {
         super(arg0);
     }
 
-    public String getGoalLocation(){
+    public String getGoalLocation() {
         return goalLocation;
     }
 
-    public void setGoalLocation(String goalLocation){
+    public void setGoalLocation(String goalLocation) {
         this.goalLocation = goalLocation;
     }
-    public void replan(){
+
+    public void replan() {
         chooseMethod();
     }
 
-    public IGoal plan(){
-        method=0;//random.nextInt(0,1);
+    public IGoal plan() {
+        method = 0;//random.nextInt(0,1);
         chooseMethod();
         return IGoal;
     }
+
     abstract void chooseMethod();
-        public IGoal getHighLevelGoal(){
-            return IGoal;
-        }
+
+    public IGoal getHighLevelGoal() {
+        return IGoal;
+    }
 
     public Stack<IGoal> getSubGoals() {
         return IGoal.getSubGoals();
@@ -55,26 +58,26 @@ public abstract class Planner extends ClientAccessor {
     }
 
     protected IGoal getRandomAntiBan() {
-        int antiban = random.nextInt(0,2);
-        switch (antiban){
+        int antiban = random.nextInt(0, 2);
+        switch (antiban) {
             case 0:
                 return new GoalCheckGuide(ctx);
             case 1:
                 return new GoalAntiBanExamineRandomObject(ctx);
             case 2:
-                return  new GoalAntiBanTurnToObject(ctx);
+                return new GoalAntiBanTurnToObject(ctx);
             default:
                 return new GoalAntiBanExamineRandomObject(ctx);
         }
     }
 
-    protected void addRandomAntiBan(){
-        if(addAntiBan()){
+    protected void addRandomAntiBan() {
+        if (addAntiBan()) {
             IGoal.addSubGoal(getRandomAntiBan());
         }
     }
 
     private boolean addAntiBan() {
-        return random.nextInt(0,100)<=50;
+        return random.nextInt(0, 100) <= 50;
     }
 }
