@@ -7,50 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34c1e6d7-e41a-4a72-b73b-33439bc802c1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/scripts/core/goal/atomicgoal/GoalOpenBank.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/Bank.java" afterPath="$PROJECT_DIR$/src/scripts/core/Bank.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/JobCore.java" afterPath="$PROJECT_DIR$/src/scripts/core/JobCore.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/collection/Animations.java" afterPath="$PROJECT_DIR$/src/scripts/core/collection/Animations.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/collection/BoundaryCollection.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/collection/ItemIds.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/enumcollection/BoundaryType.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/IGoal.java" afterPath="$PROJECT_DIR$/src/scripts/core/goal/IGoal.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/AtomicGoal.java" afterPath="$PROJECT_DIR$/src/scripts/core/goal/atomicgoal/AtomicGoal.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/AtomicGoalTemplate.java" afterPath="$PROJECT_DIR$/src/scripts/core/goal/atomicgoal/AtomicGoalTemplate.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanCloseGuide.java" afterPath="$PROJECT_DIR$/src/scripts/core/goal/atomicgoal/GoalAntiBanCloseGuide.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanExamineRandomObject.java" afterPath="$PROJECT_DIR$/src/scripts/core/goal/atomicgoal/GoalAntiBanExamineRandomObject.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanHoverMouseAboveStats.java" afterPath="$PROJECT_DIR$/src/scripts/core/goal/atomicgoal/GoalAntiBanHoverMouseAboveStats.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanMoveMouseToGuide.java" afterPath="$PROJECT_DIR$/src/scripts/core/goal/atomicgoal/GoalAntiBanMoveMouseToGuide.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanOpenGuide.java" afterPath="$PROJECT_DIR$/src/scripts/core/goal/atomicgoal/GoalAntiBanOpenGuide.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanScrollThroughGuide.java" afterPath="$PROJECT_DIR$/src/scripts/core/goal/atomicgoal/GoalAntiBanScrollThroughGuide.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalAntiBanTurnToObject.java" afterPath="$PROJECT_DIR$/src/scripts/core/goal/atomicgoal/GoalAntiBanTurnToObject.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalBankAllItems.java" afterPath="$PROJECT_DIR$/src/scripts/core/goal/atomicgoal/GoalBankAllItems.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalBankItemsExcept.java" afterPath="$PROJECT_DIR$/src/scripts/core/goal/atomicgoal/GoalBankItemsExcept.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalClickOnFishingSpot.java" afterPath="$PROJECT_DIR$/src/scripts/core/goal/atomicgoal/GoalClickOnFishingSpot.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalCloseBank.java" afterPath="$PROJECT_DIR$/src/scripts/core/goal/atomicgoal/GoalCloseBank.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalDropItem.java" afterPath="$PROJECT_DIR$/src/scripts/core/goal/atomicgoal/GoalDropItem.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalIdle.java" afterPath="$PROJECT_DIR$/src/scripts/core/goal/atomicgoal/GoalIdle.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalMine1.java" afterPath="$PROJECT_DIR$/src/scripts/core/goal/atomicgoal/GoalMine1.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalMoveTo.java" afterPath="$PROJECT_DIR$/src/scripts/core/goal/atomicgoal/GoalMoveTo.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalSwitchTab.java" afterPath="$PROJECT_DIR$/src/scripts/core/goal/atomicgoal/GoalSwitchTab.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/atomicgoal/GoalWithdrawEquipment.java" afterPath="$PROJECT_DIR$/src/scripts/core/goal/atomicgoal/GoalWithdrawEquipment.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/CompositeGoal.java" afterPath="$PROJECT_DIR$/src/scripts/core/goal/compositegoal/CompositeGoal.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalCheckGuide.java" afterPath="$PROJECT_DIR$/src/scripts/core/goal/compositegoal/GoalCheckGuide.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalNoChildren.java" afterPath="$PROJECT_DIR$/src/scripts/core/goal/compositegoal/GoalNoChildren.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalRunAway.java" afterPath="$PROJECT_DIR$/src/scripts/core/goal/compositegoal/GoalRunAway.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalTime.java" afterPath="$PROJECT_DIR$/src/scripts/core/goal/compositegoal/GoalTime.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalWalkToLocation.java" afterPath="$PROJECT_DIR$/src/scripts/core/goal/compositegoal/GoalWalkToLocation.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/core/goalmethods/compositegoal/GoalXp.java" afterPath="$PROJECT_DIR$/src/scripts/core/goal/compositegoal/GoalXp.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/jobs/playrunescape/JobFish.java" afterPath="$PROJECT_DIR$/src/scripts/jobs/playrunescape/JobFish.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/planner/Planner.java" afterPath="$PROJECT_DIR$/src/scripts/planner/Planner.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/planner/PlannerCooking.java" afterPath="$PROJECT_DIR$/src/scripts/planner/PlannerCooking.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/planner/PlannerFishing.java" afterPath="$PROJECT_DIR$/src/scripts/planner/PlannerFishing.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/planner/PlannerMelee.java" afterPath="$PROJECT_DIR$/src/scripts/planner/PlannerMelee.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/planner/PlannerMining.java" afterPath="$PROJECT_DIR$/src/scripts/planner/PlannerMining.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/planner/PlannerMoneyMethods.java" afterPath="$PROJECT_DIR$/src/scripts/planner/PlannerMoneyMethods.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/planner/PlannerRunescape.java" afterPath="$PROJECT_DIR$/src/scripts/planner/PlannerRunescape.java" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/planner/PlannerSmithing.java" afterPath="$PROJECT_DIR$/src/scripts/planner/PlannerSmithing.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -162,8 +119,8 @@
       <file leaf-file-name="GoalClickOnGangplank.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scripts/core/goal/atomicgoal/GoalClickOnGangplank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+            <state relative-caret-position="207">
+              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -782,7 +739,7 @@
       <workItem from="1546014412231" duration="13577000" />
       <workItem from="1546034544478" duration="331000" />
       <workItem from="1546035043806" duration="3479000" />
-      <workItem from="1546038724482" duration="30826000" />
+      <workItem from="1546038724482" duration="30839000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1543501482164</created>
@@ -868,11 +825,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546162723909</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="stable version">
+      <created>1546166627752</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1546166627752</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1221748000" />
+    <option name="totallyTimeSpent" value="1221761000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1518,8 +1482,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/core/goal/atomicgoal/GoalClickOnGangplank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        <state relative-caret-position="207">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>
