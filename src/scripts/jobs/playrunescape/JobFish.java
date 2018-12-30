@@ -15,7 +15,6 @@ public class JobFish extends JobCore{
         }
 
         planner = new PlannerFishing(ctx);
-        planner.setXpGoal(5000);
         planner.plan();
 
         setPlanner(planner);

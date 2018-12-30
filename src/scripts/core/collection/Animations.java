@@ -1,45 +1,44 @@
 package scripts.core.collection;
 
 public class Animations {
-    final int chopping = 879;
-            final int youAttemptToLightTheLogs = 733;
-            final int meleeAttack = 395;
+    static final int DEFEND = 395;
+    static final int NPC_DIED = 5851;
+    static final int NOTHING = -1;
+    static final int CHOPPING = 879;
+    static final int YOU_ATTEMPT_TO_LIGHT_THE_LOGS = 733;
+    static final int MELEE_ATTACK = 395;
+    static final int EAT = 829;
+    static final int COOKING = 897;
 
     public int getEat() {
-        return eat;
+        return EAT;
     }
 
-    final int eat = 829;
     public int getDefend() {
-        return defend;
+        return DEFEND;
     }
 
-    final int defend = 395;
     public int getCooking() {
-        return cooking;
+        return COOKING;
     }
 
-    final int cooking = 897;
     public int getChopping() {
-        return chopping;
+        return CHOPPING;
     }
 
     public int getYouAttemptToLightTheLogs() {
-        return youAttemptToLightTheLogs;
+        return YOU_ATTEMPT_TO_LIGHT_THE_LOGS;
     }
 
     public int getMeleeAttack() {
-        return meleeAttack;
+        return MELEE_ATTACK;
     }
 
     public int getNothing() {
-        return nothing;
+        return NOTHING;
     }
 
     public int getNpcDied() {
-        return npcDied;
+        return NPC_DIED;
     }
-
-    final int npcDied = 5851;
-    final int nothing = -1;
 }
