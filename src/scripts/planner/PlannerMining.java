@@ -3,7 +3,7 @@ package scripts.planner;
 import org.powerbot.script.Tile;
 import org.powerbot.script.rt4.ClientContext;
 import org.powerbot.script.rt4.Constants;
-import scripts.core.goal.compositegoal.GoalXp;
+import scripts.goal.compositegoal.GoalXp;
 
 public class PlannerMining extends Planner {
 

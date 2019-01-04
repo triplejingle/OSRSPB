@@ -42,7 +42,8 @@ public class RunesFactory extends ClientAccessor{
                 return ctx.widgets.widget(300).component(16).component(13);
             case "Chaos rune pack":
                 return ctx.widgets.widget(300).component(16).component(14);
+            default:
+                return null;
         }
-        return null;
     }
 }

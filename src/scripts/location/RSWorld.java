@@ -7,26 +7,28 @@ import org.powerbot.script.rt4.Worlds;
 import scripts.tools.ATimer;
 
 public class RSWorld extends ClientAccessor {
-    Worlds  worlds = ctx.worlds.joinable().select().types(World.Type.FREE);
-    World freeToPlayWorlds ;
+    Worlds worlds = ctx.worlds.joinable().select().types(World.Type.FREE);
+    World freeToPlayWorlds;
+    ATimer aTimer = new ATimer();
+
     public RSWorld(ClientContext arg0) {
         super(arg0);
     }
 
-    public void switchToRandomFreeWorld(){
+    public void switchToRandomFreeWorld() {
         worlds.open();
-        if(worlds.peek()==null){
+        if (worlds.peek() == null) {
             worlds = ctx.worlds.joinable().select().types(World.Type.FREE);
         }
-        ATimer ATimer = new ATimer();
-        ATimer.setPeriod(1000);
-        ATimer.saveTime();
-       boolean hopped = worlds.poll().hop();
-        while (!hopped){
-            if(worlds.peek()==null){
+
+        aTimer.setPeriod(1000);
+        aTimer.saveTime();
+        boolean hopped = worlds.poll().hop();
+        while (!hopped) {
+            if (worlds.peek() == null) {
                 worlds = ctx.worlds.joinable().types(World.Type.FREE).select();
             }
-            if(ATimer.isTime()){
+            if (aTimer.isTime()) {
                 break;
             }
             hopped = worlds.poll().hop();

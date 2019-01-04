@@ -5,9 +5,10 @@ import org.powerbot.script.rt4.ClientContext;
 import scripts.tools.algoritm.Vertex;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class VertexGenerator extends ClientAccessor {
-    public ArrayList<Vertex> getVertices() {
+    public List<Vertex> getVertices() {
         return vertices;
     }
     public VertexGenerator(ClientContext ctx){

@@ -41,8 +41,9 @@ public class ExchangeFactory extends ClientAccessor{
                     return ctx.widgets.widget(465).component(13).component(0);
                 case "Buy8":
                     return ctx.widgets.widget(465).component(14).component(0);
+                default:
+                    return null;
             }
-            return null;
         }
 
 }

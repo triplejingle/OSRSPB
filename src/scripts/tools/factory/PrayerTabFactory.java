@@ -72,10 +72,9 @@ public class PrayerTabFactory extends ClientAccessor{
                 return ctx.widgets.widget(541).component(31);
             case "18":
                 return ctx.widgets.widget(541).component(32);
-
-
+            default:
+                return null;
         }
-        return null;
     }
 
 }

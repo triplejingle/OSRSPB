@@ -29,7 +29,8 @@ public class SmeltBarFactory extends ClientAccessor {
                 return ctx.widgets.widget(270).component(20).component(29);
             case "Runite bar":
                 return ctx.widgets.widget(270).component(21).component(29);
+            default:
+                return null;
         }
-        return null;
     }
 }

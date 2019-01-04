@@ -6,6 +6,7 @@ import org.powerbot.script.rt4.ClientContext;
 import scripts.tools.factory.VertexGenerator;
 
 import java.util.ArrayList;
+import java.util.List;
 
 
 public class F2PMap extends ClientAccessor{
@@ -32,7 +33,7 @@ public class F2PMap extends ClientAccessor{
     Tile[] Varrock1To2 = {new Tile(3171, 3428, 0),new Tile(3171, 3429, 0),new Tile(3171, 3430, 0),new Tile(3171, 3431, 0),new Tile(3171, 3432, 0),new Tile(3171, 3433, 0),new Tile(3171, 3434, 0),new Tile(3171, 3435, 0),new Tile(3171, 3436, 0),new Tile(3171, 3437, 0),new Tile(3171, 3438, 0),new Tile(3171, 3439, 0),new Tile(3171, 3440, 0),new Tile(3172, 3441, 0),new Tile(3173, 3442, 0),new Tile(3174, 3443, 0),new Tile(3175, 3444, 0),new Tile(3175, 3445, 0),new Tile(3175, 3446, 0),new Tile(3175, 3447, 0),new Tile(3175, 3448, 0),new Tile(3175, 3449, 0),new Tile(3175, 3450, 0),new Tile(3175, 3451, 0),new Tile(3175, 3452, 0),new Tile(3175, 3453, 0),new Tile(3175, 3454, 0),new Tile(3175, 3455, 0),new Tile(3174, 3456, 0),new Tile(3173, 3456, 0),new Tile(3172, 3456, 0),new Tile(3171, 3456, 0),new Tile(3171, 3457, 0),new Tile(3170, 3457, 0),new Tile(3170, 3458, 0),new Tile(3169, 3458, 0),new Tile(3168, 3459, 0),new Tile(3167, 3460, 0),new Tile(3166, 3461, 0)};
     public F2PMap(ClientContext arg0) {
         super(arg0);
-        ArrayList<Vertex> vertices = vertexGenerator.getVertices();
+        List<Vertex> vertices = vertexGenerator.getVertices();
         for(int i = 0 ;i<vertices.size();i++) {
             dijkstra.addToUnvisited(vertices.get(i));
         }

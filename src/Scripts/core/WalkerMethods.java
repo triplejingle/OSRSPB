@@ -4,7 +4,6 @@ package scripts.core;
 import org.powerbot.script.Tile;
 import org.powerbot.script.rt4.ClientAccessor;
 import org.powerbot.script.rt4.ClientContext;
-import org.powerbot.script.rt4.GameObject;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -18,9 +17,9 @@ public class WalkerMethods extends ClientAccessor {
     }
 
     public void handleObstacle() {
+        //to do
         String actions[] = {"Open", "Climb-up", "Climb-down", "Climb-over"};
         String objectName[] = {"Door", "Gate", "Staircase", "Stile"};
-        GameObject selectedObject = ctx.objects.select().name(objectName).action(actions).nearest().poll();
     }
 
     public Tile getRandomReachableTiles(Tile tile) {
@@ -29,21 +28,19 @@ public class WalkerMethods extends ClientAccessor {
         checkDirectlyConnectedTiles(tileList, tile);
         Random random = new Random(System.currentTimeMillis());
         int timesToShuffle = random.nextInt(8);
-        for(int i = 0;i<timesToShuffle;i++) {
+        for (int i = 0; i < timesToShuffle; i++) {
             Collections.shuffle(tileList);
         }
-        System.out.println(tileList.get(0));
-        if (tileList.size() > 0) {
+        if (tileList.isEmpty()) {
             return tileList.get(0);
         }
         return tile;
     }
 
     public void checkDirectlyConnectedTiles(ArrayList<Tile> tileList, Tile tile) {
-
-        int startValue=-1;
-        for (int i = startValue; i < startValue+3; i++) {
-            for (int j = startValue; j < startValue+2; j++) {
+        int startValue = -1;
+        for (int i = startValue; i < startValue + 3; i++) {
+            for (int j = startValue; j < startValue + 2; j++) {
                 if (i == 0 && j == 0) {
                     continue;
                 }
@@ -55,11 +52,8 @@ public class WalkerMethods extends ClientAccessor {
         }
     }
 
-    boolean isDestinationOnMap() {
-        return ctx.movement.destination().matrix(ctx).onMap();
-    }
-
     public Tile[] splicePath(Tile[] path, double pieces) {
+        //to do
         int getNewPathSize = (int) ((double) (path.length) / pieces) + 1;
         Tile[] newPath = new Tile[getNewPathSize];
         int index = 0;

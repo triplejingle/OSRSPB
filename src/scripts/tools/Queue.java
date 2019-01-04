@@ -40,5 +40,4 @@ public class Queue<C> {
         }
         return false;
     }
-
 }

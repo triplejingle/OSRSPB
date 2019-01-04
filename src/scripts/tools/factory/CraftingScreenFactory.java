@@ -31,7 +31,8 @@ public class CraftingScreenFactory extends ClientAccessor {
                 return ctx.widgets.widget(446).component(14);
             case "a":
                 return ctx.widgets.widget(446).component(15);
+            default:
+                return null;
         }
-        return  null;
     }
 }

@@ -19,7 +19,8 @@ public class QuickMenuFactory extends ClientAccessor{
                 return ctx.widgets.widget(160).component(27);
             case "energy":
                 return ctx.widgets.widget(160).component(23);
+            default:
+                return null;
         }
-        return null;
     }
 }

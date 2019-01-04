@@ -18,7 +18,8 @@ public class ShopFactory extends ClientAccessor{
                 return ctx.widgets.widget(300).component(0);
             case "close":
                 return ctx.widgets.widget(300).component(1).component(11);
+            default:
+                return null;
         }
-        return null;
     }
 }

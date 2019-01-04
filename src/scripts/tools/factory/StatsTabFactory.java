@@ -66,6 +66,7 @@ public class StatsTabFactory extends ClientAccessor {
                 return ctx.widgets.widget(214).component(7);
                 default:
                     return ctx.widgets.widget(320).component(9);
+
         }
     }
 }

@@ -31,11 +31,8 @@ public class Dijkstra {
             visitedVertices.add(currentNode);
         }
 
+        return destination.getPath(destination);
 
-        Tile[] path = destination.getPath(destination);
-
-
-        return path;
     }
 
     private Vertex getLowestCostVertex(){
@@ -51,8 +48,6 @@ public class Dijkstra {
 
         return node;
     }
-
-
 
     public void visited(Vertex node){
         node.setVisited(true);

@@ -11,7 +11,7 @@ public class Vertex {
         return name;
     }
 
-   private String name;
+    private String name;
 
     public Vertex getPrevious() {
         return previous;
@@ -37,8 +37,8 @@ public class Vertex {
     public Tile[] getPath(Vertex v,Tile[] path){
         if(getPrevious()!=null) {
             Tile[] tmp =  getPrevious().adjacentNodes.get(v).getPath();
-             path = concatenate(tmp,path);
-             path = getPrevious().getPath(getPrevious(),path);
+            path = concatenate(tmp,path);
+            path = getPrevious().getPath(getPrevious(),path);
         }
         return path;
     }

@@ -1,103 +1,116 @@
 package scripts.core;
 
+import org.powerbot.script.PaintListener;
 import org.powerbot.script.PollingScript;
 import org.powerbot.script.rt4.ClientContext;
 import scripts.core.enumcollection.state;
-import scripts.core.goal.IGoal;
+import scripts.goal.IGoal;
+import scripts.paint.BackGround;
+import scripts.paint.Text;
 import scripts.planner.Planner;
 import scripts.tools.ATimer;
 
+import java.awt.*;
 import java.awt.event.*;
+import java.awt.image.BufferedImage;
 import java.util.Stack;
 
-public abstract class JobCore extends PollingScript<ClientContext> implements KeyListener, MouseMotionListener, MouseListener {
-    public boolean pauseScript = false;
-    scripts.tools.ATimer ATimer = new ATimer();
-    Stack<IGoal> IGoalStack = new Stack();
-    public Planner planner;
-    public void setPlanner(Planner planner) {
-        this.planner = planner;
+public abstract class JobCore extends PollingScript<ClientContext> implements KeyListener, MouseMotionListener, MouseListener,PaintListener {
+    private boolean pauseScript = false;
+    private scripts.tools.ATimer aTimer = new ATimer();
+    private Stack<IGoal> iGoalStack = new Stack();
+    protected Planner planner;
+    private BackGround backGround = new BackGround();
+    private Text text = new Text(ctx);
+
+    @Override
+    public void repaint(Graphics g) {
+        backGround.repaint(g);
+        text.repaint(g);
     }
-    public void addGoal(IGoal IGoal){
-        IGoalStack.add(IGoal);
+
+    protected void addGoal(IGoal iGoal) {
+        iGoalStack.add(iGoal);
     }
 
     @Override
     public void poll() {
-        if(IGoalStack.size()>0) {
+        if (!iGoalStack.isEmpty()) {
             processGoal();
             unpauseScript();
-            replanIfFailed();
             removeIfCompleted();
+            replanIfFailed();
         }
-        if(IGoalStack.peek().getSubGoals().size()==0){
+        if (iGoalStack.isEmpty()) {
             planner.replan();
-            IGoalStack.peek().getSubGoals().addAll(planner.getSubGoals());
+            iGoalStack.push(planner.getHighLevelGoal());
+        }
+        if (iGoalStack.peek().getSubGoals().isEmpty()) {
+            planner.replan();
+            iGoalStack.peek().getSubGoals().addAll(planner.getSubGoals());
         }
     }
 
-    private void removeIfCompleted(){
-        if(IGoalStack.peek().getState()==state.COMPLETED){
-            IGoalStack.pop();
+    private void removeIfCompleted() {
+        if (iGoalStack.peek().getState() == state.COMPLETED) {
+            iGoalStack.pop();
             System.out.println("yeaye goal reached");
             stop();
         }
     }
-    private void replanIfFailed(){
-        if (IGoalStack.peek().getState() == state.FAILED) {
+
+    private void replanIfFailed() {
+        if (iGoalStack.peek().getState() == state.FAILED) {
             emptyStack();
             planner.replan();
             System.out.println(" plan failed time for a new plan");
         }
     }
 
-    private void emptyStack(){
-        while(IGoalStack.size()>0){
-            IGoalStack.pop();
+    private void emptyStack() {
+        while (!iGoalStack.isEmpty()) {
+            iGoalStack.pop();
         }
     }
 
-    public void processGoal(){
-        if(!pauseScript) {
-            IGoalStack.peek().process();
+    public void processGoal() {
+        if (!pauseScript) {
+            iGoalStack.peek().process();
         }
     }
 
 
-    public void unpauseScript(){
-        if(pauseScript) {
-            ATimer.setPeriodBetween(5000,8000);
-            if (ATimer.isTime()) {
+    public void unpauseScript() {
+        if (pauseScript) {
+            aTimer.setPeriodBetween(5000, 8000);
+            if (aTimer.isTime()) {
                 pauseScript = false;
             }
         }
     }
+
     @Override
     public void keyTyped(KeyEvent e) {
-            ATimer.saveTime();
-            pauseScript = true;
+        pauseScript();
     }
 
     @Override
     public void keyPressed(KeyEvent e) {
-        if(!ctx.input.keyboard()) {
-            pauseScript = true;
-            ATimer.saveTime();
+        if (!ctx.input.keyboard()) {
+            pauseScript();
             System.out.println("Pausing script");
         }
     }
 
     @Override
-    public void keyReleased(KeyEvent e){
-        ATimer.saveTime();
-        pauseScript = true;
+    public void keyReleased(KeyEvent e) {
+        pauseScript();
     }
 
     @Override
-    public void mouseDragged(MouseEvent e){
-        if(!ctx.input.blocking()) {
-            ATimer.saveTime();
-            pauseScript = true;
+    public void mouseDragged(MouseEvent e) {
+        if (!ctx.input.blocking()) {
+            pauseScript();
         }
     }
 
@@ -105,19 +118,18 @@ public abstract class JobCore extends PollingScript<ClientContext> implements Ke
     public void mouseMoved(MouseEvent e) {
         blockInputWhenMouseMove(e.getX());
     }
+
     int prevX = 0;
-    public void blockInputWhenMouseMove(int currentLocation){
-        if(!ctx.input.blocking()){
-            if(currentLocation!=prevX){
-                ATimer.saveTime();
-                pauseScript =true;
-            }
+
+    public void blockInputWhenMouseMove(int currentLocation) {
+        if (!ctx.input.blocking() && currentLocation != prevX) {
+            pauseScript();
         }
     }
+
     public void mouseClicked(MouseEvent e) {
-        if(!ctx.input.blocking()) {
-            ATimer.saveTime();
-            pauseScript = true;
+        if (!ctx.input.blocking()) {
+            pauseScript();
         }
     }
 
@@ -134,17 +146,20 @@ public abstract class JobCore extends PollingScript<ClientContext> implements Ke
 
     @Override
     public void mouseEntered(MouseEvent e) {
-        if(!ctx.input.blocking()) {
-            ATimer.saveTime();
-            pauseScript = true;
+        if (!ctx.input.blocking()) {
+            pauseScript();
         }
     }
 
     @Override
     public void mouseExited(MouseEvent e) {
-        if(!ctx.input.blocking()) {
-            ATimer.saveTime();
-            pauseScript = true;
+        if (!ctx.input.blocking()) {
+            pauseScript();
         }
+    }
+
+    private void pauseScript() {
+        aTimer.saveTime();
+        pauseScript = true;
     }
 }

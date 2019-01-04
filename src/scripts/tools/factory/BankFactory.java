@@ -18,7 +18,8 @@ public class BankFactory extends ClientAccessor{
                 return ctx.widgets.widget(12).component(2);
             case "close":
                 return ctx.widgets.widget(12).component(3).component(11);
+                default:
+                    return null;
         }
-        return null;
     }
 }
