@@ -297,3 +297,9 @@ R
 "src/scripts/jobs/fish/JobFish.java,d\0\d05fa3e37493afb4abe3aab094e6d85dfc0d31e4
 Q
 !src/scripts/paint/BackGround.java,9\4\947c029f635d37b8bafa729522b86442434e4ad2
+]
+-src/scripts/goal/compositegoal/GoalLevel.java,a\9\a95aa1cb5e8d20e50af1c79969f3ab693702aefc
+?
+OldSchoolRS.iml,5\6\5632d4207c62abe982c59610854097d002ccb9a7
+Q
+!src/scripts/tools/SkillStats.java,a\0\a0b3d66475411470aebc4a59a53c82546c6172ff

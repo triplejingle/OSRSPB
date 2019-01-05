@@ -27,14 +27,23 @@ public class GoalClickOnFishingSpot extends AtomicGoal {
     protected void init() {
         if (setup) {
             activateTimer.setPeriodBetween(8000, 10000);
-            npcSelector.select().within(20).name(fishingSpot[1]).shuffle();
+            npcSelector.select().within(30).name(fishingSpot[1]).shuffle();
             ArrayList<String> actionList = new ArrayList<>();
             Collections.addAll(actionList, NpcSelector.peek().actions());
-
-            if (!actionList.contains(fishingSpot[0])) {
-                npcSelector.select().within(20).action(fishingSpot[0]).shuffle();
+            boolean selectUsingAction = true;
+            for (String action : actionList) {
+                if(action==null){
+                    continue;
+                }
+                System.out.println(action);
+                if (action.contains(fishingSpot[0])) {
+                    selectUsingAction=false;
+                }
             }
-
+            if(selectUsingAction){
+                System.out.println("using action");
+                npcSelector.select().within(30).action(fishingSpot[0]).shuffle();
+            }
             setup = false;
             NpcData.setBounds(bound);
             goal = "fish" + System.currentTimeMillis() / 1000;

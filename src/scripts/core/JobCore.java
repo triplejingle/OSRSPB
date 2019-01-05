@@ -25,8 +25,11 @@ public abstract class JobCore extends PollingScript<ClientContext> implements Ke
 
     @Override
     public void repaint(Graphics g) {
-        backGround.repaint(g);
+        backGround.paint(g);
         text.repaint(g);
+        int x = (int)ctx.input.getLocation().getX();
+        int y = (int) ctx.input.getLocation().getY();
+        g.drawRect(x,y,5,5);
     }
 
     protected void addGoal(IGoal iGoal) {

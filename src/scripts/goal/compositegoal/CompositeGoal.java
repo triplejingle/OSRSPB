@@ -5,6 +5,7 @@ import org.powerbot.script.rt4.ClientContext;
 import scripts.core.domain.Player;
 import scripts.core.enumcollection.state;
 import scripts.goal.IGoal;
+import scripts.tools.ATimer;
 
 import java.util.Stack;
 
@@ -15,6 +16,7 @@ public abstract class CompositeGoal extends ClientAccessor implements IGoal {
     protected boolean setup =true;
     protected String goal;
     protected Player player = new Player(ctx,"its you but in code");
+    protected ATimer aTimer = new ATimer();
 
     @Override
     public String getGoal() {

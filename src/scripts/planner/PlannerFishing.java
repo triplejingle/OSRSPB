@@ -2,6 +2,7 @@ package scripts.planner;
 
 import org.powerbot.script.Random;
 import org.powerbot.script.rt4.ClientContext;
+import org.powerbot.script.rt4.Game;
 import scripts.core.data.InventoryData;
 import scripts.goal.atomicgoal.*;
 import scripts.goal.compositegoal.*;
@@ -38,7 +39,8 @@ public class PlannerFishing extends Planner {
 
     private void powerFish() {
         if (inventory.isFull()) {
-            iGoal.addSubGoal(new DropSpecificItems(ctx, settings.getCorrespondingFish()));
+            iGoal.addSubGoal(new GoalDropItemsAntiPattern(ctx, settings.getCorrespondingFish()));
+            iGoal.addSubGoal(new GoalSwitchTab(ctx, Game.Tab.INVENTORY));
         } else {
             iGoal.addSubGoal(new GoalIdle(ctx, Random.nextInt(3, 16)));
             iGoal.addSubGoal(new GoalFish(ctx, settings.getCorrespondingFishingSpot()));

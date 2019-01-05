@@ -34,7 +34,6 @@ public abstract class AtomicGoal extends ClientAccessor implements IGoal {
     int generatedNumber = 0;
 
     protected void turnCamera() {
-
         PlayerSelector playerSelector = new PlayerSelector(ctx);
         ObjectSelector objectSelector = new ObjectSelector(ctx);
         IViewport iObjectData = new ObjectData(ctx);
@@ -64,7 +63,6 @@ public abstract class AtomicGoal extends ClientAccessor implements IGoal {
             status = state.COMPLETED;
             return status;
         }
-        turnCamera();
         activateIfInactive();
         return status;
     }

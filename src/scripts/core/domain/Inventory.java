@@ -5,10 +5,12 @@ import scripts.core.data.InventoryData;
 import scripts.core.data.ItemData;
 import scripts.core.interfaces.Core;
 import scripts.core.interfaces.IInventory;
+import scripts.core.selector.InventorySelector;
 
 public class Inventory extends Core implements IInventory {
     private ItemData item;
     private InventoryData inventoryData;
+    private InventorySelector inventorySelector = new InventorySelector(ctx);
 
     public Inventory(ClientContext arg0) {
         super(arg0);
@@ -37,7 +39,11 @@ public class Inventory extends Core implements IInventory {
         if (ctx.inventory.select().name(item).count() > 0) {
             return true;
         }
-        //to do check if item is equipped
+        //todo check if item is equipped
         return false;
+    }
+
+    public boolean clickItem() {
+        return item.click();
     }
 }
